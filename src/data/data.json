@@ -1,10 +1,9 @@
 {
   "header": {
-    "logo": {
-      "src": "/assets/logo.svg",
-      "alt": "Company Logo"
-    },
-    "title": "Seamless Access To Financial Services & Benefits",
+    "logo": "/assets/logo.svg",
+    "logoAlt": "DigiCity",
+    "tagline": "Seamless Access To Financial Services & Benefits",
+    "languages": ["EN", "DE"],
     "navItems": [
       {
         "text": "Login",
@@ -13,16 +12,6 @@
       {
         "text": "Activate",
         "href": "#activate"
-      }
-    ],
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "de",
-        "name": "Deutsch"
       }
     ]
   },
