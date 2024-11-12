@@ -1,0 +1,33 @@
+{
+  "header": {
+    "logo": {
+      "src": "/assets/logo.svg",
+      "alt": "Company Logo"
+    },
+    "title": "Seamless Access To Financial Services & Benefits",
+    "navItems": [
+      {
+        "text": "Login",
+        "href": "#login"
+      },
+      {
+        "text": "Activate",
+        "href": "#activate"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "de",
+        "name": "Deutsch"
+      }
+    ]
+  },
+  "callout": {
+    "title": "Business",
+    "description": "DigiCity provides businesses with a ready-to-use platform to manage payment acceptance, loyalty programs, public transportation ticketing, and fleet management."
+  }
+}
