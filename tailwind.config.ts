@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkBlue: "#2D3845",
+      },
+      boxShadow: {
+        "cta-button": "7px 7px 10px rgba(0,0,0,0.3)",
       },
       keyframes: {
         fadeIn: {
@@ -21,8 +25,18 @@ export default {
           "0%": { opacity: "1" },
           "100%": { opacity: "0" },
         },
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        marquee2: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
       },
       animation: {
+        marquee: "marquee 25s linear infinite",
+        marquee2: "marquee2 25s linear infinite",
         fadeIn: "fadeIn 300ms ease-out",
         fadeOut: "fadeOut 300ms ease-out",
       },

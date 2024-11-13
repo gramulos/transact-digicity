@@ -1,0 +1,59 @@
+{
+  "logo": "/assets/transact-pro.svg",
+  "logoAlt": "Transact Pro",
+  "copyright": "© 2004–2024 SIA Transact Pro. All rights reserved.",
+  "authorizedText": "Authorized Electronic Money Institution",
+  "phoneNumber": "6722 2555",
+  "legalText": "SIA Transact Pro is an Authorized electronic money institution with the right to issue electronic money and provide payment services supervised by the Financial and Capital Market Commission (FCMC) under requirements of the Electronic Money Directive (2009/110/EC) and the Payment Services Directive (2007/64/EC) implemented into the Law on Payment Services and Electronic Money, the license for electronic money institution operations is registered with the FCMC's licenses register under no. 06.12.04.416/359. Registered in Latvia under registration no. 41503033127.",
+  "trademarkText": "Priority Card® and the Priority Card Brand Marks are registered trademarks of SIA Transact Pro. Īstā Dāvanu Karte® and Īstā Dāvanu Karte Brand Marks are registered trademarks of SIA Transact Pro. Visa® and VISA Brand Marks are registered trademarks of Visa International Service Association. MasterCard® and the MasterCard Brand Marks are registered trademarks of MasterCard International Incorporated.",
+  "logos": [
+    {
+      "src": "/assets/partners/visa.svg",
+      "alt": "visa",
+      "width": 98,
+      "height": 116
+    },
+    {
+      "src": "/assets/partners/mastercard.svg",
+      "alt": "mastercard",
+      "width": 98,
+      "height": 116
+    },
+    {
+      "src": "/assets/partners/sepa.svg",
+      "alt": "sepa",
+      "width": 121,
+      "height": 116
+    },
+    {
+      "src": "/assets/partners/swift.svg",
+      "alt": "swift",
+      "width": 167,
+      "height": 116
+    },
+    {
+      "src": "/assets/partners/latvijas-banka.svg",
+      "alt": "latvijas-banka",
+      "width": 181,
+      "height": 116
+    },
+    {
+      "src": "/assets/partners/pci.svg",
+      "alt": "pci",
+      "width": 98,
+      "height": 116
+    },
+    {
+      "src": "/assets/partners/thawte.svg",
+      "alt": "thawte",
+      "width": 185,
+      "height": 116
+    },
+    {
+      "src": "/assets/partners/latvia-herb.png",
+      "alt": "latvia-herb",
+      "width": 108,
+      "height": 110
+    }
+  ]
+}
