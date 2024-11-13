@@ -13,7 +13,6 @@ import Link from "next/link";
 
 export type HeaderProps = {
   theme: string;
-  logo: string;
   logoAlt: string;
   tagline: string;
   navItems: {
@@ -34,7 +33,7 @@ const Header: React.FC<HeaderProps> = (props) => {
     <header className="absolute top-0 z-10 flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full">
       <Container className="flex w-full justify-between">
         <Image
-          src={props.logo}
+          src={`/assets/logo-${props.theme}.svg`}
           alt={props.logoAlt}
           width={208}
           height={41}

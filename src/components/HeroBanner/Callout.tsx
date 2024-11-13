@@ -5,16 +5,25 @@ import React from "react";
 
 export type CalloutProps = {
   title: string;
-  description: string;
+  description: string[];
+  theme?: string;
+  image?: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  };
 };
 
 const Callout: React.FC<CalloutProps> = ({ title, description }) => {
   return (
-    <div className="flex flex-col mt-32 font-medium max-w-[560px] w-[560px] max-md:mt-10 max-md:max-w-full">
+    <div className="flex flex-col mt-32 font-medium w-full">
       <h1 className="text-7xl max-md:max-w-full max-md:text-4xl">{title}</h1>
-      <p className="mt-12 text-2xl max-md:mt-10 max-md:max-w-full">
-        {description}
-      </p>
+      {description.map((item) => (
+        <p key={item} className="mt-12 text-2xl w-full">
+          {item}
+        </p>
+      ))}
     </div>
   );
 };

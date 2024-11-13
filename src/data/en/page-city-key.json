@@ -1,24 +1,17 @@
 {
-  "header": {
-    "theme": "light",
-    "logo": "/assets/logo-light.svg",
-    "logoAlt": "DigiCity",
-    "tagline": "Seamless Access To Financial Services & Benefits",
-    "languages": ["EN", "LV"],
-    "navItems": [
-      {
-        "text": "Login",
-        "href": "#login"
-      },
-      {
-        "text": "Activate",
-        "href": "#activate"
-      }
-    ]
-  },
   "callout": {
-    "title": "Business",
-    "description": "DigiCity provides businesses with a ready-to-use platform to manage payment acceptance, loyalty programs, public transportation ticketing, and fleet management."
+    "title": "CityKey",
+    "description": [
+      "The unique advantage of this solution is that it provides residents with immediate access to their social benefits at any merchant that accepts MasterCard payment cards.",
+      "In cooperation with MasterCard, we  invite you to implement the CityKey  solution. As part of the implementation,  Transact Pro issues MasterCard CityKey  payment cards and secures several  functions, including, but not limited to:"
+    ],
+    "theme": "dark",
+    "image": {
+      "src": "/assets/images/hero-img-city-key.png",
+      "alt": "City key",
+      "width": 691,
+      "height": 867
+    }
   },
   "citykey": {
     "theme": "dark",

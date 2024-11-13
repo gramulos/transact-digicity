@@ -16,7 +16,9 @@ type HeroBannerProps = {
 const HeroBanner: React.FC<HeroBannerProps> = (props) => {
   return (
     <section
-      className="flex overflow-hidden flex-col text-white"
+      className={`flex overflow-hidden flex-col ${
+        props.callout.theme === "light" ? "text-white" : "text-black"
+      } `}
       aria-label="Hero Banner"
     >
       <div className="flex overflow-hidden relative flex-col w-full min-h-[810px]">
@@ -28,11 +30,22 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
           priority
           sizes="100vw"
         />
-        <Container className="flex flex-col">
+        <Container className="grid grid-cols-1 lg:grid-cols-2 align-middle gap-32 lg:gap-56">
           <Callout
             title={props.callout.title}
             description={props.callout.description}
           />
+          <div className="flex flex-col mb-24 lg:mt-32 lg:mb-0 items-center justify-center w-full">
+            {props.callout.image && (
+              <Image
+                src={props.callout.image.src}
+                alt={props.callout.image.alt}
+                width={props.callout.image.width}
+                height={props.callout.image.height}
+                className="max-w-sm"
+              />
+            )}
+          </div>
         </Container>
       </div>
     </section>

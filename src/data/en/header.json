@@ -1,0 +1,15 @@
+{
+  "logoAlt": "DigiCity",
+  "tagline": "Seamless Access To Financial Services & Benefits",
+  "languages": ["EN", "LV"],
+  "navItems": [
+    {
+      "text": "Login",
+      "href": "#login"
+    },
+    {
+      "text": "Activate",
+      "href": "#activate"
+    }
+  ]
+}
