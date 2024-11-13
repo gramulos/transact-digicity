@@ -10,6 +10,7 @@ import Hamburger from "../Hamburger";
 import Backdrop from "../Backdrop";
 import Container from "../Container";
 import Link from "next/link";
+import { cn } from "@/utils/styles";
 
 export type HeaderProps = {
   theme: string;
@@ -89,9 +90,10 @@ const Header: React.FC<HeaderProps> = (props) => {
             <Link
               key={item.text}
               href={item.href}
-              className={
-                props.theme === "light" ? "text-slate-50" : "text-slate-700"
-              }
+              className={cn(
+                props.theme === "light" ? "text-slate-50" : "text-slate-700",
+                "underline-offset-4 underline"
+              )}
             >
               {item.text}
             </Link>
