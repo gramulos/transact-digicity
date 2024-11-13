@@ -3,9 +3,11 @@
  */
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import LanguageSelector from "./LanguageSelector";
+import Hamburger from "../Hamburger";
+import Backdrop from "../Backdrop";
 
 export type HeaderProps = {
   logo: string;
@@ -19,8 +21,14 @@ export type HeaderProps = {
 };
 
 const Header: React.FC<HeaderProps> = (props) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <header className="flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full">
+    <header className="flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full relative">
       <Image
         src={props.logo}
         alt={props.logoAlt}
@@ -28,7 +36,45 @@ const Header: React.FC<HeaderProps> = (props) => {
         height={41}
         className="object-contain shrink-0"
       />
-      <nav className="flex flex-wrap gap-6 items-end min-w-[240px] max-md:max-w-full">
+
+      {/* Navigation - Mobile */}
+      <Hamburger onClick={toggleMenu} />
+      <Backdrop isVisible={isMenuOpen}>
+        <nav
+          className={`
+        fixed top-0 right-0 w-80 h-screen bg-white 
+        flex flex-col pt-24 px-4
+        transition-transform duration-300 z-40
+        xl:hidden
+        ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
+      `}
+        >
+          <p
+            className={`text-sm text-slate-700 absolute max-w-52 top-10 transition-opacity duration-300 ${
+              isMenuOpen ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            {props.tagline}
+          </p>
+          <hr className="mt-4 border-slate-200" />
+          {props.navItems.map((item) => (
+            <a
+              key={item.text}
+              href={item.href}
+              className="text-slate-700 text-base py-3 border-b-slate-200 border-b"
+              onClick={toggleMenu}
+            >
+              {item.text}
+            </a>
+          ))}
+          <div className="mt-4">
+            <LanguageSelector languages={props.languages} />
+          </div>
+        </nav>
+      </Backdrop>
+
+      {/* Navigation - Desktop */}
+      <nav className="hidden xl:flex flex-wrap gap-6 items-end min-w-[240px] max-md:max-w-full">
         <p className="text-sm">{props.tagline}</p>
         {props.navItems.map((item) => (
           <a key={item.text} href={item.href} className="text-slate-50">

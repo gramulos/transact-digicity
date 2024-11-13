@@ -29,7 +29,7 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
           priority
           sizes="100vw"
         />
-        <div className="container mx-auto flex z-0 flex-col py-16 px-8 lg:px-16 xl:px-0">
+        <div className="container mx-auto flex z-0 flex-col p-8 xl:py-16 xl:px-0">
           <Header {...props.header} />
           <Callout
             title={props.callout.title}

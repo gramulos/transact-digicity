@@ -24,23 +24,15 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
 
   return (
     <div className="relative">
-      <button
-        onClick={toggleDropdown}
-        className="flex gap-2 items-center whitespace-nowrap"
-        aria-haspopup="listbox"
-        aria-expanded={isOpen}
-        aria-label="Select language"
-      >
-        <span className="self-stretch my-auto">{selectedLanguage}</span>
-        <RiArrowDownSFill className="object-contain shrink-0 self-stretch my-auto" />
-      </button>
-      {isOpen && (
-        <ul className="absolute top-full left-0 mt-1 bg-white text-black shadow-md rounded-md">
+      <div className="xl:hidden">
+        <ul className="text-slate-700 flex gap-2 items-center">
           {props.languages.map((language) => (
             <li key={language}>
               <button
                 onClick={() => selectLanguage(language)}
-                className="w-full text-left px-4 py-2 hover:bg-gray-100"
+                className={`w-full text-left px-4 py-2 hover:bg-gray-100 border border-slate-200 rounded-full ${
+                  language === selectedLanguage ? "bg-gray-100" : ""
+                }`}
                 role="option"
                 aria-selected={language === selectedLanguage}
               >
@@ -49,7 +41,37 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
             </li>
           ))}
         </ul>
-      )}
+      </div>
+      <div className="hidden lg:block">
+        <button
+          onClick={toggleDropdown}
+          className="flex gap-2 items-center whitespace-nowrap text-slate-700 lg:text-white"
+          aria-haspopup="listbox"
+          aria-expanded={isOpen}
+          aria-label="Select language"
+        >
+          <span className="self-stretch my-auto">{selectedLanguage}</span>
+          <RiArrowDownSFill className="object-contain shrink-0 self-stretch my-auto" />
+        </button>
+        {isOpen && (
+          <ul className="absolute top-full left-0 mt-1 bg-white text-slate-700 shadow-md rounded-md">
+            {props.languages
+              .filter((lang) => lang !== selectedLanguage)
+              .map((language) => (
+                <li key={language}>
+                  <button
+                    onClick={() => selectLanguage(language)}
+                    className="w-full text-left px-4 py-2 hover:bg-gray-100"
+                    role="option"
+                    aria-selected={language === selectedLanguage}
+                  >
+                    {language}
+                  </button>
+                </li>
+              ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 };
