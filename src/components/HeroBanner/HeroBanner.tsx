@@ -7,6 +7,7 @@ import React from "react";
 import Image from "next/image";
 import Header, { HeaderProps } from "./Header";
 import Callout, { CalloutProps } from "./Callout";
+import Container from "../Container";
 
 type HeroBannerProps = {
   backgroundImage: string;
@@ -29,13 +30,13 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
           priority
           sizes="100vw"
         />
-        <div className="container mx-auto flex z-0 flex-col p-8 xl:py-16 xl:px-0">
+        <Container className="flex flex-col">
           <Header {...props.header} />
           <Callout
             title={props.callout.title}
             description={props.callout.description}
           />
-        </div>
+        </Container>
       </div>
     </section>
   );
