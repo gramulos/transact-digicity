@@ -3,12 +3,13 @@
  */
 "use client";
 
+import { cn } from "@/utils/styles";
 import React, { useState } from "react";
 import { RiArrowDownSFill } from "react-icons/ri";
-import Image from "next/image";
 
 type LanguageSelectorProps = {
   languages: string[];
+  theme?: string;
 };
 
 const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
@@ -45,7 +46,11 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
       <div className="hidden lg:block">
         <button
           onClick={toggleDropdown}
-          className="flex gap-2 items-center whitespace-nowrap text-slate-700 lg:text-white"
+          className={cn(
+            `flex gap-2 items-center whitespace-nowrap ${
+              props.theme === "light" ? "text-slate-50" : "text-slate-700"
+            }`
+          )}
           aria-haspopup="listbox"
           aria-expanded={isOpen}
           aria-label="Select language"

@@ -1,9 +1,10 @@
 {
   "header": {
-    "logo": "/assets/logo.svg",
+    "theme": "light",
+    "logo": "/assets/logo-light.svg",
     "logoAlt": "DigiCity",
     "tagline": "Seamless Access To Financial Services & Benefits",
-    "languages": ["EN", "DE"],
+    "languages": ["EN", "LV"],
     "navItems": [
       {
         "text": "Login",

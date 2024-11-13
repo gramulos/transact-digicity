@@ -4,6 +4,7 @@ import React, { useState } from "react";
 
 type HamburgerProps = {
   onClick: () => void;
+  theme?: string;
 };
 
 const Hamburger: React.FC<HamburgerProps> = (props) => {
@@ -19,7 +20,7 @@ const Hamburger: React.FC<HamburgerProps> = (props) => {
     transition:
       "stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke 600ms cubic-bezier(0.4, 0, 0.2, 1)",
     fill: "none",
-    stroke: isOpened ? "black" : "white",
+    stroke: isOpened || props.theme === "dark" ? "black" : "white",
     strokeWidth: 6,
   };
 

@@ -8,8 +8,11 @@ import Image from "next/image";
 import LanguageSelector from "./LanguageSelector";
 import Hamburger from "../Hamburger";
 import Backdrop from "../Backdrop";
+import Container from "../Container";
+import Link from "next/link";
 
 export type HeaderProps = {
+  theme: string;
   logo: string;
   logoAlt: string;
   tagline: string;
@@ -28,61 +31,75 @@ const Header: React.FC<HeaderProps> = (props) => {
   };
 
   return (
-    <header className="flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full relative">
-      <Image
-        src={props.logo}
-        alt={props.logoAlt}
-        width={208}
-        height={41}
-        className="object-contain shrink-0"
-      />
+    <header className="absolute top-0 z-10 flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full">
+      <Container className="flex w-full justify-between">
+        <Image
+          src={props.logo}
+          alt={props.logoAlt}
+          width={208}
+          height={41}
+          className="object-contain shrink-0"
+        />
 
-      {/* Navigation - Mobile */}
-      <Hamburger onClick={toggleMenu} />
-      <Backdrop isVisible={isMenuOpen}>
-        <nav
-          className={`
+        {/* Navigation - Mobile */}
+        <Hamburger onClick={toggleMenu} theme={props.theme} />
+        <Backdrop isVisible={isMenuOpen}>
+          <nav
+            className={`
         fixed top-0 right-0 w-80 h-screen bg-white 
         flex flex-col pt-24 px-4
         transition-transform duration-300 z-40
         xl:hidden
         ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
       `}
-        >
+          >
+            <p
+              className={`text-sm text-slate-700 absolute max-w-52 top-10 transition-opacity duration-300 ${
+                isMenuOpen ? "opacity-100" : "opacity-0"
+              }`}
+            >
+              {props.tagline}
+            </p>
+            <hr className="mt-4 border-slate-200" />
+            {props.navItems.map((item) => (
+              <a
+                key={item.text}
+                href={item.href}
+                className="text-slate-700 text-base py-3 border-b-slate-200 border-b"
+                onClick={toggleMenu}
+              >
+                {item.text}
+              </a>
+            ))}
+            <div className="mt-4">
+              <LanguageSelector languages={props.languages} />
+            </div>
+          </nav>
+        </Backdrop>
+
+        {/* Navigation - Desktop */}
+        <nav className="hidden xl:flex flex-wrap gap-6 items-end min-w-[240px] max-md:max-w-full">
           <p
-            className={`text-sm text-slate-700 absolute max-w-52 top-10 transition-opacity duration-300 ${
-              isMenuOpen ? "opacity-100" : "opacity-0"
+            className={`text-sm ${
+              props.theme === "light" ? "text-slate-50" : "text-slate-800"
             }`}
           >
             {props.tagline}
           </p>
-          <hr className="mt-4 border-slate-200" />
           {props.navItems.map((item) => (
-            <a
+            <Link
               key={item.text}
               href={item.href}
-              className="text-slate-700 text-base py-3 border-b-slate-200 border-b"
-              onClick={toggleMenu}
+              className={
+                props.theme === "light" ? "text-slate-50" : "text-slate-700"
+              }
             >
               {item.text}
-            </a>
+            </Link>
           ))}
-          <div className="mt-4">
-            <LanguageSelector languages={props.languages} />
-          </div>
+          <LanguageSelector languages={props.languages} theme={props.theme} />
         </nav>
-      </Backdrop>
-
-      {/* Navigation - Desktop */}
-      <nav className="hidden xl:flex flex-wrap gap-6 items-end min-w-[240px] max-md:max-w-full">
-        <p className="text-sm">{props.tagline}</p>
-        {props.navItems.map((item) => (
-          <a key={item.text} href={item.href} className="text-slate-50">
-            {item.text}
-          </a>
-        ))}
-        <LanguageSelector languages={props.languages} />
-      </nav>
+      </Container>
     </header>
   );
 };

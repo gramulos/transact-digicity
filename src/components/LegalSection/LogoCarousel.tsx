@@ -7,7 +7,6 @@ export type LogoCarouselProps = {
     alt: string;
     width: number;
     height: number;
-    aspectRatio: number;
   }[];
 };
 
