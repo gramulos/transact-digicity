@@ -1,0 +1,91 @@
+{
+  "callout": {
+    "title": "TransactSmart",
+    "description": [
+      "We are a VISA and MasterCard principal member, payment card acquirer, processor, and cash register developer and service provider.",
+      "Designed for small and medium enterprises, this solution offers everything a  merchant needs to start selling: an integrated cash register certified with tax  authorities, inventory management, built-in bank card acceptance, and more — all within a single, straightforward agreement."
+    ],
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.png"
+  },
+  "sunmiP2": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Sunmi P2 section",
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Sunmi P2",
+            "p": [
+              "Step into the future of retail with the Sunmi P2, a next-generation POS system that  merges power and elegance in a compact, handheld design. With its intuitive interface  and lightning-fast performance, the Sunmi P2 transforms every transaction into a  smooth, effortless experience. Elevate your business with the Sunmi P2, where  innovation meets the art of simplicity."
+            ],
+            "img": {
+              "src": "/assets/images/sunmi-dual.png",
+              "alt": "Sunmi image",
+              "height": 600,
+              "width": 1000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "deviceCahierSystem": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Device and Cashier System section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Device and Cashier System",
+            "ul": [
+              {
+                "text": "Portable and secure Android-based device with a strong battery."
+              },
+              {
+                "text": "Online connectivity via telecom providers or Wi-Fi."
+              },
+              {
+                "text": "Cash register software:",
+                "subItems": [
+                  {
+                    "theme": "light",
+                    "ul": [
+                      {
+                        "text": "Allows quick and simple selling of goods and services by entering a price or selecting items from inventory."
+                      },
+                      {
+                        "text": "Compliant with fiscal laws and certifications."
+                      },
+                      {
+                        "text": "Integrated with tax authorities' fiscal servers for online fiscalization."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Bank card payment acceptance—enables payments on the same device using Mastercard and VISA."
+              },
+              {
+                "text": "Cash register connected with the payment application, requiring the amount to be entered only once."
+              },
+              {
+                "text": "Device prints both fiscal and bank receipts for clients."
+              },
+              {
+                "text": "Certified with acquirer—no additional certification needed. Simply sign a contract with the acquirer and service company, Transact Pro, for the complete solution."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
