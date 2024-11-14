@@ -46,7 +46,9 @@ const Rte = (item: RichTextElement) => {
                 {item[k as KeyOptions]}
               </Heading>
             )}
-          {k === "ul" && item.ul && <UnorderedList items={item.ul} />}
+          {k === "ul" && item.ul && (
+            <UnorderedList theme={item.theme} items={item.ul} />
+          )}
           {k === "p" && item.p && <Paragraph text={item.p} />}
           {k === "img" && item.img && (
             <Image
@@ -61,10 +63,15 @@ const Rte = (item: RichTextElement) => {
               href={item.a.href}
               target={item.a.target}
               className={cn(
-                "text-sm text-center px-10 py-4 mt-20 max-w-full text-slate-50 rounded-full shadow-xl hover:shadow-lg active:shadow-none transition-all duration-300",
-                item.theme !== "blue"
-                  ? "bg-sky-600 hover:bg-sky-800 active:bg-sky-950"
-                  : "bg-sky-950 hover:bg-sky-800 active:bg-sky-600"
+                "text-sm text-center px-10 py-4 mt-20 max-w-full text-slate-50 rounded-full shadow-lg  hover:shadow-md active:shadow-none transition-all duration-300",
+                {
+                  "bg-blue-600 hover:bg-blue-800 active:bg-blue-950 shadow-slate-400":
+                    item.theme === "light",
+                  "bg-sky-950 hover:bg-sky-950 active:bg-sky-900 shadow-gray-950":
+                    item.theme === "dark",
+                  "bg-sky-950 hover:bg-sky-950 active:bg-sky-900 shadow-blue-900":
+                    item.theme === "blue",
+                }
               )}
             >
               {item.a.text}

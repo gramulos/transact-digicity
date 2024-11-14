@@ -11,13 +11,20 @@ import Container from "../Container";
 type HeroBannerProps = {
   backgroundImage: string;
   callout: CalloutProps;
+  theme?: string;
+  image?: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  };
 };
 
 const HeroBanner: React.FC<HeroBannerProps> = (props) => {
   return (
     <section
       className={`flex overflow-hidden flex-col ${
-        props.callout.theme === "light" ? "text-white" : "text-black"
+        props.theme === "light" ? "text-white" : "text-black"
       } `}
       aria-label="Hero Banner"
     >
@@ -37,12 +44,12 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
             description={props.callout.description}
           />
           <div className="flex flex-col mb-24 lg:mt-32 lg:mb-0 items-center justify-center w-full">
-            {props.callout.image && (
+            {props.image && (
               <Image
-                src={props.callout.image.src}
-                alt={props.callout.image.alt}
-                width={props.callout.image.width}
-                height={props.callout.image.height}
+                src={props.image.src}
+                alt={props.image.alt}
+                width={props.image.width}
+                height={props.image.height}
                 className="max-w-sm"
               />
             )}

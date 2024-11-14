@@ -47,7 +47,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
         <button
           onClick={toggleDropdown}
           className={cn(
-            `flex gap-2 items-center whitespace-nowrap ${
+            `flex gap-2 items-center whitespace-nowrap text-sm ${
               props.theme === "light" ? "text-slate-50" : "text-slate-700"
             }`
           )}
@@ -66,7 +66,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
                 <li key={language}>
                   <button
                     onClick={() => selectLanguage(language)}
-                    className="w-full text-left px-4 py-2 hover:bg-gray-100"
+                    className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100"
                     role="option"
                     aria-selected={language === selectedLanguage}
                   >

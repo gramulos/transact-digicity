@@ -1,7 +1,7 @@
 import HeroBanner from "@/components/HeroBanner/HeroBanner";
 import Section from "@/components/Section";
 import Footer from "@/components/LegalSection/Footer";
-import data from "@/data/en/business-data.json";
+import data from "@/data/en/page-government.json";
 import footerData from "@/data/en/footer.json";
 import headerData from "@/data/en/header.json";
 import Header from "@/components/HeroBanner/Header";
@@ -11,9 +11,11 @@ export default function Home() {
     <>
       <Header {...headerData} theme="light" />
       <HeroBanner
-        backgroundImage={data.callout.bgImage}
-        callout={data.callout}
         theme={data.callout.theme}
+        backgroundImage={data.callout.bgImage}
+        callout={{
+          title: data.callout.title,
+        }}
       />
       <Section
         theme={data.citykey.theme}
@@ -46,17 +48,17 @@ export default function Home() {
         }))}
       />
       <Section
-        theme={data.giftCards.theme}
-        bgImage={data.giftCards.bgImage}
-        bgImageAlt={data.giftCards.bgImageAlt}
-        columns={data.giftCards.columns.map((column) => ({
+        theme={data.gov.theme}
+        bgImage={data.gov.bgImage}
+        bgImageAlt={data.gov.bgImageAlt}
+        columns={data.gov.columns.map((column) => ({
           ...column,
-          theme: data.giftCards.theme,
+          theme: data.gov.theme,
           horizontalAlign: column.horizontalAlign,
           verticalAlign: column.verticalAlign,
           data: column.data.map((item) => ({
             ...item,
-            theme: data.giftCards.theme,
+            theme: data.gov.theme,
           })),
         }))}
       />

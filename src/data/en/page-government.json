@@ -1,11 +1,8 @@
 {
   "callout": {
-    "bgImage": "/assets/images/bg-hero-business.png",
-    "title": "Business",
-    "description": [
-      "DigiCity provides businesses with a ready-to-use platform to manage payment acceptance, loyalty programs, public transportation ticketing, and fleet management."
-    ],
-    "theme": "light"
+    "title": "Government",
+    "theme": "light",
+    "bgImage": "/assets/images/bg-hero-govenment.png"
   },
   "citykey": {
     "theme": "dark",
@@ -94,38 +91,21 @@
       }
     ]
   },
-  "giftCards": {
+  "gov": {
     "theme": "blue",
     "bgImage": "/assets/patterns/blue/pattern_07.png",
-    "bgImageAlt": "Background image for Gift Cards section",
+    "bgImageAlt": "Background image for Gov flow section",
     "columns": [
       {
         "horizontalAlign": "start",
         "verticalAlign": "center",
         "data": [
           {
-            "h2": "Gift Cards",
-            "p": [
-              "We provide MasterCard Gift Cards in  cooperation with 15 shopping malls in Latvia.  These cards can be used at those shopping  malls or at any merchant that accepts  MasterCard payment cards. We invite you to  enjoy the freedom and flexibility of the gift that  can be used wherever MasterCard is accepted.",
-              "Gift cards can be purchased at information  desks, online (at www.ISTA.lv), or through our  self-service kiosks."
-            ]
-          }
-        ]
-      },
-      {
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "data": [
-          {
             "img": {
-              "src": "/assets/images/gift-cards.png",
-              "alt": "Gift Cards image",
-              "width": 643,
-              "height": 657
-            },
-            "a": {
-              "href": "/learn-more",
-              "text": "Learn more"
+              "src": "/assets/images/gov-flow.png",
+              "alt": "Gov flow image",
+              "width": 1610,
+              "height": 704
             }
           }
         ]
