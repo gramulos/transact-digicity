@@ -84,7 +84,7 @@ const Header: React.FC<HeaderProps> = (props) => {
         </Backdrop>
 
         {/* Navigation - Desktop */}
-        <nav className="hidden xl:flex flex-wrap gap-6 items-end min-w-[240px] max-md:max-w-full">
+        <nav className="hidden xl:flex flex-wrap gap-6 items-end justify-end min-w-[240px] max-md:max-w-full">
           {props.navItems.map((item) => (
             <Link
               key={item.text}

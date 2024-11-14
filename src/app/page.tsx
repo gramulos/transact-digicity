@@ -1,62 +1,49 @@
-import HeroBanner from "@/components/HeroBanner/HeroBanner";
 import Section from "@/components/Section";
 import Footer from "@/components/LegalSection/Footer";
-import data from "@/data/en/business-data.json";
+import data from "@/data/en/page-home.json";
 import footerData from "@/data/en/footer.json";
 import headerData from "@/data/en/header.json";
 import Header from "@/components/HeroBanner/Header";
+import ShortHeroBanner from "@/components/ShortHero";
 
 export default function Home() {
   return (
     <>
       <Header {...headerData} theme="light" />
-      <HeroBanner
-        backgroundImage={data.callout.bgImage}
+      <ShortHeroBanner
         callout={data.callout}
+        backgroundImage={data.callout.bgImage}
         theme={data.callout.theme}
+        data={data.callout.data.map((item) => ({
+          ...item,
+          theme: data.callout.theme,
+        }))}
       />
       <Section
-        theme={data.citykey.theme}
-        bgImage={data.citykey.bgImage}
-        bgImageAlt={data.citykey.bgImageAlt}
-        columns={data.citykey.columns.map((column) => ({
+        theme={data.cards.theme}
+        bgImage={data.cards.bgImage}
+        bgImageAlt={data.cards.bgImageAlt}
+        columns={data.cards.columns.map((column) => ({
           ...column,
-          theme: data.citykey.theme,
-          horizontalAlign: column.horizontalAlign,
-          verticalAlign: column.verticalAlign,
+          theme: data.cards.theme,
           data: column.data.map((item) => ({
             ...item,
-            theme: data.citykey.theme,
+            theme: data.cards.theme,
           })),
         }))}
       />
       <Section
-        theme={data.transit.theme}
-        bgImage={data.transit.bgImage}
-        bgImageAlt={data.transit.bgImageAlt}
-        columns={data.transit.columns.map((column) => ({
+        theme={data.digicity.theme}
+        bgImage={data.digicity.bgImage}
+        bgImageAlt={data.digicity.bgImageAlt}
+        columns={data.digicity.columns.map((column) => ({
           ...column,
-          theme: data.transit.theme,
+          theme: data.digicity.theme,
           horizontalAlign: column.horizontalAlign,
           verticalAlign: column.verticalAlign,
           data: column.data.map((item) => ({
             ...item,
-            theme: data.transit.theme,
-          })),
-        }))}
-      />
-      <Section
-        theme={data.giftCards.theme}
-        bgImage={data.giftCards.bgImage}
-        bgImageAlt={data.giftCards.bgImageAlt}
-        columns={data.giftCards.columns.map((column) => ({
-          ...column,
-          theme: data.giftCards.theme,
-          horizontalAlign: column.horizontalAlign,
-          verticalAlign: column.verticalAlign,
-          data: column.data.map((item) => ({
-            ...item,
-            theme: data.giftCards.theme,
+            theme: data.digicity.theme,
           })),
         }))}
       />

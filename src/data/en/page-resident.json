@@ -1,11 +1,11 @@
 {
   "callout": {
-    "bgImage": "/assets/images/bg-hero-business.png",
-    "title": "Business",
+    "title": "Resident",
     "description": [
-      "DigiCity provides businesses with a ready-to-use platform to manage payment acceptance, loyalty programs, public transportation ticketing, and fleet management."
+      "A modern and convenient way for residents to manage and access daily activities such as  benefits, utility payments, transportation, medical services, and public facilities— all integrated into one tool accepted everywhere that accepts MasterCard."
     ],
-    "theme": "light"
+    "theme": "light",
+    "bgImage": "/assets/images/bg-hero-resident.png"
   },
   "citykey": {
     "theme": "dark",

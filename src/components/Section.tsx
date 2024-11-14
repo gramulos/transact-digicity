@@ -12,8 +12,8 @@ type SectionProps = {
   bgImageAlt: string;
   theme: string;
   columns: {
-    horizontalAlign: string;
-    verticalAlign: string;
+    horizontalAlign?: string;
+    verticalAlign?: string;
     data: RichTextElement[];
   }[];
 };
@@ -37,13 +37,17 @@ const Section: React.FC<SectionProps> = ({
         sizes="100vw"
       />
       <Container
-        className={`grid grid-cols-1 lg:grid-cols-${columns.length} gap-20`}
+        className={cn(`grid grid-cols-1 gap-14`, {
+          "sm:grid-cols-2 xl:grid-cols-4 gap-10": columns.length === 4,
+          "sm:grid-cols-2 lg:grid-cols-3 gap-14": columns.length === 3,
+          "sm:grid-cols-2 gap-16": columns.length === 2,
+        })}
       >
         {columns.map((col, index) => (
           <div
             key={`${col.horizontalAlign}_${col.verticalAlign}_${index}`}
             className={cn(
-              "flex flex-col justify-center",
+              "flex flex-col justify-center h-full gap-10 md:gap-20",
               theme === "light" ? "text-slate-800" : "text-slate-50",
               col.horizontalAlign ? `items-${col.horizontalAlign}` : "",
               col.verticalAlign ? `justify-${col.verticalAlign}` : ""

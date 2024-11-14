@@ -2,9 +2,9 @@ import Image from "next/image";
 import Paragraph from "./Paragraph";
 import UnorderedList from "./UnorderedList";
 import Heading from "./Heading";
-import Link from "next/link";
-import { cn } from "@/utils/styles";
 import React from "react";
+import LinkButton from "./LinkButton";
+import Card, { CardProps } from "./Card";
 
 type KeyOptions = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
@@ -27,6 +27,7 @@ export type RichTextElement = Headings & {
     target?: string;
     text: string;
   };
+  card?: CardProps;
 };
 
 type RichTextProps = {
@@ -59,23 +60,23 @@ const Rte = (item: RichTextElement) => {
             />
           )}
           {k === "a" && item.a && (
-            <Link
+            <LinkButton
               href={item.a.href}
               target={item.a.target}
-              className={cn(
-                "text-sm text-center px-10 py-4 mt-20 max-w-full text-slate-50 rounded-full shadow-lg  hover:shadow-md active:shadow-none transition-all duration-300",
-                {
-                  "bg-blue-600 hover:bg-blue-800 active:bg-blue-950 shadow-slate-400":
-                    item.theme === "light",
-                  "bg-sky-950 hover:bg-sky-950 active:bg-sky-900 shadow-gray-950":
-                    item.theme === "dark",
-                  "bg-sky-950 hover:bg-sky-950 active:bg-sky-900 shadow-blue-900":
-                    item.theme === "blue",
-                }
-              )}
-            >
-              {item.a.text}
-            </Link>
+              theme={item.theme}
+              text={item.a.text}
+            />
+          )}
+          {k === "card" && item.card && (
+            <Card
+              backgroundImage={item.card.backgroundImage}
+              title={item.card.title}
+              description={item.card.description}
+              image={item.card.image}
+              moreLink={item.card.moreLink}
+              moreText={item.card.moreText}
+              theme={item.card.theme}
+            />
           )}
         </React.Fragment>
       ))}

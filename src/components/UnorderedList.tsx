@@ -8,7 +8,7 @@ type UnorderedListProps = {
 
 const UnorderedList: React.FC<UnorderedListProps> = ({ items, theme }) => {
   return (
-    <ul className="pl-16 flex flex-col items-start mt-10 w-full md:mt-20">
+    <ul className="pl-16 flex flex-col items-start w-full">
       {items.map((item, index) => (
         <li
           key={`${item}_${index}`}

@@ -13,7 +13,9 @@ const Heading: React.FC<HeadingProps> = ({
 }) => (
   <HeaderTag
     className={cn(
-      `italic ${theme === "light" ? "text-slate-800" : "text-slate-50"}`,
+      `italic w-full ${
+        theme === "light" ? "text-slate-800" : "text-slate-50 break-words"
+      }`,
       {
         "text-4xl font-light md:text-7xl": HeaderTag === "h1",
         "text-3xl font-light md:text-5xl": HeaderTag === "h2",

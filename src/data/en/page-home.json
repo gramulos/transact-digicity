@@ -1,0 +1,140 @@
+{
+  "callout": {
+    "bgImage": "/assets/patterns/dark/pattern_04.png",
+    "title": "Start your journey",
+    "theme": "dark",
+    "data": [
+      {
+        "a": {
+          "href": "/resident",
+          "text": "Resident"
+        }
+      },
+      {
+        "a": {
+          "href": "/business",
+          "text": "Business"
+        }
+      },
+      {
+        "a": {
+          "href": "/government",
+          "text": "Government"
+        }
+      },
+      {
+        "a": {
+          "href": "/ecosystem",
+          "text": "Ecosystem"
+        }
+      }
+    ]
+  },
+  "cards": {
+    "theme": "dark",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Card bg",
+    "columns": [
+      {
+        "data": [
+          {
+            "card": {
+              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "title": "City Key",
+              "description": [
+                "The CityKey MasterCard provides you an immediate access to all benefits assigned by your Municipality, University or participating Merchant."
+              ],
+              "image": "/assets/images/card-city-key.png",
+              "moreText": "More",
+              "moreLink": "/city-key",
+              "theme": "dark"
+            }
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "card": {
+              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "title": "Transit",
+              "description": [
+                "Account-based ticketing,  Real-time tracking,  Fleet management,  Fiscal modules,  Payment acceptance, & Branded Mobile app."
+              ],
+              "image": "/assets/images/transit-card.png",
+              "moreText": "More",
+              "moreLink": "/transit",
+              "theme": "dark"
+            }
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "card": {
+              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "title": "Transact Smart",
+              "description": [
+                "All-in-one device  designed for Retail  industry: Cashier system  with Fiscal module and  integrated Payment  acceptance; full  merchant backend."
+              ],
+              "image": "/assets/images/transact-smart-card.png",
+              "moreText": "More",
+              "moreLink": "/transact-smart",
+              "theme": "dark"
+            }
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "card": {
+              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "title": "Gift Cards",
+              "description": [
+                "MasterCard GiftCards  designed for Shopping  Mall, Retail chain and  single merchants  customer loyalty and  brand recognition  programs."
+              ],
+              "image": "/assets/images/gift-cards-mix.png",
+              "moreText": "More",
+              "moreLink": "/gift-cards",
+              "theme": "dark"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "digicity": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for CityKey section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "DigiCity",
+            "p": [
+              "Transact DigiCity is an ecosystem that unites people, businesses and government institutions  to get most of Digital Era Transformation. We have created 4 products, where we serve as a  financial services provider through our modern technical platform that revolutionized since  our official opening in 2004."
+            ]
+          },
+          {
+            "h3": "What We Do",
+            "ul": [
+              "Unified, Cross-platform Open-Loop Ecosystem",
+              "Modern Financial Products",
+              "Comprehensive Reporting System"
+            ]
+          },
+          {
+            "p": [
+              "Click on Residents, Business or Government buttons at the top of  the page to find our more about what Transact DigiCity has for you."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
