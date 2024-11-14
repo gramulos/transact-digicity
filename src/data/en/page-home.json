@@ -123,9 +123,9 @@
           {
             "h3": "What We Do",
             "ul": [
-              "Unified, Cross-platform Open-Loop Ecosystem",
-              "Modern Financial Products",
-              "Comprehensive Reporting System"
+              { "text": "Unified, Cross-platform Open-Loop Ecosystem" },
+              { "text": "Modern Financial Products" },
+              { "text": "Comprehensive Reporting System" }
             ]
           },
           {

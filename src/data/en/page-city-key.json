@@ -30,9 +30,9 @@
               "With this card, residents are able to:"
             ],
             "ul": [
-              "Receive social benefits & discounts",
-              "Use it as a public transportation e-ticket",
-              "Make regular MasterCard payments"
+              { "text": "Receive social benefits & discounts" },
+              { "text": "Use it as a public transportation e-ticket" },
+              { "text": "Make regular MasterCard payments" }
             ]
           }
         ]
@@ -73,9 +73,9 @@
               "CityKey or the mobile app provide access to:"
             ],
             "ul": [
-              "Card & Account-Based Tickets",
-              "QR Tickets",
-              "Benefit/Social Tickets (Discounted Rides)"
+              { "text": "Card & Account-Based Tickets" },
+              { "text": "QR Tickets" },
+              { "text": "Benefit/Social Tickets (Discounted Rides)" }
             ]
           }
         ]

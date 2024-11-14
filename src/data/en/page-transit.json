@@ -1,0 +1,193 @@
+{
+  "callout": {
+    "title": "Transit",
+    "description": [
+      "The Transact Fleet solution is a modern,  turnkey proprietary system that enables  public transportation sector companies  to store, issue, and validate tickets,  accept payments, and generate reports.  The solution is available either \"As A Service\" through RESTful APIs, as  a white-label solution, or with full  on-premise delivery.",
+      "This solution is certified and compliant  with the requirements of the Latvian  and Lithuanian state revenue services."
+    ],
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "image": {
+      "src": "/assets/images/transit-hero-img.png",
+      "alt": "CityKey card image",
+      "width": 448,
+      "height": 439
+    }
+  },
+  "deviceCahierSystem": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Device and Cashier System section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Device and Cashier System",
+            "ul": [
+              {
+                "text": "Designed specifically to meet the needs and requirements of public transportation."
+              },
+              {
+                "text": "Integrated bank card payment solution (POS terminal), processor, and acquirer."
+              },
+              {
+                "text": "Proprietary, State Revenue Service-certified fiscal module. The RESTful API enables integrations with any accounting back-office or CRM."
+              },
+              { "text": "Proprietary cash register software with a REST API." },
+              {
+                "text": "Specialty interface created to provide maximum comfort to the driver. A 20 cm (8-inch) IPS screen offers transparency & information visibility from any light/angle condition."
+              },
+              {
+                "text": "Compliant with governmental regulatory requirements."
+              },
+              { "text": "GPS data tracking and export." }
+            ]
+          },
+          {
+            "h2": "Ticketing System",
+            "p": [
+              "The system components form a complex public transportation ticketing and carrier  function administration solution. Developed over four years and based on more than  ten years of experience in public transportation solutions for regional, intercity, and  commercial carriage fleets, this solution covers all carrier reporting and passenger  ticketing needs."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "appAndKey": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for app and key section",
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h2": "Mobile App",
+            "p": [
+              "For added convenience, real-time  transit updates can be synced  directly with the CityKey app,  ensuring users can plan  their routes efficiently.  This modernized system creates  a more connected, efficient,  and customer-focused  urban experience."
+            ],
+            "img": {
+              "src": "/assets/images/mobile-app.png",
+              "alt": "Mobile app",
+              "height": 323,
+              "width": 200
+            },
+            "a": {
+              "href": "/",
+              "text": "Apply Now"
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h2": "City Key",
+            "p": [
+              "The DigiCity transit system offers  a seamless experience for  passengers using the innovative \"CityKey.\" This versatile card  serves as both a form of payment  and identification, allowing users  to purchase tickets and travel  across the city effortlessly. "
+            ],
+            "img": {
+              "src": "/assets/images/card-city-key.png",
+              "alt": "City key",
+              "height": 426,
+              "width": 300
+            },
+            "a": {
+              "href": "/",
+              "text": "Apply Now"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "systemComponents": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for System components section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "System Components",
+            "ol": [
+              {
+                "text": "User Web UI - Provides a user-friendly interface for any tasks carrier might need to complete regarding device management, employee management, ticket reporting, GPS reporting, and more."
+              },
+              {
+                "text": "Service UI - Grants access to all system maintenence nd support functions."
+              },
+              {
+                "text": "Device API - The device includes 49 RESTful methods for communication with en-route ticketing devices. These methods provide devices with essencial data (such as employees, drivers, buses, ticket types, electronic ticket types, stops, flights, routes, etc.) needed for selling tickets in public transport, as well as data generated by the devices (tickets, electronic ticket validations, telemetry, etc.",
+                "subItems": [
+                  {
+                    "theme": "light",
+                    "p": ["Current Three Main Application Types"],
+                    "ul": [
+                      {
+                        "text": "UPOS - An Android application designed for public transport operators with an intuitive UI and features that simplify workflow. Its main function is selling tickets on route."
+                      },
+                      {
+                        "text": "AB2 - An Android application designed to accept electronic tickets."
+                      },
+                      {
+                        "text": "Mobile Application (available on Android and Apple) that sells ticket codes, generates QR codes, and validates them."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Seller APIs - Provide full functionality for ticket storage and enable sellers to integrate their back-end systems for ticket selling on their platforms. A simplified API scheme allows streamlined integration for third parties of any experience level."
+              },
+              {
+                "text": "Integrated Systems APIs - Support integrations with multiple information systems for various purposes:",
+                "subItems": [
+                  {
+                    "theme": "light",
+                    "ul": [
+                      {
+                        "text": "Government transportation directives that develop public transportation information systems."
+                      },
+                      {
+                        "text": "Integration is used to gather information on flight base data (e.g., stops, flights, tariff tables, routes, etc.)."
+                      },
+                      {
+                        "text": "Mobile Application (available on Android and Apple) that sells ticket codes, generates QR codes, and validates them."
+                      },
+                      {
+                        "text": "Integration is used to send information about executed flights and sold tickets."
+                      },
+                      {
+                        "text": "Leading online and bus station ticket seller system in Latvia, “BalticLines”."
+                      },
+                      {
+                        "text": "Integration is used to gather information about sold tickets, which is later used by users to generate comprehensive reports in the system web UI."
+                      },
+                      {
+                        "text": "Municipality subsidy management systems."
+                      },
+                      {
+                        "text": "Integration is used to gather information about municipality-issued subsidies for public transport, later used to validate rides through electronic ID."
+                      },
+                      {
+                        "text": "Integration is used to send information about used subsidies to the municipality system."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

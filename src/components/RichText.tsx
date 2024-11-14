@@ -15,7 +15,14 @@ type Headings = {
 export type RichTextElement = Headings & {
   theme: string;
   p?: string[];
-  ul?: string[];
+  ul?: {
+    text: string;
+    subitems?: RichTextElement[];
+  }[];
+  ol?: {
+    text: string;
+    subitems?: RichTextElement[];
+  }[];
   img?: {
     src: string;
     alt: string;
@@ -50,6 +57,9 @@ const Rte = (item: RichTextElement) => {
           {k === "ul" && item.ul && (
             <UnorderedList theme={item.theme} items={item.ul} />
           )}
+          {k === "ol" && item.ol && (
+            <UnorderedList theme={item.theme} items={item.ol} isOrdered />
+          )}
           {k === "p" && item.p && <Paragraph text={item.p} />}
           {k === "img" && item.img && (
             <Image
@@ -79,7 +89,7 @@ const Rte = (item: RichTextElement) => {
             />
           )}
         </React.Fragment>
-      ))}
+      ))}{" "}
     </>
   );
 };
