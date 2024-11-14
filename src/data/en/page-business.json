@@ -1,0 +1,173 @@
+{
+  "callout": {
+    "title": "Business",
+    "description": [
+      "DigiCity provides businesses with a ready-to-use  platform to manage payment acceptance, loyalty  programs, public transportation ticketing, and fleet  management."
+    ],
+    "theme": "light",
+    "bgImage": "/assets/images/bg-hero-business.png"
+  },
+  "citykey": {
+    "theme": "dark",
+    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "bgImageAlt": "Background image for CityKey section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "CityKey",
+            "p": [
+              "In cooperation with MasterCard, we offer a unique product that provides residents with access to benefits at any merchant that accepts MasterCard payment cards.",
+              "The card serves as a payment card, bank account, and ID to confirm eligibility for benefits. It stores electronic transit tickets, like a local closed-loop card, and functions globally as a MasterCard debit card.",
+              "With this card, residents are able to:"
+            ],
+            "ul": [
+              "Receive social benefits & discounts",
+              "Use it as a public transportation e-ticket",
+              "Make regular MasterCard payments"
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/card-city-key.png",
+              "alt": "CityKey card image",
+              "width": 448,
+              "height": 439
+            },
+            "a": {
+              "href": "/learn-more",
+              "text": "city-key"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "transit": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Transit section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Transit",
+            "p": [
+              "The TransactFleet ticketing solution is used in hundreds of buses across the Baltic states. You can conveniently access tickets for your rides using your CityKey card or the Transact Mobile application, whether you need a QR ticket or simply use your CityKey card to identify yourself and receive an e-ticket right away.",
+              "CityKey or the mobile app provide access to:"
+            ],
+            "ul": [
+              "Card & Account-Based Tickets",
+              "QR Tickets",
+              "Benefit/Social Tickets (Discounted Rides)"
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/transit.png",
+              "alt": "Transit image",
+              "width": 448,
+              "height": 448
+            },
+            "a": {
+              "href": "/transit",
+              "text": "Learn more"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "giftCards": {
+    "theme": "blue",
+    "bgImage": "/assets/patterns/blue/pattern_07.png",
+    "bgImageAlt": "Background image for Gift Cards section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Gift Cards",
+            "p": [
+              "We provide MasterCard Gift Cards in  cooperation with 15 shopping malls in Latvia.  These cards can be used at those shopping  malls or at any merchant that accepts  MasterCard payment cards. We invite you to  enjoy the freedom and flexibility of the gift that  can be used wherever MasterCard is accepted.",
+              "Gift cards can be purchased at information  desks, online (at www.ISTA.lv), or through our  self-service kiosks."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/gift-cards.png",
+              "alt": "Gift Cards image",
+              "width": 643,
+              "height": 657
+            },
+            "a": {
+              "href": "/gift-cards",
+              "text": "Learn more"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "transactSmart": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for TransactSmart section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "TransactSmart",
+            "p": [
+              "TransactSmart streamline your business  transactions with efficiency and security while  offering real-time insights into sales and  customer behavior.",
+              "These systems integrate seamlessly with your  operations, providing features like inventory  management and customizable payment  options. With enhanced security and intuitive  interfaces, they empower your business to  deliver a superior customer experience."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/transact-smart.png",
+              "alt": "TransactSmart image",
+              "width": 448,
+              "height": 448
+            },
+            "a": {
+              "href": "/transact-smart",
+              "text": "Learn more"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
