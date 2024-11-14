@@ -13,7 +13,7 @@ const Callout: React.FC<CalloutProps> = ({ title, description }) => {
     <div className="flex flex-col mt-32 font-medium w-full">
       <h1 className="lg:text-7xl max-w-full text-4xl">{title}</h1>
       {description?.map((item) => (
-        <p key={item} className="mt-12 text-2xl w-full">
+        <p key={item} className="mt-12 text-2xl w-full italic">
           {item}
         </p>
       ))}

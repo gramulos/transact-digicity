@@ -1,0 +1,99 @@
+{
+  "callout": {
+    "title": "Ecosystem",
+    "description": [
+      "CityKey, Transit Solutions, Smart POS systems, and Gift Cards are seamlessly  integrated into a unified ecosystem that transforms urban living and business  operations. With CityKey, residents can effortlessly access city services, from  public transit to community programs, all through a single, secure platform.  This integration extends to our Transit Solutions, where real-time updates and  easy payment options are just a tap away, ensuring that daily commutes are  not only streamlined but also personalized to each resident’s needs."
+    ],
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.png"
+  },
+  "benefits": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Benefit section",
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/merch-benefit.png",
+              "alt": "Sunmi image",
+              "height": 600,
+              "width": 400
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/gov-benefit.png",
+              "alt": "Sunmi image",
+              "height": 600,
+              "width": 400
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "existingIssues": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Existing issues section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Existing Issues in Public Funds Distribution",
+            "ul": [
+              {
+                "text": "Lack of automated benefit management and a precise, fast electronic payment system."
+              },
+              {
+                "text": "Errors in benefit distribution due to conflicts of interest with merchants."
+              },
+              {
+                "text": "Delays in payments to merchants."
+              },
+              {
+                "text": "Humiliating disclosure of the social status of benefit recipients, such as school children, socially supported residents, and other vulnerable groups."
+              },
+              {
+                "text": "Use of cash by pupils poses risks to their safety and raises concerns among parents."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyBenefit": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for key Benefit section",
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/key-benefit.png",
+              "alt": "Key image",
+              "height": 600,
+              "width": 600
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

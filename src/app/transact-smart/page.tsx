@@ -13,6 +13,7 @@ export default function Home() {
       <HeroBanner
         backgroundImage="/assets/patterns/light/pattern_06.png"
         callout={data.callout}
+        isFullWidth={data.callout.isFullWidth}
       />
       <Section
         theme={data.sunmiP2.theme}

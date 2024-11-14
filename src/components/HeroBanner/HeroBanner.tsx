@@ -4,6 +4,7 @@ import Callout, { CalloutProps } from "./Callout";
 import Container from "../Container";
 
 type HeroBannerProps = {
+  isFullWidth?: boolean;
   backgroundImage: string;
   callout: CalloutProps;
   theme?: string;
@@ -33,7 +34,11 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
           sizes="100vw"
           className="absolute inset-0 object-cover w-full h-full"
         />
-        <Container className="grid grid-cols-1 lg:grid-cols-2 align-middle gap-32 lg:gap-56">
+        <Container
+          className={`grid grid-cols-1 ${
+            props.isFullWidth ? "" : "lg:grid-cols-2"
+          } align-middle gap-32 lg:gap-56`}
+        >
           <Callout
             title={props.callout.title}
             description={props.callout.description}
