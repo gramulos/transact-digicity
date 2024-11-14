@@ -5,11 +5,19 @@ import Heading from "./Heading";
 import React from "react";
 import LinkButton from "./LinkButton";
 import Card, { CardProps } from "./Card";
+import DescriptiveImage, { DescriptiveImageProps } from "./DescriptiveImage";
 
 type KeyOptions = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
 type Headings = {
   [k in KeyOptions]?: string;
+};
+
+type ImageProps = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
 };
 
 export type RichTextElement = Headings & {
@@ -23,18 +31,14 @@ export type RichTextElement = Headings & {
     text: string;
     subitems?: RichTextElement[];
   }[];
-  img?: {
-    src: string;
-    alt: string;
-    width: number;
-    height: number;
-  };
+  img?: ImageProps[] | ImageProps;
   a?: {
     href: string;
     target?: string;
     text: string;
   };
   card?: CardProps;
+  descriptiveImage?: DescriptiveImageProps;
 };
 
 type RichTextProps = {
@@ -61,20 +65,38 @@ const Rte = (item: RichTextElement) => {
             <UnorderedList theme={item.theme} items={item.ol} isOrdered />
           )}
           {k === "p" && item.p && <Paragraph text={item.p} />}
-          {k === "img" && item.img && (
-            <Image
-              src={item.img.src}
-              alt={item.img.alt}
-              width={item.img.width}
-              height={item.img.height}
-            />
-          )}
+          {k === "img" &&
+            item.img &&
+            (Array.isArray(item.img) ? (
+              item.img.map((img) => (
+                <Image
+                  key={img.src}
+                  src={img.src}
+                  alt={img.alt}
+                  width={img.width}
+                  height={img.height}
+                />
+              ))
+            ) : (
+              <Image
+                src={item.img.src}
+                alt={item.img.alt}
+                width={item.img.width}
+                height={item.img.height}
+              />
+            ))}
           {k === "a" && item.a && (
             <LinkButton
               href={item.a.href}
               target={item.a.target}
               theme={item.theme}
               text={item.a.text}
+            />
+          )}
+          {k === "descriptiveImage" && item.descriptiveImage && (
+            <DescriptiveImage
+              img={item.descriptiveImage.img}
+              p={item.descriptiveImage.p}
             />
           )}
           {k === "card" && item.card && (

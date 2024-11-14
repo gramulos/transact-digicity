@@ -7,7 +7,7 @@
     "theme": "light",
     "backgroundImage": "/assets/patterns/light/pattern_05.png"
   },
-  "benefits": {
+  "benefitImages": {
     "theme": "light",
     "bgImage": "/assets/patterns/light/pattern_01.png",
     "bgImageAlt": "Background image for Benefit section",
@@ -91,6 +91,297 @@
               "height": 600,
               "width": 600
             }
+          }
+        ]
+      }
+    ]
+  },
+  "appAutonomous": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Existing issues section",
+    "title": [
+      {
+        "h2": "Areas of Application of Autonomous Management Using Cashless Payments"
+      }
+    ],
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "descriptiveImage": {
+              "img": {
+                "src": "/assets/images/administration.png",
+                "alt": "Key image",
+                "height": 350,
+                "width": 226
+              },
+              "p": ["Administration of", "Benefits"]
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "descriptiveImage": {
+              "img": {
+                "src": "/assets/images/protection.png",
+                "alt": "Key image",
+                "height": 350,
+                "width": 226
+              },
+              "p": ["Protection of", "Vulnerable Social", "Groups"]
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "descriptiveImage": {
+              "img": {
+                "src": "/assets/images/loyality.png",
+                "alt": "Key image",
+                "height": 350,
+                "width": 226
+              },
+              "p": ["Loyalty Programs"]
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "descriptiveImage": {
+              "img": {
+                "src": "/assets/images/chashless.png",
+                "alt": "Key image",
+                "height": 350,
+                "width": 226
+              },
+              "p": ["Cashless", "Payments"]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "benefits": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for key Benefit section",
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h2": "Benefits",
+            "ul": [
+              {
+                "text": "Saving the Social Budget: Reducing administrative burdens in managing social benefits."
+              },
+              {
+                "text": "Supporting SMEs: Stimulating demand for small and medium-sized businesses through the social budget."
+              },
+              {
+                "text": "Economic Growth: Encouraging residents to purchase local goods and services."
+              },
+              {
+                "text": "Social Protection: Safeguarding the status of beneficiaries."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "administrationBenefits": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Administration of Benefits section",
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h2": "Administration of Benefits",
+            "img": {
+              "src": "/assets/images/administration-benefits.png",
+              "alt": "Administration of Benefits chart",
+              "height": 470,
+              "width": 900
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "smeSupport": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Administration of Benefits section",
+    "title": [
+      {
+        "h2": "SME Support, Stimulating Demand Through Funding From Public & Private Sectors"
+      }
+    ],
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "ul": [
+              {
+                "text": "Increased cashless transactions & a reduction in the shadow economy."
+              },
+              {
+                "text": "Improved tax collection."
+              },
+              {
+                "text": "Enhanced private sector investments."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "outline": true,
+        "data": [
+          {
+            "ul": [
+              {
+                "text": "Benefits are transferred only if the beneficiary purchases specific products from designated merchants."
+              },
+              {
+                "text": "Quality control of social goods and services is ensured by maintaining competition among merchants."
+              },
+              {
+                "text": "Facilitating the social integration of beneficiaries."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "protection": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Administration of Benefits section",
+    "title": [
+      {
+        "h2": "Protection of Social Status"
+      }
+    ],
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "ul": [
+              {
+                "outline": true,
+                "disableListStyle": true,
+                "text": "Social status is assigned and managed exclusively by the benefactor."
+              },
+              {
+                "outline": true,
+                "disableListStyle": true,
+                "text": "The bank follows instructions for benefit calculations and transfers."
+              },
+              {
+                "outline": true,
+                "disableListStyle": true,
+                "text": "Merchants remain unaware of the buyer’s social status."
+              },
+              {
+                "outline": true,
+                "disableListStyle": true,
+                "text": "Benefit amounts are recorded only in the accounts of the buyer and the benefactor."
+              },
+              {
+                "outline": true,
+                "disableListStyle": true,
+                "text": "Benefactors and distributors independently determine buyer and merchant groups."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": [
+              {
+                "src": "/assets/images/elders.png",
+                "alt": "Elders",
+                "height": 388,
+                "width": 320
+              },
+              {
+                "src": "/assets/images/family.png",
+                "alt": "Family",
+                "height": 388,
+                "width": 320
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Knowledge and Solutions section",
+    "title": [
+      {
+        "h2": "Our Knowledge and Solutions Offered in Cooperation with Mastercard Europe"
+      }
+    ],
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "p": [
+              "Our expertise lies in adapting and providing an information system integrated with Mastercard. This system serves both budget organizations and small to medium enterprises (SMEs) that wish to use it to sell products or services and offer loyalty programs."
+            ],
+            "h3": "Service Includes",
+            "ul": [
+              {
+                "text": "Card management for budget organizations and SMEs."
+              },
+              {
+                "text": "Benefit rule management tailored to individual recipients."
+              },
+              {
+                "text": "Benefit calculation based on payment card transaction data."
+              },
+              {
+                "disableListStyle": true,
+                "text": "Our benefit management system is designed to operate with any international payment platform, such as Mastercard, VISA, and others."
+              }
+            ]
           }
         ]
       }

@@ -11,9 +11,11 @@ type SectionProps = {
   bgImage: string;
   bgImageAlt: string;
   theme: string;
+  title?: RichTextElement[];
   columns: {
     horizontalAlign?: string;
     verticalAlign?: string;
+    outline?: boolean;
     data: RichTextElement[];
   }[];
 };
@@ -23,6 +25,7 @@ const Section: React.FC<SectionProps> = ({
   bgImage,
   bgImageAlt,
   theme,
+  title,
 }) => {
   return (
     <section className="relative flex flex-col w-full overflow-hidden">
@@ -36,26 +39,30 @@ const Section: React.FC<SectionProps> = ({
         loading="lazy"
         sizes="100vw"
       />
-      <Container
-        className={cn(`grid grid-cols-1 gap-14`, {
-          "sm:grid-cols-2 xl:grid-cols-4 gap-10": columns.length === 4,
-          "sm:grid-cols-2 lg:grid-cols-3 gap-14": columns.length === 3,
-          "sm:grid-cols-2 gap-16": columns.length === 2,
-        })}
-      >
-        {columns.map((col, index) => (
-          <div
-            key={`${col.horizontalAlign}_${col.verticalAlign}_${index}`}
-            className={cn(
-              "flex flex-col justify-center h-full gap-10 md:gap-20",
-              theme === "light" ? "text-slate-800" : "text-slate-50",
-              col.horizontalAlign ? `items-${col.horizontalAlign}` : "",
-              col.verticalAlign ? `justify-${col.verticalAlign}` : ""
-            )}
-          >
-            <RichText data={col.data} />
-          </div>
-        ))}
+      <Container className="grid gap-10 md:gap-20">
+        {title && <RichText data={title} />}
+        <div
+          className={cn(`grid grid-cols-1 gap-14`, {
+            "sm:grid-cols-2 xl:grid-cols-4 gap-10": columns.length === 4,
+            "sm:grid-cols-2 lg:grid-cols-3 gap-14": columns.length === 3,
+            "sm:grid-cols-2 gap-16": columns.length === 2,
+          })}
+        >
+          {columns.map((col, index) => (
+            <div
+              key={`${col.horizontalAlign}_${col.verticalAlign}_${index}`}
+              className={cn(
+                "flex flex-col justify-center h-full gap-10 md:gap-20",
+                theme === "light" ? "text-slate-800" : "text-slate-50",
+                col.horizontalAlign ? `items-${col.horizontalAlign}` : "",
+                col.verticalAlign ? `justify-${col.verticalAlign}` : "",
+                { "border border-blue-600 rounded-3xl py-6 pr-16": col.outline }
+              )}
+            >
+              <RichText data={col.data} />
+            </div>
+          ))}
+        </div>
       </Container>
     </section>
   );

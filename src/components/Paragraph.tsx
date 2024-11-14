@@ -9,14 +9,12 @@ const Paragraph: React.FC<ParagraphProps> = (props) => {
   return (
     <div
       className={cn(
-        "flex flex-col text-base pl-9 w-full italic",
+        "flex flex-col text-base pl-9 w-full gap-8 italic",
         props.className
       )}
     >
-      {props.text.map((paragraph, index) => (
-        <p key={paragraph} className={index > 0 ? "mt-8 " : ""}>
-          {paragraph}
-        </p>
+      {props.text.map((paragraph) => (
+        <p key={paragraph}>{paragraph}</p>
       ))}
     </div>
   );
