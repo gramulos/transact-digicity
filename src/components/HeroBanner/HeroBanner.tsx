@@ -29,7 +29,7 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
           height={810}
           priority
           sizes="100vw"
-          className="absolute w-full h-auto"
+          className="absolute inset-0 object-cover w-full h-full"
         />
         <Container className="grid grid-cols-1 lg:grid-cols-2 align-middle gap-32 lg:gap-56">
           <Callout

@@ -43,7 +43,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
           ))}
         </ul>
       </div>
-      <div className="hidden lg:block">
+      <div className="hidden xl:block">
         <button
           onClick={toggleDropdown}
           className={cn(

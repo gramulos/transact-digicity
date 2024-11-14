@@ -33,14 +33,23 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header className="absolute top-0 z-10 flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full">
       <Container className="flex w-full justify-between">
-        <Image
-          src={`/assets/logo-${props.theme}.svg`}
-          alt={props.logoAlt}
-          width={208}
-          height={41}
-          className="object-contain shrink-0"
-        />
-
+        <div className="flex gap-10 items-end">
+          <Image
+            src={`/assets/logo-${props.theme}.svg`}
+            alt={props.logoAlt}
+            width={208}
+            height={41}
+            className="object-contain shrink-0"
+          />
+          <p
+            className={cn(
+              "text-sm hidden xl:block",
+              props.theme === "light" ? "text-slate-50" : "text-slate-700"
+            )}
+          >
+            {props.tagline}
+          </p>
+        </div>
         {/* Navigation - Mobile */}
         <Hamburger onClick={toggleMenu} theme={props.theme} />
         <Backdrop isVisible={isMenuOpen}>
@@ -76,13 +85,6 @@ const Header: React.FC<HeaderProps> = (props) => {
 
         {/* Navigation - Desktop */}
         <nav className="hidden xl:flex flex-wrap gap-6 items-end min-w-[240px] max-md:max-w-full">
-          <p
-            className={`text-sm ${
-              props.theme === "light" ? "text-slate-50" : "text-slate-800"
-            }`}
-          >
-            {props.tagline}
-          </p>
           {props.navItems.map((item) => (
             <Link
               key={item.text}
