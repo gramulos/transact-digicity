@@ -24,11 +24,12 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
       <div className="flex overflow-hidden relative flex-col w-full min-h-[810px]">
         <Image
           src={props.backgroundImage}
-          alt=""
-          layout="fill"
-          objectFit="cover"
+          alt={`${props.callout.title} image`}
+          width={1440}
+          height={810}
           priority
           sizes="100vw"
+          className="absolute w-full h-auto"
         />
         <Container className="grid grid-cols-1 lg:grid-cols-2 align-middle gap-32 lg:gap-56">
           <Callout

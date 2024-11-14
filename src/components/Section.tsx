@@ -3,95 +3,55 @@
  */
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import BenefitList from "./BenefitList";
 import Container from "./Container";
 import { cn } from "@/utils/styles";
+import RichText, { RichTextElement } from "./RichText";
 
 type SectionProps = {
   bgImage: string;
   bgImageAlt: string;
-  title: string;
-  description: string[];
-  benefits?: string[];
-  ctaText: string;
-  ctaLink: string;
-  cardImage: {
-    src: string;
-    alt: string;
-  };
   theme: string;
+  columns: {
+    horizontalAlign: string;
+    verticalAlign: string;
+    data: RichTextElement[];
+  }[];
 };
 
 const Section: React.FC<SectionProps> = ({
-  title,
-  description,
-  benefits,
-  ctaText,
-  ctaLink,
-  cardImage,
+  columns,
   bgImage,
   bgImageAlt,
   theme,
 }) => {
   return (
-    <section className="relative flex flex-col py-6 w-full">
+    <section className="relative flex flex-col w-full overflow-hidden">
       <Image
         src={bgImage}
         alt={bgImageAlt}
-        layout="fill"
-        objectFit="cover"
-        className="z-0"
+        width={2560}
+        height={1600}
+        className="absolute z-0 w-full h-auto"
         quality={100}
         loading="lazy"
-        sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, (max-width: 1280px) 100vw, 100vw"
+        sizes="100vw"
       />
-      <Container className="grid grid-cols-1 lg:grid-cols-2 gap-20">
-        <div
-          className={`flex flex-col justify-center text-base ${
-            theme === "light" ? "text-slate-800" : "text-slate-50"
-          }`}
-        >
-          <h2
-            className={`text-4xl font-light md:text-5xl italic ${
-              theme === "light" ? "text-slate-800" : "text-slate-50"
-            }`}
-          >
-            {title}
-          </h2>
-          <div className="flex flex-col pl-9 mt-10 w-full md:mt-20 italic">
-            {description.map((paragraph, index) => (
-              <p key={index} className={index > 0 ? "mt-8 " : ""}>
-                {paragraph}
-              </p>
-            ))}
-          </div>
-          {benefits && <BenefitList benefits={benefits} />}
-        </div>
-        <div
-          className={`flex flex-col justify-center items-center text-sm text-center ${
-            theme === "light" ? "text-slate-800" : "text-slate-50"
-          }`}
-        >
-          <Image
-            src={cardImage.src}
-            alt={cardImage.alt}
-            width={448}
-            height={439}
-            className="object-contain max-w-full"
-          />
-          <Link
-            href={ctaLink}
+      <Container
+        className={`grid grid-cols-1 lg:grid-cols-${columns.length} gap-20`}
+      >
+        {columns.map((col, index) => (
+          <div
+            key={`${col.horizontalAlign}_${col.verticalAlign}_${index}`}
             className={cn(
-              "px-10 py-4 mt-20 max-w-full text-slate-50 rounded-full shadow-xl hover:shadow-lg active:shadow-none transition-all duration-300",
-              theme !== "blue"
-                ? "bg-sky-600 hover:bg-sky-800 active:bg-sky-950"
-                : "bg-sky-950 hover:bg-sky-800 active:bg-sky-600"
+              "flex flex-col justify-center",
+              theme === "light" ? "text-slate-800" : "text-slate-50",
+              col.horizontalAlign ? `items-${col.horizontalAlign}` : "",
+              col.verticalAlign ? `justify-${col.verticalAlign}` : ""
             )}
           >
-            {ctaText}
-          </Link>
-        </div>
+            <RichText data={col.data} />
+          </div>
+        ))}
       </Container>
     </section>
   );

@@ -18,7 +18,7 @@ export type CalloutProps = {
 const Callout: React.FC<CalloutProps> = ({ title, description }) => {
   return (
     <div className="flex flex-col mt-32 font-medium w-full">
-      <h1 className="text-7xl max-md:max-w-full max-md:text-4xl">{title}</h1>
+      <h1 className="lg:text-7xl max-w-full text-4xl">{title}</h1>
       {description.map((item) => (
         <p key={item} className="mt-12 text-2xl w-full">
           {item}

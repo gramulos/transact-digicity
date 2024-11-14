@@ -45,13 +45,10 @@ const Header: React.FC<HeaderProps> = (props) => {
         <Hamburger onClick={toggleMenu} theme={props.theme} />
         <Backdrop isVisible={isMenuOpen}>
           <nav
-            className={`
-        fixed top-0 right-0 w-80 h-screen bg-white 
-        flex flex-col pt-24 px-4
-        transition-transform duration-300 z-40
-        xl:hidden
-        ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
-      `}
+            className={cn(
+              "fixed top-0 right-0 w-80 h-screen bg-white flex flex-col pt-24 px-4 transition-transform duration-300 z-40 xl:hidden",
+              isMenuOpen ? "translate-x-0" : "translate-x-full"
+            )}
           >
             <p
               className={`text-sm text-slate-700 absolute max-w-52 top-10 transition-opacity duration-300 ${
