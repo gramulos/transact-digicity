@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
+import { GoogleTagManager } from "@next/third-parties/google";
 import localFont from "next/font/local";
+import seoData from "@/data/en/seo-data.json";
 import "./globals.css";
 
 const graphikLCWeb = localFont({
@@ -106,11 +108,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Fully In-House Payment Service Provider for Your Business",
-  description:
-    "Transact Pro is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
+  title: seoData.title,
+  description: seoData.description,
   robots: "all",
-  themeColor: "#ffffff",
   manifest: "/assets/manifest/manifest.json",
   icons: {
     icon: [
@@ -133,21 +133,8 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary",
-    site: "@transactpro",
-    title: "Fully In-House Payment Service Provider for Your Business",
-    description:
-      "Transact Pro is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
-    images: "https://www.transactpro.lv/assets/manifest/graph-preview.jpg",
-  },
-  openGraph: {
-    url: "https://www.transactpro.lv/",
-    title: "Fully In-House Payment Service Provider for Your Business",
-    description:
-      "Transact Pro is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
-    images: "https://www.transactpro.lv/assets/manifest/graph-preview.jpg",
-  },
+  twitter: seoData.twitter,
+  openGraph: seoData.openGraph,
 };
 
 export default function RootLayout({
@@ -157,6 +144,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {process.env.NEXT_PUBLIC_GTM_ID && (
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+      )}
       <body className={`${graphikLCWeb.variable} antialiased`}>{children}</body>
     </html>
   );
