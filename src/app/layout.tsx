@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -98,10 +98,56 @@ const graphikLCWeb = localFont({
   variable: "--font-graphik",
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 export const metadata: Metadata = {
   title: "Fully In-House Payment Service Provider for Your Business",
   description:
     "Transact Pro is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
+  robots: "all",
+  themeColor: "#ffffff",
+  manifest: "/assets/manifest/manifest.json",
+  icons: {
+    icon: [
+      {
+        url: "/assets/manifest/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/assets/manifest/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/assets/manifest/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    site: "@transactpro",
+    title: "Fully In-House Payment Service Provider for Your Business",
+    description:
+      "Transact Pro is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
+    images: "https://www.transactpro.lv/assets/manifest/graph-preview.jpg",
+  },
+  openGraph: {
+    url: "https://www.transactpro.lv/",
+    title: "Fully In-House Payment Service Provider for Your Business",
+    description:
+      "Transact Pro is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
+    images: "https://www.transactpro.lv/assets/manifest/graph-preview.jpg",
+  },
 };
 
 export default function RootLayout({
