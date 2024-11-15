@@ -1,36 +1,31 @@
 import type { MetadataRoute } from "next";
 
+const urls = [
+  "",
+  "/transit",
+  "/transact-smart",
+  "/resident",
+  "/government",
+  "/gift-cards",
+  "/ecosystem",
+  "/city-key",
+  "/business",
+];
+
+const langs = ["en", "lv"];
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: "https://acme.com",
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          lv: "https://acme.com/es",
-          en: "https://acme.com/de",
-        },
-      },
+  return urls.map((url) => ({
+    url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
+    lastModified: new Date(),
+    alternates: {
+      languages: langs.reduce(
+        (acc, lang) => ({
+          ...acc,
+          [lang]: `${process.env.NEXT_PUBLIC_BASE_URL}/${lang}${url}`,
+        }),
+        {}
+      ),
     },
-    {
-      url: "https://acme.com/about",
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          lv: "https://acme.com/es/about",
-          en: "https://acme.com/de/about",
-        },
-      },
-    },
-    {
-      url: "https://acme.com/blog",
-      lastModified: new Date(),
-      alternates: {
-        languages: {
-          lv: "https://acme.com/es/blog",
-          en: "https://acme.com/de/blog",
-        },
-      },
-    },
-  ];
+  }));
 }
