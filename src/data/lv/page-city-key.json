@@ -1,0 +1,304 @@
+{
+  "callout": {
+    "title": "CityKey",
+    "description": [
+      "Šī risinājuma unikālā priekšrocība ir tā, ka tas nodrošina iedzīvotājiem tūlītēju piekļuvi sociālajiem pabalstiem pie jebkura tirgotāja, kas pieņem MasterCard maksājumu kartes.",
+      "Sadarbībā ar MasterCard mēs aicinām jūs ieviest CityKey risinājumu. Ieviešanas ietvaros Transact Pro izsniedz MasterCard CityKey maksājumu kartes un nodrošina vairākas funkcijas, tostarp, bet ne tikai:"
+    ],
+    "theme": "dark",
+    "image": {
+      "src": "/assets/images/hero-img-city-key.png",
+      "alt": "Pilsētas atslēga",
+      "width": 400,
+      "height": 500
+    }
+  },
+  "citykey": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls CityKey sadaļai",
+    "showAsRows": true,
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "ul": [
+              { "text": "Sociālo pabalstu saņemšana" },
+              { "text": "Atlaides izvēlētajos lietošanas scenārijos" },
+              {
+                "text": "Subsidēto maksājumu pārvaldība (sabiedriskais transports, skolas ēdināšana, baseini, bibliotēkas, klubi, aptiekas un medicīnas pakalpojumi)."
+              },
+              {
+                "text": "Iedzīvotāju identifikācijas un piekļuves kontroles rīki (skola, universitātes telpas un aktivitātes)"
+              },
+              {
+                "text": "Atvērtās cilpas maksājumu pārvaldība (ieskaitot lojalitātes programmas)"
+              }
+            ],
+            "h3": "Daudzfunkcionālā MasterCard CityKey karte ir maksājumu instruments, kas apvieno maksājumu funkcijas, abonementu biļetes un identifikācijas rīkus. Tā kalpo arī kā līdzeklis piekļuvei pašvaldību un valsts pabalstiem un privilēģijām."
+          }
+        ]
+      }
+    ]
+  },
+  "functionalityServices": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls Tranzīta sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "title": "Kartes funkcionalitāte",
+        "outlineChilds": true,
+        "data": [
+          {
+            "ul": [
+              {
+                "text": "MasterCard Debeta maksājumu karte"
+              },
+              {
+                "text": "3 gadu derīguma termiņš"
+              },
+              {
+                "text": "MiFare 1K mikroshēma"
+              },
+              {
+                "text": "Kalpo kā identifikācijas karte"
+              },
+              {
+                "text": "Svītrkoda abonementa piekļuve"
+              },
+              {
+                "text": "Attālināta ID ar pašvaldības palīdzību"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "title": "Mūsu pakalpojumi",
+        "outlineChilds": true,
+        "data": [
+          {
+            "ul": [
+              {
+                "text": "Tūlītēja tiešsaistes pabalstu aprēķināšana"
+              },
+              {
+                "text": "Pabalstu pārskaitījumi no sniedzēja uz saņēmēja kontu"
+              },
+              {
+                "text": "CityKey kartes izsniegšana un apkalpošana"
+              },
+              {
+                "text": "Klientu atbalsts karšu turētājiem un pašvaldībām"
+              },
+              {
+                "text": "Tiešsaistes bankas rīks un mobilā lietotne"
+              },
+              {
+                "text": "Integrācijas ar valsts pabalstu pārvaldības informācijas sistēmām"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "advantages": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_07.png",
+    "bgImageAlt": "Fona attēls Dāvanu karšu sadaļai",
+    "title": [
+      {
+        "h2": "MasterCard infrastruktūras priekšrocības"
+      }
+    ],
+    "showAsRows": true,
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h4": "Sociālās infrastruktūras attīstība",
+            "p": [
+              "MasterCard sistēma pārveido CityKey karti par daudzfunkcionālu ID, kas kalpo kā iedzīvotāja karte vai skolas ID. Šī sistēma nodrošina objektīvu uzraudzību un aktīvu iedzīvotāju līdzdalību pabalstu pārvaldībā, ar pabalstiem, kas tiek pārskaitīti tieši uz bankas kontiem. Nepilngadīgajiem tēriņi tiek kontrolēti, aizstājot skaidru naudu ar karšu maksājumiem, kas ierobežoti līdz apstiprinātiem tirgotājiem."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/isic-student.png",
+              "alt": "Studenta apliecība",
+              "width": 300,
+              "height": 150
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h4": "Iedzīvotāju sociālā atbalsta attīstība",
+            "p": [
+              "Šī infrastruktūra nodrošina 100% pabalstu pieejamību, kur identificētie iedzīvotāji saņem pabalstus uzreiz pēc pirkuma veikšanas norādītajos veikalos. Tā nodrošina sociālā budžeta ietaupījumu, pārskaitot pabalstus individuāli par katru darījumu, ļaujot apkalpot vairāk saņēmēju bez papildu budžeta slodzes."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h4": "Pašvaldības budžeta struktūras maiņa",
+            "p": [
+              "Tiešās subsīdijas iedzīvotājiem aizstāj tirgotāju kompensāciju, sedzot preču un pakalpojumu pilnu vērtību. Tas palielina sociālo budžetu, vienlaikus samazinot kompensācijas budžetu, nodrošinot precīzu pabalstu sadali caur bezskaidras naudas pārskaitījumiem. Budžeta pārskati kā bankas izraksti vienkāršo uzraudzību un samazina pārvaldības izmaksas."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h4": "Pabalstu administrēšanas kompetences attīstība",
+            "p": [
+              "Izmantojot MasterCard finanšu infrastruktūru, sistēma nodrošina darījumus ar institūciju, budžeta iestāžu un tirgotāju uzraudzību. Maksājumi ir droši, aizsargā personas datus un nodrošina, ka tirgotāji savlaicīgi saņem pilnu summu."
+            ],
+            "br": ""
+          }
+        ]
+      }
+    ]
+  },
+  "highlightPanels": [
+    {
+      "title": "Mūsu partneri",
+      "backgroundImage": "/assets/patterns/blue/pattern_03.png",
+      "theme": "light",
+      "data": [
+        {
+          "theme": "dark",
+          "ul": [
+            {
+              "noPadding": true,
+              "text": "MasterCard",
+              "icon": {
+                "src": "/assets/partners/icon-mastercard.svg",
+                "alt": "MasterCard",
+                "width": 114,
+                "height": 58
+              }
+            },
+            {
+              "noPadding": true,
+              "text": "ISIC",
+              "icon": {
+                "src": "/assets/partners/icon-isic.svg",
+                "alt": "ISIC",
+                "width": 114,
+                "height": 58
+              }
+            },
+            {
+              "noPadding": true,
+              "text": "Jelgavas Pilsētas Pašvaldība",
+              "icon": {
+                "src": "/assets/partners/icon-jelgava.svg",
+                "alt": "Jelgavas Pilsētas Pašvaldība",
+                "width": 114,
+                "height": 58
+              }
+            },
+            {
+              "noPadding": true,
+              "text": "Jelgavas Rajona Pašvaldība",
+              "icon": {
+                "src": "/assets/partners/icon-jelgava-municipality.svg",
+                "alt": "Jelgavas Rajona Pašvaldība",
+                "width": 114,
+                "height": 58
+              }
+            },
+            {
+              "noPadding": true,
+              "text": "LBTU",
+              "icon": {
+                "src": "/assets/partners/icon-lbtu.svg",
+                "alt": "LBTU",
+                "width": 114,
+                "height": 58
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tūlītēja piekļuve",
+      "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+      "theme": "light",
+      "data": [
+        {
+          "theme": "dark",
+          "ul": [
+            {
+              "noPadding": true,
+              "text": "Sabiedriskā transporta biļetes"
+            },
+            {
+              "noPadding": true,
+              "text": "Ēdieni un dzērieni (izglītības sektorā)"
+            },
+            {
+              "noPadding": true,
+              "text": "Veselības aprūpe"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "graph": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls CityKey grafika sadaļai",
+    "showAsRows": true,
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/graphs/city-key-graph.svg",
+              "alt": "CityKey grafiks",
+              "width": 1604,
+              "height": 694
+            },
+            "a": {
+              "href": "/apply",
+              "text": "Pieteikties"
+            },
+            "br": ""
+          }
+        ]
+      }
+    ]
+  }
+}

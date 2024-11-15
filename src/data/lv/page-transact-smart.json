@@ -1,0 +1,92 @@
+{
+  "callout": {
+    "title": "TransactSmart",
+    "isFullWidth": true,
+    "description": [
+      "Mēs esam VISA un MasterCard galvenais biedrs, maksājumu karšu pieņēmējs, apstrādātājs, kā arī kases aparātu izstrādātājs un pakalpojumu sniedzējs.",
+      "Šis risinājums, kas paredzēts maziem un vidējiem uzņēmumiem, piedāvā visu, kas tirgotājam nepieciešams, lai sāktu pārdošanu: integrētu kases aparātu, kas sertificēts nodokļu iestādēs, krājumu pārvaldību, iebūvētu bankas karšu pieņemšanu un daudz ko citu — viss vienā vienkāršā līgumā."
+    ],
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.png"
+  },
+  "sunmiP2": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls Sunmi P2 sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Sunmi P2",
+            "p": [
+              "Speriet soli nākotnes mazumtirdzniecībā ar Sunmi P2, nākamās paaudzes POS sistēmu, kas apvieno jaudu un eleganci kompaktā, portatīvā dizainā. Ar savu intuitīvo saskarni un zibenīgo veiktspēju Sunmi P2 pārveido katru darījumu par vienmērīgu, vieglu pieredzi. Paceliet savu biznesu jaunā līmenī ar Sunmi P2, kur inovācijas satiekas ar vienkāršības mākslu."
+            ],
+            "img": {
+              "src": "/assets/images/sunmi-dual.png",
+              "alt": "Sunmi attēls",
+              "height": 600,
+              "width": 1000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "deviceCahierSystem": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls ierīces un kases sistēmas sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Ierīce un kases sistēma",
+            "ul": [
+              {
+                "text": "Portatīva un droša Android ierīce ar jaudīgu akumulatoru."
+              },
+              {
+                "text": "Tiešsaistes savienojamība, izmantojot telekomunikāciju pakalpojumu sniedzējus vai Wi-Fi."
+              },
+              {
+                "text": "Kases aparāta programmatūra:",
+                "subItems": [
+                  {
+                    "theme": "light",
+                    "ul": [
+                      {
+                        "text": "Ļauj ātri un vienkārši pārdot preces un pakalpojumus, ievadot cenu vai izvēloties preces no krājumiem."
+                      },
+                      {
+                        "text": "Atbilst fiskālajiem likumiem un sertifikācijām."
+                      },
+                      {
+                        "text": "Integrēta ar nodokļu iestāžu fiskālajiem serveriem tiešsaistes fiskalizācijai."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Bankas karšu maksājumu pieņemšana — nodrošina maksājumus tajā pašā ierīcē, izmantojot Mastercard un VISA."
+              },
+              {
+                "text": "Kases aparāts savienots ar maksājumu lietotni, summa jāievada tikai vienu reizi."
+              },
+              {
+                "text": "Ierīce drukā gan fiskālos, gan bankas čekus klientiem."
+              },
+              {
+                "text": "Sertificēts ar pieņēmēju — nav nepieciešama papildu sertifikācija. Vienkārši parakstiet līgumu ar pieņēmēju un servisa uzņēmumu Transact Pro par pilnīgu risinājumu."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

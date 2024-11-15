@@ -1,0 +1,140 @@
+{
+  "callout": {
+    "bgImage": "/assets/patterns/dark/pattern_04.png",
+    "title": "Sāc savu ceļojumu",
+    "theme": "dark",
+    "data": [
+      {
+        "a": {
+          "href": "/resident",
+          "text": "Iedzīvotājs"
+        }
+      },
+      {
+        "a": {
+          "href": "/business",
+          "text": "Uzņēmums"
+        }
+      },
+      {
+        "a": {
+          "href": "/government",
+          "text": "Valdība"
+        }
+      },
+      {
+        "a": {
+          "href": "/ecosystem",
+          "text": "Ekosistēma"
+        }
+      }
+    ]
+  },
+  "cards": {
+    "theme": "dark",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Kartes fons",
+    "columns": [
+      {
+        "data": [
+          {
+            "card": {
+              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "title": "Pilsētas Atslēga",
+              "description": [
+                "CityKey MasterCard nodrošina tūlītēju piekļuvi visiem labumiem, ko piešķīrusi jūsu pašvaldība, universitāte vai iesaistītais tirgotājs."
+              ],
+              "image": "/assets/images/card-city-key.png",
+              "moreText": "More",
+              "moreLink": "/city-key",
+              "theme": "dark"
+            }
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "card": {
+              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "title": "Transports",
+              "description": [
+                "Uz kontu balstīta biļešu sistēma, reāllaika izsekošana, autoparka pārvaldība, fiskālie moduļi, maksājumu pieņemšana un zīmola mobilā lietotne."
+              ],
+              "image": "/assets/images/transit-card.png",
+              "moreText": "More",
+              "moreLink": "/transit",
+              "theme": "dark"
+            }
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "card": {
+              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "title": "Transact Smart",
+              "description": [
+                "Viss vienā ierīcē, kas paredzēta mazumtirdzniecības nozarei: kases sistēma ar fiskālo moduli un integrētu maksājumu pieņemšanu; pilna tirgotāja administrēšanas sistēma."
+              ],
+              "image": "/assets/images/transact-smart-card.png",
+              "moreText": "More",
+              "moreLink": "/transact-smart",
+              "theme": "dark"
+            }
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "card": {
+              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "title": "Dāvanu Kartes",
+              "description": [
+                "MasterCard dāvanu kartes, kas paredzētas tirdzniecības centru, mazumtirdzniecības ķēžu un atsevišķu tirgotāju klientu lojalitātes un zīmola atpazīstamības programmām."
+              ],
+              "image": "/assets/images/gift-cards-mix.png",
+              "moreText": "More",
+              "moreLink": "/gift-cards",
+              "theme": "dark"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "digicity": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls CityKey sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "DigiCity",
+            "p": [
+              "Transact DigiCity ir ekosistēma, kas apvieno cilvēkus, uzņēmumus un valsts iestādes, lai maksimāli izmantotu digitālās ēras pārveidošanos. Mēs esam izveidojuši 4 produktus, kuros mēs darbojamies kā finanšu pakalpojumu sniedzējs, izmantojot mūsu moderno tehnisko platformu, kas revolucionāri attīstījusies kopš mūsu oficiālās atvēršanas 2004. gadā."
+            ]
+          },
+          {
+            "h3": "Ko Mēs Darām",
+            "ul": [
+              { "text": "Vienota, starpplatformu atvērtā cikla ekosistēma" },
+              { "text": "Moderni finanšu produkti" },
+              { "text": "Visaptveroša atskaišu sistēma" }
+            ]
+          },
+          {
+            "p": [
+              "Noklikšķiniet uz pogām Iedzīvotāji, Uzņēmumi vai Valdība lapas augšdaļā, lai uzzinātu vairāk par to, ko Transact DigiCity piedāvā tieši jums."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

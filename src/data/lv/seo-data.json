@@ -1,0 +1,15 @@
+{
+  "title": "Pilnībā Integrēts Maksājumu Pakalpojumu Sniedzējs Jūsu Biznesam",
+  "description": "Transact Pro ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
+  "twitter": {
+    "title": "Pilnībā Integrēts Maksājumu Pakalpojumu Sniedzējs Jūsu Biznesam",
+    "description": "Transact Pro ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
+    "images": "https://www.transactpro.lv/assets/manifest/graph-preview.jpg"
+  },
+  "openGraph": {
+    "url": "https://www.transactpro.lv/",
+    "title": "Pilnībā Integrēts Maksājumu Pakalpojumu Sniedzējs Jūsu Biznesam",
+    "description": "Transact Pro ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
+    "images": "https://www.transactpro.lv/assets/manifest/graph-preview.jpg"
+  }
+}

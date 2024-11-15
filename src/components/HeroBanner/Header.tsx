@@ -9,7 +9,7 @@ import LanguageSelector from "./LanguageSelector";
 import Hamburger from "../Hamburger";
 import Backdrop from "../Backdrop";
 import Container from "../Container";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { cn } from "@/utils/styles";
 
 export type HeaderProps = {

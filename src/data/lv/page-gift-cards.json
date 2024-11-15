@@ -1,0 +1,214 @@
+{
+  "callout": {
+    "title": "Dāvanu kartes",
+    "description": [
+      "Mēs nodrošinām visaptverošu risinājumu Mastercard White Label dāvanu karšu izsniegšanai, optimizējot katru soli no karšu izsniegšanas līdz darījumu apstrādei. Mūsu pakalpojumi ļauj tirdzniecības centriem piedāvāt zīmola slēgtā cikla priekšapmaksas kartes, kas netraucēti darbojas jebkurā Mastercard pieņemošā tirgotājā noteiktajā vietā. Visa dāvanu karšu programma tiek pilnībā pārvaldīta, piedāvājot spēcīgu funkcionalitāti un vienkāršu integrāciju."
+    ],
+    "theme": "dark",
+    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "isFullWidth": true,
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/cards-4-left.png",
+              "alt": "4 kreisās kartes",
+              "height": 400,
+              "width": 592
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/cards-4-right.png",
+              "alt": "4 labās kartes",
+              "height": 400,
+              "width": 592
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": {
+    "theme": "light",
+    "title": [
+      {
+        "h2": "Risinājuma galvenās iezīmes"
+      }
+    ],
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Risinājuma galvenās iezīmes",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h3": "Dāvanu karšu iestatīšana un atbilstība",
+            "ul": [
+              {
+                "text": "Pilnīga koordinācija ar Mastercard programmas uzsākšanai."
+              },
+              {
+                "text": "Izplatītāju reģistrācija Latvijas Bankā (FCMK)."
+              },
+              {
+                "text": "Iekšēja karšu personalizācija un uzglabāšana."
+              },
+              {
+                "text": "Atbilstība Mastercard dizaina un darījumu standartiem."
+              }
+            ]
+          },
+          {
+            "h3": "Apstrāde un pārskati",
+            "ul": [
+              {
+                "text": "Automatizēti norēķini atbilstoši Mastercard standartiem."
+              },
+              {
+                "text": "Detalizēti ikmēneša pārskati (aktivizētās kartes, darījumu apjoms, vidējās pirkumu summas) tirdzniecības centra vadībai."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h3": "API un sistēmu integrācija",
+            "ul": [
+              {
+                "text": "API integrācija reāllaika atlikuma pārbaudēm un darījumu vēsturei."
+              },
+              {
+                "text": "POS terminālu iestatīšana un specifikācijas pielāgotas tirdzniecības centru info centriem."
+              },
+              {
+                "text": "24/7 tehniskais atbalsts netraucētai darbībai."
+              }
+            ]
+          },
+          {
+            "h3": "Apstrāde un pārskati",
+            "ul": [
+              {
+                "text": "Magnētiskā josla ar tūlītēju aktivizāciju un noklusējuma PIN iestatīšanu."
+              },
+              {
+                "text": "Derīga jebkurā Mastercard pieņemošā tirgotājā tirdzniecības centrā."
+              },
+              {
+                "text": "Papildināma vērtība no €10.00 līdz €150.00 ar sešu mēnešu derīguma termiņu."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "kiosk": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls kioska sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Kiosks",
+            "p": [
+              "Dāvanu karšu kioski ir lietotājiem draudzīgi un ļauj klientiem iegādāties dāvanu kartes ar izvēlēto vērtību. Tie arī nodrošina klientiem iespēju pārbaudīt savas dāvanu kartes atlikumu tieši kioskā. Šie kioski ir lielisks risinājums, lai piedāvātu klientiem ērtu pašapkalpošanās veidu dāvanu karšu iegādei bez informācijas centra palīdzības. Katrs kiosks ir aprīkots ar visaptverošu pārskatu un čeku sistēmu, kā arī dažādām tehniskām iespējām. Programmatūra ir īpašumtiesību, izstrādāta uzņēmumā un var tikt pielāgota katra klienta specifiskajām biznesa vajadzībām."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/kiosk.png",
+              "alt": "Pilsētas atslēga",
+              "height": 500,
+              "width": 200
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "kioskBenefits": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls Dāvanu karšu kiosku priekšrocības klientiem sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Dāvanu karšu kiosku priekšrocības klientiem",
+            "ul": [
+              {
+                "text": "Viegli un ērti lietojami."
+              },
+              {
+                "text": "Iespēja pārbaudīt kartes atlikumu."
+              },
+              {
+                "text": "Tiek izsniegts čeks par dāvanu kartes iegādi."
+              },
+              {
+                "text": "Pieejams dāvanu kartes iepakojums (pēc T/C ieskatiem)."
+              }
+            ]
+          },
+          {
+            "h2": "Dāvanu karšu kiosku priekšrocības tirdzniecības centros",
+            "ul": [
+              {
+                "text": "Palielina tirdzniecības centra apmeklētāju skaitu."
+              },
+              {
+                "text": "Viegli un ērti uzstādīt un integrēt."
+              },
+              {
+                "text": "Automātiska pārskatu sistēma."
+              },
+              {
+                "text": "Paziņojumi par zemu čeku papīra daudzumu."
+              },
+              {
+                "text": "Viegli un ērti uzstādīt un integrēt."
+              },
+              {
+                "text": "Attālinātas pārvaldības iespējas."
+              },
+              {
+                "text": "Pielāgojams tirdzniecības centra dizainam."
+              }
+            ],
+            "a": {
+              "href": "/apply",
+              "text": "Pieteikties tagad"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

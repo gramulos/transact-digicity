@@ -1,0 +1,173 @@
+{
+  "callout": {
+    "title": "Bizness",
+    "description": [
+      "DigiCity nodrošina uzņēmumiem gatavu platformu maksājumu pieņemšanas, lojalitātes programmu, sabiedriskā transporta biļešu un autoparka pārvaldības vadīšanai."
+    ],
+    "theme": "light",
+    "bgImage": "/assets/images/bg-hero-business.png"
+  },
+  "citykey": {
+    "theme": "dark",
+    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "bgImageAlt": "Fona attēls CityKey sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "CityKey",
+            "p": [
+              "Sadarbībā ar MasterCard mēs piedāvājam unikālu produktu, kas nodrošina iedzīvotājiem piekļuvi priekšrocībām pie jebkura tirgotāja, kas pieņem MasterCard maksājumu kartes.",
+              "Karte kalpo kā maksājumu karte, bankas konts un ID, lai apstiprinātu tiesības uz priekšrocībām. Tā uzglabā elektroniskās transporta biļetes kā vietējā slēgtā cikla karte un darbojas globāli kā MasterCard debetkarte.",
+              "Ar šo karti iedzīvotāji var:"
+            ],
+            "ul": [
+              { "text": "Saņemt sociālos pabalstus un atlaides" },
+              { "text": "Izmantot to kā sabiedriskā transporta e-biļeti" },
+              { "text": "Veikt parastos MasterCard maksājumus" }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/card-city-key.png",
+              "alt": "CityKey kartes attēls",
+              "width": 448,
+              "height": 439
+            },
+            "a": {
+              "href": "/learn-more",
+              "text": "Learn more"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "transit": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls Transporta sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Transports",
+            "p": [
+              "TransactFleet biļešu sistēma tiek izmantota simtiem autobusu Baltijas valstīs. Jūs varat ērti piekļūt biļetēm saviem braucieniem, izmantojot CityKey karti vai Transact Mobile lietotni, neatkarīgi no tā, vai jums nepieciešama QR biļete vai vienkārši izmantojat CityKey karti, lai identificētu sevi un nekavējoties saņemtu e-biļeti.",
+              "CityKey vai mobilā lietotne nodrošina piekļuvi:"
+            ],
+            "ul": [
+              { "text": "Kartes un konta biļetes" },
+              { "text": "QR biļetes" },
+              { "text": "Pabalstu/sociālās biļetes (braucieni ar atlaidi)" }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/transit.png",
+              "alt": "Transporta attēls",
+              "width": 448,
+              "height": 448
+            },
+            "a": {
+              "href": "/transit",
+              "text": "Uzzināt vairāk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "giftCards": {
+    "theme": "blue",
+    "bgImage": "/assets/patterns/blue/pattern_07.png",
+    "bgImageAlt": "Fona attēls Dāvanu karšu sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Dāvanu kartes",
+            "p": [
+              "Mēs nodrošinām MasterCard dāvanu kartes sadarbībā ar 15 tirdzniecības centriem Latvijā. Šīs kartes var izmantot šajos tirdzniecības centros vai pie jebkura tirgotāja, kas pieņem MasterCard maksājumu kartes. Mēs aicinām jūs izbaudīt brīvību un elastību, ko sniedz dāvana, kuru var izmantot visur, kur tiek pieņemts MasterCard.",
+              "Dāvanu kartes var iegādāties informācijas centros, tiešsaistē (www.ISTA.lv) vai mūsu pašapkalpošanās kioskos."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/gift-cards.png",
+              "alt": "Dāvanu karšu attēls",
+              "width": 643,
+              "height": 657
+            },
+            "a": {
+              "href": "/gift-cards",
+              "text": "Uzzināt vairāk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "transactSmart": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls TransactSmart sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "TransactSmart",
+            "p": [
+              "TransactSmart optimizē jūsu uzņēmuma darījumus ar efektivitāti un drošību, vienlaikus piedāvājot reāllaika ieskatu pārdošanas un klientu uzvedībā.",
+              "Šīs sistēmas nevainojami integrējas ar jūsu darbībām, nodrošinot tādas funkcijas kā krājumu pārvaldība un pielāgojamas maksājumu iespējas. Ar uzlabotu drošību un intuitīvām saskarnēm tās pilnvaro jūsu uzņēmumu sniegt izcilu klientu pieredzi."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/transact-smart.png",
+              "alt": "TransactSmart attēls",
+              "width": 448,
+              "height": 448
+            },
+            "a": {
+              "href": "/transact-smart",
+              "text": "Uzzināt vairāk"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

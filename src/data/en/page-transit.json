@@ -5,7 +5,7 @@
       "The Transact Fleet solution is a modern,  turnkey proprietary system that enables  public transportation sector companies  to store, issue, and validate tickets,  accept payments, and generate reports.  The solution is available either \"As A Service\" through RESTful APIs, as  a white-label solution, or with full  on-premise delivery.",
       "This solution is certified and compliant  with the requirements of the Latvian  and Lithuanian state revenue services."
     ],
-    "theme": "light",
+    "theme": "dark",
     "backgroundImage": "/assets/patterns/light/pattern_05.png",
     "image": {
       "src": "/assets/images/transit-hero-img.png",

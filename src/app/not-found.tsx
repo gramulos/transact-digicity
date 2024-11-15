@@ -40,7 +40,7 @@ export default function NotFound() {
             href="/"
             className="text-blue-600 hover:text-gray-800 transition-colors duration-300"
           >
-            homepage
+            Home
           </Link>
         </p>
       </div>

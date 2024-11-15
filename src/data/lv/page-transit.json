@@ -1,0 +1,193 @@
+{
+  "callout": {
+    "title": "Transits",
+    "description": [
+      "Transact Fleet risinājums ir moderna, gatava patentēta sistēma, kas ļauj sabiedriskā transporta nozares uzņēmumiem uzglabāt, izsniegt un pārbaudīt biļetes, pieņemt maksājumus un ģenerēt atskaites. Risinājums ir pieejams gan kā pakalpojums, izmantojot RESTful API, gan kā white-label risinājums, gan ar pilnīgu uzstādīšanu uz vietas.",
+      "Šis risinājums ir sertificēts un atbilst Latvijas un Lietuvas valsts ieņēmumu dienestu prasībām."
+    ],
+    "theme": "dark",
+    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "image": {
+      "src": "/assets/images/transit-hero-img.png",
+      "alt": "CityKey kartes attēls",
+      "width": 448,
+      "height": 439
+    }
+  },
+  "deviceCahierSystem": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls ierīču un kases sistēmas sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Ierīču un kases sistēma",
+            "ul": [
+              {
+                "text": "Īpaši izstrādāts, lai apmierinātu sabiedriskā transporta vajadzības un prasības."
+              },
+              {
+                "text": "Integrēts bankas karšu maksājumu risinājums (POS terminālis), procesors un pieņēmējs."
+              },
+              {
+                "text": "Patentēts, Valsts ieņēmumu dienesta sertificēts fiskālais modulis. RESTful API nodrošina integrāciju ar jebkuru grāmatvedības back-office vai CRM."
+              },
+              { "text": "Patentēta kases aparāta programmatūra ar REST API." },
+              {
+                "text": "Speciāla saskarne, kas izveidota, lai nodrošinātu maksimālu komfortu vadītājam. 20 cm (8 collu) IPS ekrāns nodrošina caurredzamību un informācijas redzamību jebkuros gaismas/leņķa apstākļos."
+              },
+              {
+                "text": "Atbilst valdības regulējošajām prasībām."
+              },
+              { "text": "GPS datu izsekošana un eksports." }
+            ]
+          },
+          {
+            "h2": "Biļešu sistēma",
+            "p": [
+              "Sistēmas komponenti veido kompleksu sabiedriskā transporta biļešu un pārvadātāju funkciju administrēšanas risinājumu. Izstrādāts četru gadu laikā un balstīts uz vairāk nekā desmit gadu pieredzi sabiedriskā transporta risinājumos reģionālajiem, starppilsētu un komerciālajiem pārvadājumu parkiem, šis risinājums aptver visas pārvadātāju atskaišu un pasažieru biļešu vajadzības."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "appAndKey": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls lietotnes un atslēgas sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h2": "Mobilā lietotne",
+            "p": [
+              "Papildu ērtībām reāllaika transporta atjauninājumus var sinhronizēt tieši ar CityKey lietotni, nodrošinot lietotājiem efektīvu maršrutu plānošanu. Šī modernizētā sistēma rada savienotāku, efektīvāku un uz klientu orientētu pilsētas pieredzi."
+            ],
+            "img": {
+              "src": "/assets/images/mobile-app.png",
+              "alt": "Mobilā lietotne",
+              "height": 323,
+              "width": 200
+            },
+            "a": {
+              "href": "/",
+              "text": "Apply Now"
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h2": "Pilsētas atslēga",
+            "p": [
+              "DigiCity transporta sistēma piedāvā vienkāršu pieredzi pasažieriem, izmantojot inovatīvo \"CityKey\". Šī daudzpusīgā karte kalpo gan kā maksāšanas līdzeklis, gan identifikācija, ļaujot lietotājiem iegādāties biļetes un ceļot pa pilsētu bez piepūles."
+            ],
+            "img": {
+              "src": "/assets/images/card-city-key.png",
+              "alt": "Pilsētas atslēga",
+              "height": 426,
+              "width": 300
+            },
+            "a": {
+              "href": "/",
+              "text": "Apply Now"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "systemComponents": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls sistēmas komponentu sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Sistēmas komponenti",
+            "ol": [
+              {
+                "text": "Lietotāja tīmekļa saskarne - Nodrošina lietotājdraudzīgu saskarni jebkuriem uzdevumiem, kas pārvadātājam varētu būt nepieciešami saistībā ar ierīču pārvaldību, darbinieku pārvaldību, biļešu atskaitēm, GPS atskaitēm un citiem."
+              },
+              {
+                "text": "Servisa saskarne - Nodrošina piekļuvi visām sistēmas uzturēšanas un atbalsta funkcijām."
+              },
+              {
+                "text": "Ierīces API - Ierīce ietver 49 RESTful metodes saziņai ar maršruta biļešu ierīcēm. Šīs metodes nodrošina ierīcēm būtiskos datus (piemēram, darbiniekus, vadītājus, autobusus, biļešu veidus, elektronisko biļešu veidus, pieturas, reisus, maršrutus utt.), kas nepieciešami biļešu pārdošanai sabiedriskajā transportā, kā arī ierīču ģenerētos datus (biļetes, elektronisko biļešu validācijas, telemetriju utt.",
+                "subItems": [
+                  {
+                    "theme": "light",
+                    "p": ["Pašreizējie trīs galvenie lietojumprogrammu veidi"],
+                    "ul": [
+                      {
+                        "text": "UPOS - Android lietojumprogramma, kas izstrādāta sabiedriskā transporta operatoriem ar intuitīvu lietotāja saskarni un funkcijām, kas vienkāršo darbplūsmu. Tās galvenā funkcija ir biļešu pārdošana maršrutā."
+                      },
+                      {
+                        "text": "AB2 - Android lietojumprogramma, kas izstrādāta elektronisko biļešu pieņemšanai."
+                      },
+                      {
+                        "text": "Mobilā lietotne (pieejama Android un Apple), kas pārdod biļešu kodus, ģenerē QR kodus un tos validē."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "Pārdevēju API - Nodrošina pilnu funkcionalitāti biļešu uzglabāšanai un ļauj pārdevējiem integrēt savas back-end sistēmas biļešu pārdošanai savās platformās. Vienkāršota API shēma ļauj racionalizētu integrāciju trešajām pusēm ar jebkādu pieredzes līmeni."
+              },
+              {
+                "text": "Integrēto sistēmu API - Atbalsta integrācijas ar vairākām informācijas sistēmām dažādiem mērķiem:",
+                "subItems": [
+                  {
+                    "theme": "light",
+                    "ul": [
+                      {
+                        "text": "Valdības transporta direktīvas, kas izstrādā sabiedriskā transporta informācijas sistēmas."
+                      },
+                      {
+                        "text": "Integrācija tiek izmantota, lai apkopotu informāciju par reisu pamatdatiem (piem., pieturām, reisiem, tarifu tabulām, maršrutiem utt.)."
+                      },
+                      {
+                        "text": "Mobilā lietotne (pieejama Android un Apple), kas pārdod biļešu kodus, ģenerē QR kodus un tos validē."
+                      },
+                      {
+                        "text": "Integrācija tiek izmantota, lai nosūtītu informāciju par izpildītajiem reisiem un pārdotajām biļetēm."
+                      },
+                      {
+                        "text": "Vadošā tiešsaistes un autobusu staciju biļešu pārdošanas sistēma Latvijā, \"BalticLines\"."
+                      },
+                      {
+                        "text": "Integrācija tiek izmantota, lai apkopotu informāciju par pārdotajām biļetēm, kas vēlāk tiek izmantota lietotājiem, lai ģenerētu visaptverošas atskaites sistēmas tīmekļa saskarnē."
+                      },
+                      {
+                        "text": "Pašvaldību subsīdiju pārvaldības sistēmas."
+                      },
+                      {
+                        "text": "Integrācija tiek izmantota, lai apkopotu informāciju par pašvaldības piešķirtajām subsīdijām sabiedriskajam transportam, kas vēlāk tiek izmantota braucienu validācijai, izmantojot elektronisko ID."
+                      },
+                      {
+                        "text": "Integrācija tiek izmantota, lai nosūtītu informāciju par izmantotajām subsīdijām pašvaldības sistēmai."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "callout": {
+    "title": "Valdība",
+    "theme": "light",
+    "bgImage": "/assets/images/bg-hero-govenment.png"
+  },
+  "citykey": {
+    "theme": "dark",
+    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "bgImageAlt": "Fona attēls CityKey sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "CityKey",
+            "p": [
+              "Sadarbībā ar MasterCard mēs piedāvājam unikālu produktu, kas nodrošina iedzīvotājiem piekļuvi priekšrocībām pie jebkura tirgotāja, kas pieņem MasterCard maksājumu kartes.",
+              "Karte kalpo kā maksājumu karte, bankas konts un ID, lai apstiprinātu tiesības uz pabalstiem. Tā uzglabā elektroniskās transporta biļetes, līdzīgi kā vietējā slēgtā cikla karte, un darbojas globāli kā MasterCard debetkarte.",
+              "Ar šo karti iedzīvotāji var:"
+            ],
+            "ul": [
+              { "text": "Saņemt sociālos pabalstus un atlaides" },
+              { "text": "Izmantot to kā sabiedriskā transporta e-biļeti" },
+              { "text": "Veikt parastos MasterCard maksājumus" }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/card-city-key.png",
+              "alt": "CityKey kartes attēls",
+              "width": 448,
+              "height": 439
+            },
+            "a": {
+              "href": "/learn-more",
+              "text": "Uzzināt vairāk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "transit": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls Transporta sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Transports",
+            "p": [
+              "TransactFleet biļešu sistēma tiek izmantota simtiem autobusu visā Baltijā. Jūs varat ērti piekļūt biļetēm saviem braucieniem, izmantojot CityKey karti vai Transact Mobile lietotni, neatkarīgi no tā, vai jums nepieciešama QR biļete vai vienkārši izmantojat CityKey karti, lai identificētu sevi un nekavējoties saņemtu e-biļeti.",
+              "CityKey vai mobilā lietotne nodrošina piekļuvi:"
+            ],
+            "ul": [
+              { "text": "Kartes un konta biļetes" },
+              { "text": "QR biļetes" },
+              { "text": "Pabalstu/sociālās biļetes (braucieni ar atlaidi)" }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/transit.png",
+              "alt": "Transporta attēls",
+              "width": 448,
+              "height": 448
+            },
+            "a": {
+              "href": "/learn-more",
+              "text": "Uzzināt vairāk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "gov": {
+    "theme": "blue",
+    "bgImage": "/assets/patterns/blue/pattern_07.png",
+    "bgImageAlt": "Fona attēls Valdības plūsmas sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/gov-flow.png",
+              "alt": "Valdības plūsmas attēls",
+              "width": 1610,
+              "height": 704
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

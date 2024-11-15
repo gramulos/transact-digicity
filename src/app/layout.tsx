@@ -1,7 +1,5 @@
-import type { Metadata, Viewport } from "next";
-import { GoogleTagManager } from "@next/third-parties/google";
+import type { Viewport } from "next";
 import localFont from "next/font/local";
-import seoData from "@/data/en/seo-data.json";
 import "./globals.css";
 
 const graphikLCWeb = localFont({
@@ -107,36 +105,6 @@ export const viewport: Viewport = {
   userScalable: false,
 };
 
-export const metadata: Metadata = {
-  title: seoData.title,
-  description: seoData.description,
-  robots: "all",
-  manifest: "/assets/manifest/manifest.json",
-  icons: {
-    icon: [
-      {
-        url: "/assets/manifest/favicon-32x32.png",
-        sizes: "32x32",
-        type: "image/png",
-      },
-      {
-        url: "/assets/manifest/favicon-16x16.png",
-        sizes: "16x16",
-        type: "image/png",
-      },
-    ],
-    apple: [
-      {
-        url: "/assets/manifest/apple-touch-icon.png",
-        sizes: "180x180",
-        type: "image/png",
-      },
-    ],
-  },
-  twitter: seoData.twitter,
-  openGraph: seoData.openGraph,
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -144,9 +112,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {process.env.NEXT_PUBLIC_GTM_ID && (
-        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
-      )}
       <body className={`${graphikLCWeb.variable} antialiased`}>{children}</body>
     </html>
   );

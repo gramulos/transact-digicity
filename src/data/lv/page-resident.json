@@ -1,0 +1,135 @@
+{
+  "callout": {
+    "title": "Iedzīvotājs",
+    "description": [
+      "Mūsdienīgs un ērts veids, kā iedzīvotājiem pārvaldīt un piekļūt ikdienas aktivitātēm, piemēram, pabalstiem, komunālo pakalpojumu maksājumiem, transportam, medicīnas pakalpojumiem un sabiedriskajām iestādēm — viss integrēts vienā rīkā, kas tiek pieņemts visur, kur pieņem MasterCard."
+    ],
+    "theme": "light",
+    "bgImage": "/assets/images/bg-hero-resident.png"
+  },
+  "citykey": {
+    "theme": "dark",
+    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "bgImageAlt": "Fona attēls CityKey sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "CityKey",
+            "p": [
+              "Sadarbībā ar MasterCard mēs piedāvājam unikālu produktu, kas nodrošina iedzīvotājiem piekļuvi pabalstiem jebkurā tirdzniecības vietā, kas pieņem MasterCard maksājumu kartes.",
+              "Karte kalpo kā maksājumu karte, bankas konts un ID, lai apstiprinātu tiesības uz pabalstiem. Tajā tiek glabātas elektroniskās transporta biļetes, līdzīgi kā vietējā slēgtā cikla kartē, un tā darbojas globāli kā MasterCard debetkarte.",
+              "Ar šo karti iedzīvotāji var:"
+            ],
+            "ul": [
+              { "text": "Saņemt sociālos pabalstus un atlaides" },
+              { "text": "Izmantot to kā sabiedriskā transporta e-biļeti" },
+              { "text": "Veikt parastos MasterCard maksājumus" }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/card-city-key.png",
+              "alt": "CityKey kartes attēls",
+              "width": 448,
+              "height": 439
+            },
+            "a": {
+              "href": "/learn-more",
+              "text": "Learn more"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "transit": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Fona attēls Transporta sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Transports",
+            "p": [
+              "TransactFleet biļešu sistēma tiek izmantota simtiem autobusu Baltijas valstīs. Jūs varat ērti piekļūt biļetēm saviem braucieniem, izmantojot CityKey karti vai Transact Mobile lietotni, neatkarīgi no tā, vai jums nepieciešama QR biļete vai vienkārši izmantojat CityKey karti, lai identificētu sevi un nekavējoties saņemtu e-biļeti.",
+              "CityKey vai mobilā lietotne nodrošina piekļuvi:"
+            ],
+            "ul": [
+              { "text": "Kartes un konta biļetes" },
+              { "text": "QR biļetes" },
+              { "text": "Pabalstu/sociālās biļetes (braucieni ar atlaidi)" }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/transit.png",
+              "alt": "Transporta attēls",
+              "width": 448,
+              "height": 448
+            },
+            "a": {
+              "href": "/learn-more",
+              "text": "Learn more"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "giftCards": {
+    "theme": "blue",
+    "bgImage": "/assets/patterns/blue/pattern_07.png",
+    "bgImageAlt": "Fona attēls Dāvanu karšu sadaļai",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Dāvanu kartes",
+            "p": [
+              "Mēs piedāvājam MasterCard dāvanu kartes sadarbībā ar 15 tirdzniecības centriem Latvijā. Šīs kartes var izmantot šajos tirdzniecības centros vai jebkurā tirdzniecības vietā, kas pieņem MasterCard maksājumu kartes. Mēs aicinām jūs izbaudīt brīvību un elastību, ko sniedz dāvana, kuru var izmantot visur, kur pieņem MasterCard.",
+              "Dāvanu kartes var iegādāties informācijas centros, tiešsaistē (www.ISTA.lv) vai mūsu pašapkalpošanās kioskos."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/gift-cards.png",
+              "alt": "Dāvanu karšu attēls",
+              "width": 643,
+              "height": 657
+            },
+            "a": {
+              "href": "/learn-more",
+              "text": "Learn more"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

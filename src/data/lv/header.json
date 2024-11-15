@@ -1,0 +1,15 @@
+{
+  "logoAlt": "DigiCity",
+  "tagline": "Vienkārša piekļuve finanšu pakalpojumiem un priekšrocībām",
+  "languages": ["EN", "LV"],
+  "navItems": [
+    {
+      "text": "Pieslēgties",
+      "href": "#login"
+    },
+    {
+      "text": "Aktivizēt",
+      "href": "#activate"
+    }
+  ]
+}
