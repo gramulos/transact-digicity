@@ -1,0 +1,214 @@
+{
+  "callout": {
+    "title": "Gift Cards",
+    "description": [
+      "We provide a comprehensive solution for Mastercard White Label Gift Card issuance, streamlining every step from card issuance to transaction processing. Our services enable shopping malls to offer branded, closed-loop prepaid cards that work seamlessly at any Mastercard-accepting merchant within the designated location. The entire gift card program is fully managed, offering robust functionality and ease of integration."
+    ],
+    "theme": "dark",
+    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "isFullWidth": true,
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/cards-4-left.png",
+              "alt": "4 left cards",
+              "height": 400,
+              "width": 592
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/cards-4-right.png",
+              "alt": "4 left cards",
+              "height": 400,
+              "width": 592
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": {
+    "theme": "light",
+    "title": [
+      {
+        "h2": "Key Features of the Solution"
+      }
+    ],
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Key Features of the Solution",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h3": "Gift Card Setup & Compliance",
+            "ul": [
+              {
+                "text": "End-to-end coordination with Mastercard for program launch."
+              },
+              {
+                "text": "Registration of distributors with Latvijas Banka (FCMK)."
+              },
+              {
+                "text": "In-house card personalization & storage."
+              },
+              {
+                "text": "Compliance with Mastercard’s design and transaction standards."
+              }
+            ]
+          },
+          {
+            "h3": "Processing & Reporting",
+            "ul": [
+              {
+                "text": "Automated settlements according to Mastercard standards."
+              },
+              {
+                "text": "Detailed monthly reports (activated cards, transaction volume, average purchase amounts) for mall management."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "start",
+        "data": [
+          {
+            "h3": "API and System Integration",
+            "ul": [
+              {
+                "text": "API integration for real-time balance inquiries and transaction history."
+              },
+              {
+                "text": "POS terminal setup and specifications tailored for shopping mall info centers."
+              },
+              {
+                "text": "24/7 technical support to ensure smooth operations."
+              }
+            ]
+          },
+          {
+            "h3": "Processing & Reporting",
+            "ul": [
+              {
+                "text": "Magnetic stripe with instant activation and default PIN setup."
+              },
+              {
+                "text": "Valid at any Mastercard-accepting merchant within the shopping mall."
+              },
+              {
+                "text": "Reloadable value from €10.00 to €150.00 with a six-month validity."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "kiosk": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for kiosk section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Kiosk",
+            "p": [
+              "Gift card kiosks are user-friendly and  allow customers to purchase gift cards  with their chosen value. They also provide  customers with the option to check their  gift card balance directly at the kiosk.  These kiosks are an excellent solution  for offering customers a convenient,  self-service way to purchase gift cards  without needing assistance from an  information center. Each kiosk comes  equipped with a comprehensive  reporting and receipt system, along with  various technical options. The software  is proprietary, developed in-house, and  can be customized to meet the specific  business needs of each customer."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/images/kiosk.png",
+              "alt": "City key",
+              "height": 500,
+              "width": 200
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "kioskBenefits": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for Benefits of Gift Card Kiosks Customers section",
+    "columns": [
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h2": "Benefits of Gift Card Kiosks Customers",
+            "ul": [
+              {
+                "text": "Easy and convenient to use."
+              },
+              {
+                "text": "Ability to check card balance."
+              },
+              {
+                "text": "Receipt provided for gift card purchase."
+              },
+              {
+                "text": "Gift card packaging available (at T/C's discretion)."
+              }
+            ]
+          },
+          {
+            "h2": "Benefits of Gift Card Kiosks in Shopping Centers",
+            "ul": [
+              {
+                "text": "Increases the number of shopping center visitors."
+              },
+              {
+                "text": "Easy and convenient to install and integrate."
+              },
+              {
+                "text": "Automatic reporting system."
+              },
+              {
+                "text": "Notifications for low receipt paper."
+              },
+              {
+                "text": "Easy and convenient to install and integrate."
+              },
+              {
+                "text": "Remote management capabilities."
+              },
+              {
+                "text": "Adaptable to shopping center design."
+              }
+            ],
+            "a": {
+              "href": "/apply",
+              "text": "Apply Now"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

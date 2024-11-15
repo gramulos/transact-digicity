@@ -2,17 +2,18 @@ import React from "react";
 import Image from "next/image";
 import Callout, { CalloutProps } from "./Callout";
 import Container from "../Container";
+import RichText, { RichTextElement } from "../RichText";
+import { cn } from "@/utils/styles";
+import { DataProps } from "../Section";
+
+type ImageItem = { src: string; alt: string; width: number; height: number };
 
 type HeroBannerProps = {
   isFullWidth?: boolean;
   backgroundImage: string;
   callout: CalloutProps;
-  image?: {
-    src: string;
-    alt: string;
-    width: number;
-    height: number;
-  };
+  image?: ImageItem;
+  columns?: DataProps[];
 };
 
 const HeroBanner: React.FC<HeroBannerProps> = (props) => {
@@ -34,9 +35,13 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
           className="absolute inset-0 object-cover w-full h-full"
         />
         <Container
-          className={`grid grid-cols-1 ${
-            props.isFullWidth ? "" : "lg:grid-cols-2"
-          } align-middle gap-32 lg:gap-56`}
+          className={cn(
+            `grid grid-cols-1 ${props.isFullWidth ? "" : "lg:grid-cols-2"}`,
+            {
+              "gap-32 lg:gap-56 align-middle": !props.columns,
+              "gap-14 lg:gap-0": props.columns,
+            }
+          )}
         >
           <Callout
             theme={props.callout.theme === "light" ? "dark" : "light"}
@@ -52,6 +57,24 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
                 height={props.image.height}
                 className="max-w-sm"
               />
+            )}
+            {props.columns && (
+              <div
+                className={cn("gap-14 grid grid-cols-1", {
+                  "sm:grid-cols-2 xl:grid-cols-4 gap-10":
+                    props.columns.length === 4,
+                  "sm:grid-cols-2 lg:grid-cols-3 gap-14":
+                    props.columns.length === 3,
+                  "sm:grid-cols-2 gap-16": props.columns.length === 2,
+                })}
+              >
+                {props.columns.map((col, index) => (
+                  <RichText
+                    key={`${col.horizontalAlign}_${col.verticalAlign}_${index}`}
+                    data={col.data}
+                  />
+                ))}
+              </div>
             )}
           </div>
         </Container>

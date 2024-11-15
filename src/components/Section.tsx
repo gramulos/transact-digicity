@@ -8,7 +8,7 @@ import { cn } from "@/utils/styles";
 import RichText, { RichTextElement } from "./RichText";
 import Heading from "./Heading";
 
-type DataProps = {
+export type DataProps = {
   horizontalAlign?: string;
   verticalAlign?: string;
   outline?: boolean;
