@@ -34,13 +34,15 @@ const Header: React.FC<HeaderProps> = (props) => {
     <header className="absolute top-0 z-10 flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full">
       <Container className="flex w-full justify-between">
         <div className="flex gap-10 items-end">
-          <Image
-            src={`/assets/logo-${props.theme}.svg`}
-            alt={props.logoAlt}
-            width={208}
-            height={41}
-            className="object-contain shrink-0"
-          />
+          <Link href="/" className="flex gap-4 items-center">
+            <Image
+              src={`/assets/logo-${props.theme}.svg`}
+              alt={props.logoAlt}
+              width={208}
+              height={41}
+              className="object-contain shrink-0"
+            />
+          </Link>
           <p
             className={cn(
               "text-sm hidden xl:block",

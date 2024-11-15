@@ -13,19 +13,13 @@ export default function Home() {
       <HeroBanner
         backgroundImage="/assets/patterns/light/pattern_06.png"
         callout={data.callout}
-      />
-      <Section
-        theme={data.benefitImages.theme}
-        bgImage={data.benefitImages.bgImage}
-        bgImageAlt={data.benefitImages.bgImageAlt}
-        columns={data.benefitImages.columns.map((column) => ({
+        isFullWidth={data.callout.isFullWidth}
+        columns={data.callout.columns.map((column) => ({
           ...column,
-          theme: data.benefitImages.theme,
-          horizontalAlign: column.horizontalAlign,
-          verticalAlign: column.verticalAlign,
+          theme: data.callout.theme,
           data: column.data.map((item) => ({
             ...item,
-            theme: data.benefitImages.theme,
+            theme: data.callout.theme,
           })),
         }))}
       />

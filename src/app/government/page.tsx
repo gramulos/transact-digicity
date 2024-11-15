@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <Header {...headerData} theme="light" />
       <HeroBanner
-        theme={data.callout.theme}
         backgroundImage={data.callout.bgImage}
         callout={{
           title: data.callout.title,
+          theme: data.callout.theme,
         }}
       />
       <Section

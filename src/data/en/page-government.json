@@ -65,7 +65,7 @@
             ],
             "ul": [
               { "text": "Card & Account-Based Tickets" },
-              { "texdt": "QR Tickets" },
+              { "text": "QR Tickets" },
               { "text": "Benefit/Social Tickets (Discounted Rides)" }
             ]
           }

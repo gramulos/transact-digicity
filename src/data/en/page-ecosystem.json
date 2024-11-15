@@ -4,13 +4,9 @@
     "description": [
       "CityKey, Transit Solutions, Smart POS systems, and Gift Cards are seamlessly  integrated into a unified ecosystem that transforms urban living and business  operations. With CityKey, residents can effortlessly access city services, from  public transit to community programs, all through a single, secure platform.  This integration extends to our Transit Solutions, where real-time updates and  easy payment options are just a tap away, ensuring that daily commutes are  not only streamlined but also personalized to each resident’s needs."
     ],
-    "theme": "light",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png"
-  },
-  "benefitImages": {
-    "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
-    "bgImageAlt": "Background image for Benefit section",
+    "theme": "dark",
+    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "isFullWidth": true,
     "columns": [
       {
         "horizontalAlign": "center",
