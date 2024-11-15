@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: dict?.seoData.title,
     description: dict?.seoData.description,
-    robots: "all",
+    robots: "noindex, nofollow",
     manifest: "/assets/manifest/manifest.json",
     icons: {
       icon: [
@@ -49,7 +49,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: dict?.seoData.openGraph,
   };
 }
-
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
