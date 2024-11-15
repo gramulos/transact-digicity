@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Callout, { CalloutProps } from "./Callout";
 import Container from "../Container";
-import RichText, { RichTextElement } from "../RichText";
+import RichText from "../RichText";
 import { cn } from "@/utils/styles";
 import { DataProps } from "../Section";
 

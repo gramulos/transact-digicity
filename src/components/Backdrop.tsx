@@ -1,7 +1,5 @@
 "use client";
-import React from "react";
-import { createPortal } from "react-dom";
-import { useState } from "react";
+import React, { useState } from "react";
 
 interface BackdropProps {
   className?: string;

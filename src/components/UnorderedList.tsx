@@ -51,7 +51,7 @@ const UnorderedList: React.FC<UnorderedListProps> = ({
               )}
             />
           )}
-          {item.icon && <Image {...item.icon} />}
+          {item.icon && <Image {...item.icon} alt="icon" />}
           <span
             className={cn("break-words italic", {
               "pr-6 pl-11": item.disableListStyle,

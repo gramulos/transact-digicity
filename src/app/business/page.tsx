@@ -13,7 +13,6 @@ export default function Home() {
       <HeroBanner
         backgroundImage={data.callout.bgImage}
         callout={data.callout}
-        theme={data.callout.theme}
       />
       <Section
         theme={data.citykey.theme}
