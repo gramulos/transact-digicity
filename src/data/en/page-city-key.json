@@ -9,55 +9,41 @@
     "image": {
       "src": "/assets/images/hero-img-city-key.png",
       "alt": "City key",
-      "width": 691,
-      "height": 867
+      "width": 400,
+      "height": 500
     }
   },
   "citykey": {
-    "theme": "dark",
-    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
     "bgImageAlt": "Background image for CityKey section",
+    "showAsRows": true,
     "columns": [
       {
         "horizontalAlign": "start",
         "verticalAlign": "center",
         "data": [
           {
-            "h2": "CityKey",
-            "p": [
-              "In cooperation with MasterCard, we offer a unique product that provides residents with access to benefits at any merchant that accepts MasterCard payment cards.",
-              "The card serves as a payment card, bank account, and ID to confirm eligibility for benefits. It stores electronic transit tickets, like a local closed-loop card, and functions globally as a MasterCard debit card.",
-              "With this card, residents are able to:"
-            ],
             "ul": [
-              { "text": "Receive social benefits & discounts" },
-              { "text": "Use it as a public transportation e-ticket" },
-              { "text": "Make regular MasterCard payments" }
-            ]
-          }
-        ]
-      },
-      {
-        "horizontalAlign": "center",
-        "verticalAlign": "center",
-        "data": [
-          {
-            "img": {
-              "src": "/assets/images/card-city-key.png",
-              "alt": "CityKey card image",
-              "width": 448,
-              "height": 439
-            },
-            "a": {
-              "href": "/learn-more",
-              "text": "Learn more"
-            }
+              { "text": "Receiving Social Benefits" },
+              { "text": "Discounts in Selected Usage Scenarios" },
+              {
+                "text": "Managing Subsidized Payments (public transport, school meals, pools, libraries, clubs, pharmacies, and medical services)."
+              },
+              {
+                "text": "Resident Identification & Access Control Tools (school, university facilities, & activities)"
+              },
+              {
+                "text": "Open-Loop Payment Management (including loyalty programs)"
+              }
+            ],
+            "h3": "The multi-functional MasterCard CityKey card is a payment instrument that combines payment functions, subscription tickets, and identification tools. It also serves as a means to access municipal and state benefits and privileges."
           }
         ]
       }
     ]
   },
-  "transit": {
+  "functionalityServices": {
     "theme": "light",
     "bgImage": "/assets/patterns/light/pattern_01.png",
     "bgImageAlt": "Background image for Transit section",
@@ -65,55 +51,84 @@
       {
         "horizontalAlign": "start",
         "verticalAlign": "center",
+        "title": "Card Functionality",
+        "outlineChilds": true,
         "data": [
           {
-            "h2": "Transit",
-            "p": [
-              "The TransactFleet ticketing solution is used in hundreds of buses across the Baltic states. You can conveniently access tickets for your rides using your CityKey card or the Transact Mobile application, whether you need a QR ticket or simply use your CityKey card to identify yourself and receive an e-ticket right away.",
-              "CityKey or the mobile app provide access to:"
-            ],
             "ul": [
-              { "text": "Card & Account-Based Tickets" },
-              { "text": "QR Tickets" },
-              { "text": "Benefit/Social Tickets (Discounted Rides)" }
+              {
+                "text": "MasterCard Debit Payment Card"
+              },
+              {
+                "text": "3-Year Expiry Term"
+              },
+              {
+                "text": "MiFare 1K Micro-chip "
+              },
+              {
+                "text": "Serves as Identification Card"
+              },
+              {
+                "text": "Bar Code Subscription Access"
+              },
+              {
+                "text": "Remote ID with Municipal Assistance"
+              }
             ]
           }
         ]
       },
       {
-        "horizontalAlign": "center",
+        "horizontalAlign": "start",
         "verticalAlign": "center",
+        "title": "Our Services",
+        "outlineChilds": true,
         "data": [
           {
-            "img": {
-              "src": "/assets/images/transit.png",
-              "alt": "Transit image",
-              "width": 448,
-              "height": 448
-            },
-            "a": {
-              "href": "/learn-more",
-              "text": "Learn more"
-            }
+            "ul": [
+              {
+                "text": "Instant Online Benefit Calculation"
+              },
+              {
+                "text": "Benefit Transfers from Provider to Receiver Account"
+              },
+              {
+                "text": "CityKey Card Issuing & Service"
+              },
+              {
+                "text": "Customer Support Cardholders & Municipalities"
+              },
+              {
+                "text": "Online Banking Tool & Mobile Application"
+              },
+              {
+                "text": "Integrations with State Benefit Management Information Systems"
+              }
+            ]
           }
         ]
       }
     ]
   },
-  "giftCards": {
-    "theme": "blue",
-    "bgImage": "/assets/patterns/blue/pattern_07.png",
+  "advantages": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_07.png",
     "bgImageAlt": "Background image for Gift Cards section",
+    "title": [
+      {
+        "h2": "Advantages of MasterCard Infrastructure"
+      }
+    ],
+    "showAsRows": true,
     "columns": [
       {
         "horizontalAlign": "start",
         "verticalAlign": "center",
         "data": [
           {
-            "h2": "Gift Cards",
+            "h4": "Social Infrastructure Development",
             "p": [
-              "We provide MasterCard Gift Cards in  cooperation with 15 shopping malls in Latvia.  These cards can be used at those shopping  malls or at any merchant that accepts  MasterCard payment cards. We invite you to  enjoy the freedom and flexibility of the gift that  can be used wherever MasterCard is accepted.",
-              "Gift cards can be purchased at information  desks, online (at www.ISTA.lv), or through our  self-service kiosks."
+              "MasterCard's system transforms the CityKey card into a multifunctional ID, serving as a resident card or school ID. This setup enables objective monitoring and active resident participation in benefit management, with benefits transferred directly to bank accounts. For minors, spending is controlled by replacing cash with card payments limited to approved merchants."
             ]
           }
         ]
@@ -124,15 +139,163 @@
         "data": [
           {
             "img": {
-              "src": "/assets/images/gift-cards.png",
-              "alt": "Gift Cards image",
-              "width": 643,
-              "height": 657
+              "src": "/assets/images/isic-student.png",
+              "alt": "Student ID",
+              "width": 300,
+              "height": 150
+            }
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h4": "Resident Social Support Development",
+            "p": [
+              "This infrastructure ensures 100% benefit access, with identified residents receiving benefits immediately upon purchase at designated merchants. It brings social budget savings by transferring benefits individually per transaction, allowing more recipients without extra budget strain."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h4": "Municipality Budget Structure Change",
+            "p": [
+              "Direct subsidies to residents replace merchant compensation, covering the full value of goods and services. This increases the social budget while reducing the compensation budget, enabling precise benefit distribution through cashless transfers. Budget reports as bank statements simplify oversight and reduce management costs."
+            ]
+          }
+        ]
+      },
+      {
+        "horizontalAlign": "start",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "h4": "Evolution of Benefit Administration Competence",
+            "p": [
+              "Using MasterCard's financial infrastructure, the system secures transactions with oversight from institutions, budget authorities, and merchants. Payments are secure, protect personal data, and ensure that merchants receive the full amount promptly."
+            ],
+            "br": ""
+          }
+        ]
+      }
+    ]
+  },
+  "highlightPanels": [
+    {
+      "title": "Our Partners",
+      "backgroundImage": "/assets/patterns/blue/pattern_03.png",
+      "theme": "light",
+      "data": [
+        {
+          "theme": "dark",
+          "ul": [
+            {
+              "noPadding": true,
+              "text": "MasterCard",
+              "icon": {
+                "src": "/assets/partners/icon-mastercard.svg",
+                "alt": "MasterCard",
+                "width": 114,
+                "height": 58
+              }
+            },
+            {
+              "noPadding": true,
+              "text": "ISIC",
+              "icon": {
+                "src": "/assets/partners/icon-isic.svg",
+                "alt": "ISIC",
+                "width": 114,
+                "height": 58
+              }
+            },
+            {
+              "noPadding": true,
+              "text": "Jelgavas Pilsētas Pašvaldība",
+              "icon": {
+                "src": "/assets/partners/icon-jelgava.svg",
+                "alt": "Jelgavas Pilsētas Pašvaldība",
+                "width": 114,
+                "height": 58
+              }
+            },
+            {
+              "noPadding": true,
+              "text": "Jelgavas Rajona Pašvaldība",
+              "icon": {
+                "src": "/assets/partners/icon-jelgava-municipality.svg",
+                "alt": "Jelgavas Rajona Pašvaldība",
+                "width": 114,
+                "height": 58
+              }
+            },
+            {
+              "noPadding": true,
+              "text": "LBTU",
+              "icon": {
+                "src": "/assets/partners/icon-lbtu.svg",
+                "alt": "LBTU",
+                "width": 114,
+                "height": 58
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Instant Access",
+      "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+      "theme": "light",
+      "data": [
+        {
+          "theme": "dark",
+          "ul": [
+            {
+              "noPadding": true,
+              "text": "Public Transportation Tickets"
+            },
+            {
+              "noPadding": true,
+              "text": "Food & Beverage (Education Sector)"
+            },
+            {
+              "noPadding": true,
+              "text": "Healthcare"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "graph": {
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImageAlt": "Background image for CityKey graph section",
+    "showAsRows": true,
+    "columns": [
+      {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "data": [
+          {
+            "img": {
+              "src": "/assets/graphs/city-key-graph.svg",
+              "alt": "CityKey graph",
+              "width": 1604,
+              "height": 694
             },
             "a": {
-              "href": "/learn-more",
-              "text": "Learn more"
-            }
+              "href": "/apply",
+              "text": "Apply"
+            },
+            "br": ""
           }
         ]
       }

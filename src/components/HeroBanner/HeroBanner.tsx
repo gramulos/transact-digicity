@@ -7,7 +7,6 @@ type HeroBannerProps = {
   isFullWidth?: boolean;
   backgroundImage: string;
   callout: CalloutProps;
-  theme?: string;
   image?: {
     src: string;
     alt: string;
@@ -20,7 +19,7 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
   return (
     <section
       className={`flex overflow-hidden flex-col ${
-        props.theme === "light" ? "text-white" : "text-black"
+        props.callout.theme === "light" ? "text-white" : "text-black"
       } `}
       aria-label="Hero Banner"
     >
@@ -40,6 +39,7 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
           } align-middle gap-32 lg:gap-56`}
         >
           <Callout
+            theme={props.callout.theme === "light" ? "dark" : "light"}
             title={props.callout.title}
             description={props.callout.description}
           />

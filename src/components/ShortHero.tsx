@@ -6,7 +6,7 @@ import Callout, { CalloutProps } from "./HeroBanner/Callout";
 
 type ShortHeroBannerProps = {
   backgroundImage: string;
-  theme?: string;
+  theme: string;
   data: RichTextElement[];
   callout: CalloutProps;
 };
@@ -31,7 +31,7 @@ const ShortHeroBanner: React.FC<ShortHeroBannerProps> = (props) => {
           className="absolute inset-0 object-cover w-full h-full"
         />
         <Container className="text-white">
-          <Callout title={props.callout.title} />
+          <Callout title={props.callout.title} theme={props.theme} />
           <div className="grid grod-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mt-28 md:gap-14">
             <RichText data={props.data} />
           </div>

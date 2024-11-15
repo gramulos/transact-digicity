@@ -22,9 +22,11 @@ type ImageProps = {
 
 export type RichTextElement = Headings & {
   theme: string;
+  br?: string;
   p?: string[];
   ul?: {
     text: string;
+    icon?: ImageProps;
     subitems?: RichTextElement[];
   }[];
   ol?: {
@@ -99,6 +101,7 @@ const Rte = (item: RichTextElement) => {
               p={item.descriptiveImage.p}
             />
           )}
+          {k === "br" && <span className="block mb-36 w-full" />}
           {k === "card" && item.card && (
             <Card
               backgroundImage={item.card.backgroundImage}

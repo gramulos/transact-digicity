@@ -6,18 +6,24 @@ import Image from "next/image";
 import Container from "./Container";
 import { cn } from "@/utils/styles";
 import RichText, { RichTextElement } from "./RichText";
+import Heading from "./Heading";
+
+type DataProps = {
+  horizontalAlign?: string;
+  verticalAlign?: string;
+  outline?: boolean;
+  outlineChilds?: boolean;
+  title?: string;
+  data: RichTextElement[];
+};
 
 type SectionProps = {
   bgImage: string;
   bgImageAlt: string;
   theme: string;
   title?: RichTextElement[];
-  columns: {
-    horizontalAlign?: string;
-    verticalAlign?: string;
-    outline?: boolean;
-    data: RichTextElement[];
-  }[];
+  columns: DataProps[];
+  showAsRows?: boolean;
 };
 
 const Section: React.FC<SectionProps> = ({
@@ -26,6 +32,7 @@ const Section: React.FC<SectionProps> = ({
   bgImageAlt,
   theme,
   title,
+  showAsRows,
 }) => {
   return (
     <section className="relative flex flex-col w-full overflow-hidden">
@@ -42,10 +49,14 @@ const Section: React.FC<SectionProps> = ({
       <Container className="grid gap-10 md:gap-20">
         {title && <RichText data={title} />}
         <div
-          className={cn(`grid grid-cols-1 gap-14`, {
-            "sm:grid-cols-2 xl:grid-cols-4 gap-10": columns.length === 4,
-            "sm:grid-cols-2 lg:grid-cols-3 gap-14": columns.length === 3,
-            "sm:grid-cols-2 gap-16": columns.length === 2,
+          className={cn(`gap-14`, {
+            "grid grid-cols-1": !showAsRows,
+            "sm:grid-cols-2 xl:grid-cols-4 gap-10":
+              columns.length === 4 && !showAsRows,
+            "sm:grid-cols-2 lg:grid-cols-3 gap-14":
+              columns.length === 3 && !showAsRows,
+            "sm:grid-cols-2 gap-16": columns.length === 2 && !showAsRows,
+            "flex flex-col gap-8 md:gap-14": showAsRows,
           })}
         >
           {columns.map((col, index) => (
@@ -59,7 +70,23 @@ const Section: React.FC<SectionProps> = ({
                 { "border border-blue-600 rounded-3xl py-6 pr-16": col.outline }
               )}
             >
-              <RichText data={col.data} />
+              {col.title && (
+                <Heading theme={theme} headerTag="h2">
+                  {col.title}
+                </Heading>
+              )}
+              {col.outlineChilds ? (
+                <div
+                  className={cn({
+                    "border border-blue-600 rounded-3xl w-full h-full py-16 pr-16":
+                      col.outlineChilds,
+                  })}
+                >
+                  <RichText data={col.data} />
+                </div>
+              ) : (
+                <RichText data={col.data} />
+              )}
             </div>
           ))}
         </div>
