@@ -43,12 +43,19 @@ export default {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0%)" },
         },
+        bannermoveleft: {
+          "0%": { transform: "translateX(0)" },
+          "100%": {
+            transform: "translateX(calc(-50% - (theme(spacing.8) / 2)))",
+          },
+        },
       },
       animation: {
         marquee: "marquee 25s linear infinite",
         marquee2: "marquee2 25s linear infinite",
         fadeIn: "fadeIn 300ms ease-out",
         fadeOut: "fadeOut 300ms ease-out",
+        left: "bannermoveleft 25s linear infinite",
       },
     },
   },

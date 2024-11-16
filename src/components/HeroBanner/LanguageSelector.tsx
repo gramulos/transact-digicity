@@ -73,7 +73,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
                 <li key={language}>
                   <button
                     onClick={() => selectLanguage(language)}
-                    className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100"
+                    className="w-full text-left px-4 py-2 text-sm rounded-md hover:bg-gray-100"
                     role="option"
                     aria-selected={language === selectedLanguage}
                   >
@@ -87,4 +87,5 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = (props) => {
     </div>
   );
 };
+
 export default LanguageSelector;
