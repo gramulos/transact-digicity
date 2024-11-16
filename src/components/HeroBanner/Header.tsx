@@ -15,7 +15,7 @@ import { cn } from "@/utils/styles";
 export type HeaderProps = {
   theme: string;
   logoAlt: string;
-  tagline: string;
+  tagline?: string;
   navItems: {
     text: string;
     href: string;
