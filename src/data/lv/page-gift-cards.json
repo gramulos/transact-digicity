@@ -4,8 +4,8 @@
     "description": [
       "Mēs nodrošinām visaptverošu risinājumu Mastercard White Label dāvanu karšu izsniegšanai, optimizējot katru soli no karšu izsniegšanas līdz darījumu apstrādei. Mūsu pakalpojumi ļauj tirdzniecības centriem piedāvāt zīmola slēgtā cikla priekšapmaksas kartes, kas netraucēti darbojas jebkurā Mastercard pieņemošā tirgotājā noteiktajā vietā. Visa dāvanu karšu programma tiek pilnībā pārvaldīta, piedāvājot spēcīgu funkcionalitāti un vienkāršu integrāciju."
     ],
-    "theme": "dark",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.svg",
     "isFullWidth": true,
     "columns": [
       {
@@ -45,7 +45,7 @@
         "h2": "Risinājuma galvenās iezīmes"
       }
     ],
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Risinājuma galvenās iezīmes",
     "columns": [
       {
@@ -120,7 +120,7 @@
   },
   "kiosk": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls kioska sadaļai",
     "columns": [
       {
@@ -153,7 +153,7 @@
   },
   "kioskBenefits": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls Dāvanu karšu kiosku priekšrocības klientiem sadaļai",
     "columns": [
       {
@@ -203,7 +203,7 @@
               }
             ],
             "a": {
-              "href": "/apply",
+              "href": "https://www.transactpro.eu/lv/#merchants",
               "text": "Pieteikties tagad"
             }
           }

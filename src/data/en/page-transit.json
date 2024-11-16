@@ -5,8 +5,8 @@
       "The Transact Fleet solution is a modern,  turnkey proprietary system that enables  public transportation sector companies  to store, issue, and validate tickets,  accept payments, and generate reports.  The solution is available either \"As A Service\" through RESTful APIs, as  a white-label solution, or with full  on-premise delivery.",
       "This solution is certified and compliant  with the requirements of the Latvian  and Lithuanian state revenue services."
     ],
-    "theme": "dark",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.svg",
     "image": {
       "src": "/assets/images/transit-hero-img.png",
       "alt": "CityKey card image",
@@ -16,7 +16,7 @@
   },
   "deviceCahierSystem": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Device and Cashier System section",
     "columns": [
       {
@@ -57,7 +57,7 @@
   },
   "appAndKey": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for app and key section",
     "columns": [
       {
@@ -108,7 +108,7 @@
   },
   "systemComponents": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for System components section",
     "columns": [
       {

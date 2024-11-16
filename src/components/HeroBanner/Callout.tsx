@@ -3,6 +3,7 @@
  */
 import React from "react";
 import Heading from "../Heading";
+import { cn } from "@/utils/styles";
 
 export type CalloutProps = {
   title: string;
@@ -12,7 +13,12 @@ export type CalloutProps = {
 
 const Callout: React.FC<CalloutProps> = ({ title, description, theme }) => {
   return (
-    <div className="flex flex-col mt-32 font-medium w-full">
+    <div
+      className={cn("flex flex-col mt-32 font-medium w-full", {
+        "text-white": theme === "dark" || theme === "blue",
+        "text-black": theme === "light",
+      })}
+    >
       <Heading theme={theme} headerTag="h1">
         {title}
       </Heading>

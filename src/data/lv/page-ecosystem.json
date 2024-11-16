@@ -4,8 +4,8 @@
     "description": [
       "CityKey, Transporta risinājumi, viedās POS sistēmas un dāvanu kartes ir nevainojami integrētas vienotā ekosistēmā, kas pārveido pilsētas dzīvi un uzņēmējdarbības darbības. Ar CityKey iedzīvotāji var viegli piekļūt pilsētas pakalpojumiem, sākot no sabiedriskā transporta līdz kopienas programmām, izmantojot vienu drošu platformu. Šī integrācija attiecas arī uz mūsu Transporta risinājumiem, kur reāllaika atjauninājumi un vienkāršas maksājumu iespējas ir tikai viena pieskāriena attālumā, nodrošinot, ka ikdienas braucieni ir ne tikai optimizēti, bet arī personalizēti katram iedzīvotājam."
     ],
-    "theme": "dark",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.svg",
     "isFullWidth": true,
     "columns": [
       {
@@ -40,7 +40,7 @@
   },
   "existingIssues": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls esošo problēmu sadaļai",
     "columns": [
       {
@@ -73,7 +73,7 @@
   },
   "keyBenefit": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls galveno priekšrocību sadaļai",
     "columns": [
       {
@@ -94,7 +94,7 @@
   },
   "appAutonomous": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls esošo problēmu sadaļai",
     "title": [
       {
@@ -174,7 +174,7 @@
   },
   "benefits": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls galveno priekšrocību sadaļai",
     "columns": [
       {
@@ -204,7 +204,7 @@
   },
   "administrationBenefits": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls pabalstu administrēšanas sadaļai",
     "columns": [
       {
@@ -226,7 +226,7 @@
   },
   "smeSupport": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls pabalstu administrēšanas sadaļai",
     "title": [
       {
@@ -277,7 +277,7 @@
   },
   "protection": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls pabalstu administrēšanas sadaļai",
     "title": [
       {
@@ -292,26 +292,31 @@
           {
             "ul": [
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Sociālo statusu piešķir un pārvalda tikai labuma devējs."
               },
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Banka seko norādījumiem par pabalstu aprēķiniem un pārskaitījumiem."
               },
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Tirgotāji nezina pircēja sociālo statusu."
               },
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Pabalstu summas tiek reģistrētas tikai pircēja un labuma devēja kontos."
               },
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Labuma devēji un izplatītāji neatkarīgi nosaka pircēju un tirgotāju grupas."
@@ -346,7 +351,7 @@
   },
   "knowledge": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls zināšanu un risinājumu sadaļai",
     "title": [
       {

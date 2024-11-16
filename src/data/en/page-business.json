@@ -4,12 +4,12 @@
     "description": [
       "DigiCity provides businesses with a ready-to-use  platform to manage payment acceptance, loyalty  programs, public transportation ticketing, and fleet  management."
     ],
-    "theme": "light",
+    "theme": "dark",
     "bgImage": "/assets/images/bg-hero-business.png"
   },
   "citykey": {
     "theme": "dark",
-    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "bgImage": "/assets/patterns/dark/pattern_01.svg",
     "bgImageAlt": "Background image for CityKey section",
     "columns": [
       {
@@ -43,8 +43,8 @@
               "height": 439
             },
             "a": {
-              "href": "/learn-more",
-              "text": "city-key"
+              "href": "/city-key",
+              "text": "Learn more"
             }
           }
         ]
@@ -53,7 +53,7 @@
   },
   "transit": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Transit section",
     "columns": [
       {
@@ -96,7 +96,7 @@
   },
   "giftCards": {
     "theme": "blue",
-    "bgImage": "/assets/patterns/blue/pattern_07.png",
+    "bgImage": "/assets/patterns/blue/pattern_07.svg",
     "bgImageAlt": "Background image for Gift Cards section",
     "columns": [
       {
@@ -134,7 +134,7 @@
   },
   "transactSmart": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for TransactSmart section",
     "columns": [
       {

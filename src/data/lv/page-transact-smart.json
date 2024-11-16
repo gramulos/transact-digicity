@@ -7,11 +7,11 @@
       "Šis risinājums, kas paredzēts maziem un vidējiem uzņēmumiem, piedāvā visu, kas tirgotājam nepieciešams, lai sāktu pārdošanu: integrētu kases aparātu, kas sertificēts nodokļu iestādēs, krājumu pārvaldību, iebūvētu bankas karšu pieņemšanu un daudz ko citu — viss vienā vienkāršā līgumā."
     ],
     "theme": "light",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png"
+    "backgroundImage": "/assets/patterns/light/pattern_05.svg"
   },
   "sunmiP2": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls Sunmi P2 sadaļai",
     "columns": [
       {
@@ -36,7 +36,7 @@
   },
   "deviceCahierSystem": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls ierīces un kases sistēmas sadaļai",
     "columns": [
       {

@@ -4,8 +4,8 @@
     "description": [
       "CityKey, Transit Solutions, Smart POS systems, and Gift Cards are seamlessly  integrated into a unified ecosystem that transforms urban living and business  operations. With CityKey, residents can effortlessly access city services, from  public transit to community programs, all through a single, secure platform.  This integration extends to our Transit Solutions, where real-time updates and  easy payment options are just a tap away, ensuring that daily commutes are  not only streamlined but also personalized to each resident’s needs."
     ],
-    "theme": "dark",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.svg",
     "isFullWidth": true,
     "columns": [
       {
@@ -40,7 +40,7 @@
   },
   "existingIssues": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Existing issues section",
     "columns": [
       {
@@ -73,7 +73,7 @@
   },
   "keyBenefit": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for key Benefit section",
     "columns": [
       {
@@ -94,7 +94,7 @@
   },
   "appAutonomous": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Existing issues section",
     "title": [
       {
@@ -174,7 +174,7 @@
   },
   "benefits": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for key Benefit section",
     "columns": [
       {
@@ -204,7 +204,7 @@
   },
   "administrationBenefits": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Administration of Benefits section",
     "columns": [
       {
@@ -226,7 +226,7 @@
   },
   "smeSupport": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Administration of Benefits section",
     "title": [
       {
@@ -277,7 +277,7 @@
   },
   "protection": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Administration of Benefits section",
     "title": [
       {
@@ -292,26 +292,31 @@
           {
             "ul": [
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Social status is assigned and managed exclusively by the benefactor."
               },
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "The bank follows instructions for benefit calculations and transfers."
               },
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Merchants remain unaware of the buyer’s social status."
               },
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Benefit amounts are recorded only in the accounts of the buyer and the benefactor."
               },
               {
+                "noPadding": true,
                 "outline": true,
                 "disableListStyle": true,
                 "text": "Benefactors and distributors independently determine buyer and merchant groups."
@@ -346,7 +351,7 @@
   },
   "knowledge": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Knowledge and Solutions section",
     "title": [
       {

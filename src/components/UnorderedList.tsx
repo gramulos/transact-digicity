@@ -34,7 +34,7 @@ const UnorderedList: React.FC<UnorderedListProps> = ({
           className={cn(
             "inline-flex items-start mt-8 w-full first:mt-0 gap-6",
             {
-              "border border-blue-600 rounded-3xl py-6": item.outline,
+              "border border-blue-600 rounded-3xl py-6 px-6": item.outline,
               "items-center": item.icon,
               "pl-16": !item.noPadding,
             }
@@ -54,7 +54,7 @@ const UnorderedList: React.FC<UnorderedListProps> = ({
           {item.icon && <Image {...item.icon} alt="icon" />}
           <span
             className={cn("break-words italic", {
-              "pr-6 pl-11": item.disableListStyle,
+              "px-11": item.disableListStyle,
             })}
           >
             {item.text}

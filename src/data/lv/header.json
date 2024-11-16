@@ -5,11 +5,11 @@
   "navItems": [
     {
       "text": "Pieslēgties",
-      "href": "#login"
+      "href": "https://online.transactpro.lv/"
     },
     {
       "text": "Aktivizēt",
-      "href": "#activate"
+      "href": "https://online.transactpro.lv/"
     }
   ]
 }

@@ -4,12 +4,12 @@
     "description": [
       "Mūsdienīgs un ērts veids, kā iedzīvotājiem pārvaldīt un piekļūt ikdienas aktivitātēm, piemēram, pabalstiem, komunālo pakalpojumu maksājumiem, transportam, medicīnas pakalpojumiem un sabiedriskajām iestādēm — viss integrēts vienā rīkā, kas tiek pieņemts visur, kur pieņem MasterCard."
     ],
-    "theme": "light",
+    "theme": "dark",
     "bgImage": "/assets/images/bg-hero-resident.png"
   },
   "citykey": {
     "theme": "dark",
-    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "bgImage": "/assets/patterns/dark/pattern_01.svg",
     "bgImageAlt": "Fona attēls CityKey sadaļai",
     "columns": [
       {
@@ -43,8 +43,8 @@
               "height": 439
             },
             "a": {
-              "href": "/learn-more",
-              "text": "Learn more"
+              "href": "/city-key",
+              "text": "Uzzināt vairāk"
             }
           }
         ]
@@ -53,7 +53,7 @@
   },
   "transit": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls Transporta sadaļai",
     "columns": [
       {
@@ -86,8 +86,8 @@
               "height": 448
             },
             "a": {
-              "href": "/learn-more",
-              "text": "Learn more"
+              "href": "/transit",
+              "text": "Uzzināt vairāk"
             }
           }
         ]
@@ -96,7 +96,7 @@
   },
   "giftCards": {
     "theme": "blue",
-    "bgImage": "/assets/patterns/blue/pattern_07.png",
+    "bgImage": "/assets/patterns/blue/pattern_07.svg",
     "bgImageAlt": "Fona attēls Dāvanu karšu sadaļai",
     "columns": [
       {
@@ -124,8 +124,8 @@
               "height": 657
             },
             "a": {
-              "href": "/learn-more",
-              "text": "Learn more"
+              "href": "/gift-cards",
+              "text": "Uzzināt vairāk"
             }
           }
         ]

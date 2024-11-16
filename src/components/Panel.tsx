@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Heading from "./Heading";
 import RichText, { RichTextElement } from "./RichText";
+import { cn } from "@/utils/styles";
 
 export interface PanelProps {
   title: string;
@@ -12,12 +13,14 @@ export interface PanelProps {
 
 const Panel: React.FC<PanelProps> = (props) => {
   return (
-    <section
-      className={`flex relative justify-center w-full ${
-        props.theme === "light" ? "text-white" : "text-black"
-      }`}
-    >
-      <div className="flex relative p-10 lg:p-20 xs:min-h-[752px] w-full">
+    <section className={"flex relative justify-center w-full"}>
+      <div
+        className={cn("flex relative p-10 lg:p-20 xs:min-h-[752px] w-full", {
+          "bg-slate-800 text-white": props.theme === "dark",
+          "bg-sky-50 text-black": props.theme === "light",
+          "bg-blue-600 text-white": props.theme === "blue",
+        })}
+      >
         <Image
           src={props.backgroundImage}
           alt={`${props.title} image`}
@@ -28,10 +31,7 @@ const Panel: React.FC<PanelProps> = (props) => {
           className="absolute inset-0 object-cover w-full h-full"
         />
         <div className="flex z-0 flex-col gap-8 sm:gap-14">
-          <Heading
-            theme={props.theme === "light" ? "dark" : "light"}
-            headerTag="h2"
-          >
+          <Heading theme={props.theme} headerTag="h2">
             {props.title}
           </Heading>
           <div className="flex flex-col w-full gap-9">

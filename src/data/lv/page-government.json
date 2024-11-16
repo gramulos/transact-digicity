@@ -1,12 +1,12 @@
 {
   "callout": {
     "title": "Valdība",
-    "theme": "light",
+    "theme": "dark",
     "bgImage": "/assets/images/bg-hero-govenment.png"
   },
   "citykey": {
     "theme": "dark",
-    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "bgImage": "/assets/patterns/dark/pattern_01.svg",
     "bgImageAlt": "Fona attēls CityKey sadaļai",
     "columns": [
       {
@@ -40,7 +40,7 @@
               "height": 439
             },
             "a": {
-              "href": "/learn-more",
+              "href": "/city-key",
               "text": "Uzzināt vairāk"
             }
           }
@@ -50,7 +50,7 @@
   },
   "transit": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls Transporta sadaļai",
     "columns": [
       {
@@ -83,7 +83,7 @@
               "height": 448
             },
             "a": {
-              "href": "/learn-more",
+              "href": "/transit",
               "text": "Uzzināt vairāk"
             }
           }
@@ -93,7 +93,7 @@
   },
   "gov": {
     "theme": "blue",
-    "bgImage": "/assets/patterns/blue/pattern_07.png",
+    "bgImage": "/assets/patterns/blue/pattern_07.svg",
     "bgImageAlt": "Fona attēls Valdības plūsmas sadaļai",
     "columns": [
       {

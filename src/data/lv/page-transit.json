@@ -5,8 +5,8 @@
       "Transact Fleet risinājums ir moderna, gatava patentēta sistēma, kas ļauj sabiedriskā transporta nozares uzņēmumiem uzglabāt, izsniegt un pārbaudīt biļetes, pieņemt maksājumus un ģenerēt atskaites. Risinājums ir pieejams gan kā pakalpojums, izmantojot RESTful API, gan kā white-label risinājums, gan ar pilnīgu uzstādīšanu uz vietas.",
       "Šis risinājums ir sertificēts un atbilst Latvijas un Lietuvas valsts ieņēmumu dienestu prasībām."
     ],
-    "theme": "dark",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.svg",
     "image": {
       "src": "/assets/images/transit-hero-img.png",
       "alt": "CityKey kartes attēls",
@@ -16,7 +16,7 @@
   },
   "deviceCahierSystem": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls ierīču un kases sistēmas sadaļai",
     "columns": [
       {
@@ -57,7 +57,7 @@
   },
   "appAndKey": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls lietotnes un atslēgas sadaļai",
     "columns": [
       {
@@ -108,7 +108,7 @@
   },
   "systemComponents": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls sistēmas komponentu sadaļai",
     "columns": [
       {

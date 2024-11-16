@@ -1,6 +1,6 @@
 {
   "callout": {
-    "bgImage": "/assets/patterns/dark/pattern_04.png",
+    "bgImage": "/assets/patterns/dark/pattern_04.svg",
     "title": "Sāc savu ceļojumu",
     "theme": "dark",
     "data": [
@@ -31,15 +31,15 @@
     ]
   },
   "cards": {
-    "theme": "dark",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "theme": "light",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Kartes fons",
     "columns": [
       {
         "data": [
           {
             "card": {
-              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
               "title": "Pilsētas Atslēga",
               "description": [
                 "CityKey MasterCard nodrošina tūlītēju piekļuvi visiem labumiem, ko piešķīrusi jūsu pašvaldība, universitāte vai iesaistītais tirgotājs."
@@ -56,7 +56,7 @@
         "data": [
           {
             "card": {
-              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
               "title": "Transports",
               "description": [
                 "Uz kontu balstīta biļešu sistēma, reāllaika izsekošana, autoparka pārvaldība, fiskālie moduļi, maksājumu pieņemšana un zīmola mobilā lietotne."
@@ -73,7 +73,7 @@
         "data": [
           {
             "card": {
-              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
               "title": "Transact Smart",
               "description": [
                 "Viss vienā ierīcē, kas paredzēta mazumtirdzniecības nozarei: kases sistēma ar fiskālo moduli un integrētu maksājumu pieņemšanu; pilna tirgotāja administrēšanas sistēma."
@@ -90,7 +90,7 @@
         "data": [
           {
             "card": {
-              "backgroundImage": "/assets/patterns/dark/pattern_03.png",
+              "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
               "title": "Dāvanu Kartes",
               "description": [
                 "MasterCard dāvanu kartes, kas paredzētas tirdzniecības centru, mazumtirdzniecības ķēžu un atsevišķu tirgotāju klientu lojalitātes un zīmola atpazīstamības programmām."
@@ -107,7 +107,7 @@
   },
   "digicity": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls CityKey sadaļai",
     "columns": [
       {

@@ -5,7 +5,7 @@
       "The unique advantage of this solution is that it provides residents with immediate access to their social benefits at any merchant that accepts MasterCard payment cards.",
       "In cooperation with MasterCard, we  invite you to implement the CityKey  solution. As part of the implementation,  Transact Pro issues MasterCard CityKey  payment cards and secures several  functions, including, but not limited to:"
     ],
-    "theme": "dark",
+    "theme": "light",
     "image": {
       "src": "/assets/images/hero-img-city-key.png",
       "alt": "City key",
@@ -15,7 +15,7 @@
   },
   "citykey": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for CityKey section",
     "showAsRows": true,
     "columns": [
@@ -45,7 +45,7 @@
   },
   "functionalityServices": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Transit section",
     "columns": [
       {
@@ -112,7 +112,7 @@
   },
   "advantages": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_07.png",
+    "bgImage": "/assets/patterns/light/pattern_07.svg",
     "bgImageAlt": "Background image for Gift Cards section",
     "title": [
       {
@@ -189,11 +189,10 @@
   "highlightPanels": [
     {
       "title": "Our Partners",
-      "backgroundImage": "/assets/patterns/blue/pattern_03.png",
-      "theme": "light",
+      "backgroundImage": "/assets/patterns/blue/pattern_03.svg",
+      "theme": "blue",
       "data": [
         {
-          "theme": "dark",
           "ul": [
             {
               "noPadding": true,
@@ -251,11 +250,10 @@
     },
     {
       "title": "Instant Access",
-      "backgroundImage": "/assets/patterns/dark/pattern_03.png",
-      "theme": "light",
+      "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
+      "theme": "dark",
       "data": [
         {
-          "theme": "dark",
           "ul": [
             {
               "noPadding": true,
@@ -276,7 +274,7 @@
   ],
   "graph": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for CityKey graph section",
     "showAsRows": true,
     "columns": [
@@ -292,7 +290,7 @@
               "height": 694
             },
             "a": {
-              "href": "/apply",
+              "href": "https://www.transactpro.eu/en/#merchants",
               "text": "Apply"
             },
             "br": ""

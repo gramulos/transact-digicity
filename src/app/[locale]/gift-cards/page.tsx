@@ -18,7 +18,7 @@ export default async function Home({
     <>
       <Header {...dict.header} theme="dark" />
       <HeroBanner
-        backgroundImage="/assets/patterns/light/pattern_06.png"
+        backgroundImage="/assets/patterns/light/pattern_06.svg"
         callout={dict.pageGiftCards.callout}
         isFullWidth={dict.pageGiftCards.callout.isFullWidth}
         columns={dict.pageGiftCards.callout.columns.map((column) => ({

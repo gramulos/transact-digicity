@@ -35,7 +35,13 @@ const Section: React.FC<SectionProps> = ({
   showAsRows,
 }) => {
   return (
-    <section className="relative flex flex-col w-full overflow-hidden">
+    <section
+      className={cn("relative flex flex-col w-full overflow-hidden", {
+        "bg-slate-800": theme === "dark",
+        "bg-sky-50": theme === "light",
+        "bg-blue-600": theme === "blue",
+      })}
+    >
       <Image
         src={bgImage}
         alt={bgImageAlt}

@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import More from "./Icons/More";
 import Heading from "./Heading";
 import Paragraph from "./Paragraph";
+import { cn } from "@/utils/styles";
 
 export type CardProps = {
   backgroundImage: string;
@@ -17,7 +18,16 @@ export type CardProps = {
 
 const Card: React.FC<CardProps> = (props) => {
   return (
-    <div className="relative flex flex-col h-full justify-center py-px w-full shadow-xl shadow-slate-500">
+    <div
+      className={cn(
+        "relative flex flex-col h-full justify-center py-px w-full shadow-xl shadow-slate-500",
+        {
+          "bg-slate-800 text-white": props.theme === "dark",
+          "bg-sky-50": props.theme === "light",
+          "bg-blue-600": props.theme === "blue",
+        }
+      )}
+    >
       <Image
         src={props.backgroundImage}
         alt={"Card bg"}

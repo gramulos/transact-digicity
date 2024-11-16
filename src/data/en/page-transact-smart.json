@@ -7,11 +7,11 @@
       "Designed for small and medium enterprises, this solution offers everything a  merchant needs to start selling: an integrated cash register certified with tax  authorities, inventory management, built-in bank card acceptance, and more — all within a single, straightforward agreement."
     ],
     "theme": "light",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png"
+    "backgroundImage": "/assets/patterns/light/pattern_05.svg"
   },
   "sunmiP2": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Sunmi P2 section",
     "columns": [
       {
@@ -36,7 +36,7 @@
   },
   "deviceCahierSystem": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Device and Cashier System section",
     "columns": [
       {

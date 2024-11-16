@@ -4,8 +4,8 @@
     "description": [
       "We provide a comprehensive solution for Mastercard White Label Gift Card issuance, streamlining every step from card issuance to transaction processing. Our services enable shopping malls to offer branded, closed-loop prepaid cards that work seamlessly at any Mastercard-accepting merchant within the designated location. The entire gift card program is fully managed, offering robust functionality and ease of integration."
     ],
-    "theme": "dark",
-    "backgroundImage": "/assets/patterns/light/pattern_05.png",
+    "theme": "light",
+    "backgroundImage": "/assets/patterns/light/pattern_05.svg",
     "isFullWidth": true,
     "columns": [
       {
@@ -45,7 +45,7 @@
         "h2": "Key Features of the Solution"
       }
     ],
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Key Features of the Solution",
     "columns": [
       {
@@ -120,7 +120,7 @@
   },
   "kiosk": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for kiosk section",
     "columns": [
       {
@@ -153,7 +153,7 @@
   },
   "kioskBenefits": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Background image for Benefits of Gift Card Kiosks Customers section",
     "columns": [
       {
@@ -203,7 +203,7 @@
               }
             ],
             "a": {
-              "href": "/apply",
+              "href": "https://www.transactpro.eu/en/#merchants",
               "text": "Apply Now"
             }
           }

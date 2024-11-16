@@ -19,9 +19,11 @@ type HeroBannerProps = {
 const HeroBanner: React.FC<HeroBannerProps> = (props) => {
   return (
     <section
-      className={`flex overflow-hidden flex-col ${
-        props.callout.theme === "light" ? "text-white" : "text-black"
-      } `}
+      className={cn("flex overflow-hidden flex-col", {
+        "bg-slate-800 text-white": props.callout.theme === "dark",
+        "bg-sky-50 text-black": props.callout.theme === "light",
+        "bg-blue-600 text-white": props.callout.theme === "blue",
+      })}
       aria-label="Hero Banner"
     >
       <div className="flex overflow-hidden relative flex-col w-full min-h-[810px]">
@@ -44,7 +46,7 @@ const HeroBanner: React.FC<HeroBannerProps> = (props) => {
           )}
         >
           <Callout
-            theme={props.callout.theme === "light" ? "dark" : "light"}
+            theme={props.callout.theme}
             title={props.callout.title}
             description={props.callout.description}
           />

@@ -1,15 +1,15 @@
 {
   "callout": {
-    "title": "Bizness",
+    "title": "Uzņēmums",
     "description": [
       "DigiCity nodrošina uzņēmumiem gatavu platformu maksājumu pieņemšanas, lojalitātes programmu, sabiedriskā transporta biļešu un autoparka pārvaldības vadīšanai."
     ],
-    "theme": "light",
+    "theme": "dark",
     "bgImage": "/assets/images/bg-hero-business.png"
   },
   "citykey": {
     "theme": "dark",
-    "bgImage": "/assets/patterns/dark/pattern_01.png",
+    "bgImage": "/assets/patterns/dark/pattern_01.svg",
     "bgImageAlt": "Fona attēls CityKey sadaļai",
     "columns": [
       {
@@ -43,8 +43,8 @@
               "height": 439
             },
             "a": {
-              "href": "/learn-more",
-              "text": "Learn more"
+              "href": "/city-key",
+              "text": "Uzzināt vairāk"
             }
           }
         ]
@@ -53,7 +53,7 @@
   },
   "transit": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls Transporta sadaļai",
     "columns": [
       {
@@ -96,7 +96,7 @@
   },
   "giftCards": {
     "theme": "blue",
-    "bgImage": "/assets/patterns/blue/pattern_07.png",
+    "bgImage": "/assets/patterns/blue/pattern_07.svg",
     "bgImageAlt": "Fona attēls Dāvanu karšu sadaļai",
     "columns": [
       {
@@ -134,7 +134,7 @@
   },
   "transactSmart": {
     "theme": "light",
-    "bgImage": "/assets/patterns/light/pattern_01.png",
+    "bgImage": "/assets/patterns/light/pattern_01.svg",
     "bgImageAlt": "Fona attēls TransactSmart sadaļai",
     "columns": [
       {

@@ -19,7 +19,7 @@ export default async function Home({
     <>
       <Header {...dict.header} theme="dark" />
       <HeroBanner
-        backgroundImage="/assets/patterns/light/pattern_06.png"
+        backgroundImage="/assets/patterns/light/pattern_06.svg"
         callout={dict.pageCityKey.callout}
         image={dict.pageCityKey.callout.image}
       />
@@ -75,7 +75,15 @@ export default async function Home({
           })),
         }))}
       />
-      <Panels panels={dict.pageCityKey.highlightPanels} />
+      <Panels
+        panels={dict.pageCityKey.highlightPanels.map((panel) => ({
+          ...panel,
+          data: panel.data.map((item) => ({
+            ...item,
+            theme: panel.theme,
+          })),
+        }))}
+      />
       <Section
         theme={dict.pageCityKey.graph.theme}
         bgImage={dict.pageCityKey.graph.bgImage}

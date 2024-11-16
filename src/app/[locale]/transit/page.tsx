@@ -18,7 +18,7 @@ export default async function Home({
     <>
       <Header {...dict.header} theme="dark" />
       <HeroBanner
-        backgroundImage="/assets/patterns/light/pattern_06.png"
+        backgroundImage="/assets/patterns/light/pattern_06.svg"
         callout={dict.pageTransit.callout}
         image={dict.pageTransit.callout.image}
       />

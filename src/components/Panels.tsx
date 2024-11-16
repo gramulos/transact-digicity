@@ -7,9 +7,9 @@ type PanelsProps = {
 
 const Panels: React.FC<PanelsProps> = (props) => {
   return (
-    <div className="flex relative flex-col w-full">
+    <div className="flex relative flex-col w-full bg-sky-50">
       <Image
-        src="/assets/patterns/light/pattern_01.png"
+        src="/assets/patterns/light/pattern_01.svg"
         alt="panels bg"
         width={1440}
         height={810}

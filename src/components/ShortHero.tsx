@@ -3,6 +3,7 @@ import Image from "next/image";
 import Container from "./Container";
 import RichText, { RichTextElement } from "./RichText";
 import Callout, { CalloutProps } from "./HeroBanner/Callout";
+import { cn } from "@/utils/styles";
 
 type ShortHeroBannerProps = {
   backgroundImage: string;
@@ -14,9 +15,16 @@ type ShortHeroBannerProps = {
 const ShortHeroBanner: React.FC<ShortHeroBannerProps> = (props) => {
   return (
     <section
-      className={`flex overflow-hidden flex-col ${
-        props.theme === "light" ? "text-white" : "text-black"
-      } `}
+      className={cn(
+        `flex overflow-hidden flex-col ${
+          props.theme === "light" ? "text-white" : "text-black"
+        }`,
+        {
+          "bg-slate-800": props.theme === "dark",
+          "bg-sky-50": props.theme === "light",
+          "bg-blue-600": props.theme === "blue",
+        }
+      )}
       aria-label="Hero Banner"
     >
       <div className="flex overflow-hidden relative flex-col w-full min-h-[310px]">
