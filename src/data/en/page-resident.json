@@ -43,7 +43,7 @@
               "height": 439
             },
             "a": {
-              "href": "/learn-more",
+              "href": "/city-key",
               "text": "Learn more"
             }
           }
@@ -86,7 +86,7 @@
               "height": 448
             },
             "a": {
-              "href": "/learn-more",
+              "href": "/transit",
               "text": "Learn more"
             }
           }
@@ -124,7 +124,7 @@
               "height": 657
             },
             "a": {
-              "href": "/learn-more",
+              "href": "/gift-cards",
               "text": "Learn more"
             }
           }
