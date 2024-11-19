@@ -42,7 +42,7 @@
               "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
               "title": "City Key",
               "description": [
-                "The CityKey Mastercard provides you an immediate access to all benefits assigned by your Municipality, University or participating Merchant."
+                "The Mastercard City Key™ provides you an immediate access to all benefits assigned by your Municipality, University or participating Merchant."
               ],
               "image": "/assets/images/card-city-key.png",
               "moreText": "More",
@@ -108,7 +108,7 @@
   "digicity": {
     "theme": "light",
     "bgImage": "/assets/patterns/light/pattern_01.svg",
-    "bgImageAlt": "Background image for CityKey section",
+    "bgImageAlt": "Background image for Mastercard City Key™ section",
     "columns": [
       {
         "horizontalAlign": "start",

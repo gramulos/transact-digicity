@@ -7,14 +7,14 @@
   "citykey": {
     "theme": "dark",
     "bgImage": "/assets/patterns/dark/pattern_01.svg",
-    "bgImageAlt": "Background image for CityKey section",
+    "bgImageAlt": "Background image for Mastercard City Key™ section",
     "columns": [
       {
         "horizontalAlign": "start",
         "verticalAlign": "center",
         "data": [
           {
-            "h2": "CityKey",
+            "h2": "Mastercard City Key™",
             "p": [
               "In cooperation with Mastercard, we offer a unique product that provides residents with access to benefits at any merchant that accepts Mastercard payment cards.",
               "The card serves as a payment card, bank account, and ID to confirm eligibility for benefits. It stores electronic transit tickets, like a local closed-loop card, and functions globally as a Mastercard debit card.",
@@ -35,7 +35,7 @@
           {
             "img": {
               "src": "/assets/images/card-city-key.png",
-              "alt": "CityKey card image",
+              "alt": "Mastercard City Key™ card image",
               "width": 448,
               "height": 439
             },
@@ -60,8 +60,8 @@
           {
             "h2": "Transit",
             "p": [
-              "The TransactFleet ticketing solution is used in hundreds of buses across the Baltic states. You can conveniently access tickets for your rides using your CityKey card or the Transact Mobile application, whether you need a QR ticket or simply use your CityKey card to identify yourself and receive an e-ticket right away.",
-              "CityKey or the mobile app provide access to:"
+              "The TransactFleet ticketing solution is used in hundreds of buses across the Baltic states. You can conveniently access tickets for your rides using your Mastercard City Key™ card or the Transact Mobile application, whether you need a QR ticket or simply use your Mastercard City Key™ card to identify yourself and receive an e-ticket right away.",
+              "Mastercard City Key™ or the mobile app provide access to:"
             ],
             "ul": [
               { "text": "Card & Account-Based Tickets" },

@@ -1,9 +1,9 @@
 {
   "callout": {
-    "title": "CityKey",
+    "title": "Mastercard City Key™",
     "description": [
       "The unique advantage of this solution is that it provides residents with immediate access to their social benefits at any merchant that accepts Mastercard payment cards.",
-      "In cooperation with Mastercard, we  invite you to implement the CityKey  solution. As part of the implementation,  Transact Pro issues Mastercard CityKey  payment cards and secures several  functions, including, but not limited to:"
+      "In cooperation with Mastercard, we invite you to implement the Mastercard City Key™ solution. As part of the implementation, Transact Pro issues Mastercard City Key™ payment cards and secures several functions, including, but not limited to:"
     ],
     "theme": "light",
     "image": {
@@ -16,7 +16,7 @@
   "citykey": {
     "theme": "light",
     "bgImage": "/assets/patterns/light/pattern_01.svg",
-    "bgImageAlt": "Background image for CityKey section",
+    "bgImageAlt": "Background image for Mastercard City Key™ section",
     "showAsRows": true,
     "columns": [
       {
@@ -37,7 +37,7 @@
                 "text": "Open-Loop Payment Management (including loyalty programs)"
               }
             ],
-            "h3": "The multi-functional Mastercard CityKey card is a payment instrument that combines payment functions, subscription tickets, and identification tools. It also serves as a means to access municipal and state benefits and privileges."
+            "h3": "The multi-functional Mastercard City Key™ card is a payment instrument that combines payment functions, subscription tickets, and identification tools. It also serves as a means to access municipal and state benefits and privileges."
           }
         ]
       }
@@ -93,7 +93,7 @@
                 "text": "Benefit Transfers from Provider to Receiver Account"
               },
               {
-                "text": "CityKey Card Issuing & Service"
+                "text": "Mastercard City Key™ Card Issuing & Service"
               },
               {
                 "text": "Customer Support Cardholders & Municipalities"
@@ -128,7 +128,7 @@
           {
             "h4": "Social Infrastructure Development",
             "p": [
-              "Mastercard's system transforms the CityKey card into a multifunctional ID, serving as a resident card or school ID. This setup enables objective monitoring and active resident participation in benefit management, with benefits transferred directly to bank accounts. For minors, spending is controlled by replacing cash with card payments limited to approved merchants."
+              "Mastercard's system transforms the City Key card into a multifunctional ID, serving as a resident card or school ID. This setup enables objective monitoring and active resident participation in benefit management, with benefits transferred directly to bank accounts. For minors, spending is controlled by replacing cash with card payments limited to approved merchants."
             ]
           }
         ]
@@ -275,7 +275,7 @@
   "graph": {
     "theme": "light",
     "bgImage": "/assets/patterns/light/pattern_01.svg",
-    "bgImageAlt": "Background image for CityKey graph section",
+    "bgImageAlt": "Background image for Mastercard City Key™ graph section",
     "showAsRows": true,
     "columns": [
       {
@@ -285,7 +285,7 @@
           {
             "img": {
               "src": "/assets/graphs/city-key-graph.svg",
-              "alt": "CityKey graph",
+              "alt": "Mastercard City Key™ graph",
               "width": 1604,
               "height": 694
             },

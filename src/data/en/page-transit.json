@@ -9,7 +9,7 @@
     "backgroundImage": "/assets/patterns/light/pattern_05.svg",
     "image": {
       "src": "/assets/images/transit-hero-img.png",
-      "alt": "CityKey card image",
+      "alt": "Mastercard City Key™ card image",
       "width": 448,
       "height": 439
     }
@@ -67,7 +67,7 @@
           {
             "h2": "Mobile App",
             "p": [
-              "For added convenience, real-time  transit updates can be synced  directly with the CityKey app,  ensuring users can plan  their routes efficiently.  This modernized system creates  a more connected, efficient,  and customer-focused  urban experience."
+              "For added convenience, real-time  transit updates can be synced  directly with the Mastercard City Key™ app,  ensuring users can plan  their routes efficiently.  This modernized system creates  a more connected, efficient,  and customer-focused  urban experience."
             ],
             "img": {
               "src": "/assets/images/mobile-app.png",
@@ -89,7 +89,7 @@
           {
             "h2": "City Key",
             "p": [
-              "The DigiCity transit system offers  a seamless experience for  passengers using the innovative \"CityKey.\" This versatile card  serves as both a form of payment  and identification, allowing users  to purchase tickets and travel  across the city effortlessly. "
+              "The DigiCity transit system offers  a seamless experience for  passengers using the innovative \"Mastercard City Key™.\" This versatile card  serves as both a form of payment  and identification, allowing users  to purchase tickets and travel  across the city effortlessly. "
             ],
             "img": {
               "src": "/assets/images/card-city-key.png",

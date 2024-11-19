@@ -1,9 +1,9 @@
 {
   "callout": {
-    "title": "CityKey",
+    "title": "Mastercard City Key™",
     "description": [
       "Šī risinājuma unikālā priekšrocība ir tā, ka tas nodrošina iedzīvotājiem tūlītēju piekļuvi sociālajiem pabalstiem pie jebkura tirgotāja, kas pieņem Mastercard maksājumu kartes.",
-      "Sadarbībā ar Mastercard mēs aicinām jūs ieviest CityKey risinājumu. Ieviešanas ietvaros Transact Pro izsniedz Mastercard CityKey maksājumu kartes un nodrošina vairākas funkcijas, tostarp, bet ne tikai:"
+      "Sadarbībā ar Mastercard mēs aicinām jūs ieviest Mastercard City Key™ risinājumu. Ieviešanas ietvaros Transact Pro izsniedz Mastercard City Key™ maksājumu kartes un nodrošina vairākas funkcijas, tostarp, bet ne tikai:"
     ],
     "theme": "light",
     "image": {
@@ -16,7 +16,7 @@
   "citykey": {
     "theme": "light",
     "bgImage": "/assets/patterns/light/pattern_01.svg",
-    "bgImageAlt": "Fona attēls CityKey sadaļai",
+    "bgImageAlt": "Fona attēls Mastercard City Key™ sadaļai",
     "showAsRows": true,
     "columns": [
       {
@@ -37,7 +37,7 @@
                 "text": "Atvērtās cilpas maksājumu pārvaldība (ieskaitot lojalitātes programmas)"
               }
             ],
-            "h3": "Daudzfunkcionālā Mastercard CityKey karte ir maksājumu instruments, kas apvieno maksājumu funkcijas, abonementu biļetes un identifikācijas rīkus. Tā kalpo arī kā līdzeklis piekļuvei pašvaldību un valsts pabalstiem un privilēģijām."
+            "h3": "Daudzfunkcionālā Mastercard Mastercard City Key™ karte ir maksājumu instruments, kas apvieno maksājumu funkcijas, abonementu biļetes un identifikācijas rīkus. Tā kalpo arī kā līdzeklis piekļuvei pašvaldību un valsts pabalstiem un privilēģijām."
           }
         ]
       }
@@ -93,7 +93,7 @@
                 "text": "Pabalstu pārskaitījumi no sniedzēja uz saņēmēja kontu"
               },
               {
-                "text": "CityKey kartes izsniegšana un apkalpošana"
+                "text": "Mastercard City Key™ kartes izsniegšana un apkalpošana"
               },
               {
                 "text": "Klientu atbalsts karšu turētājiem un pašvaldībām"
@@ -128,7 +128,7 @@
           {
             "h4": "Sociālās infrastruktūras attīstība",
             "p": [
-              "Mastercard sistēma pārveido CityKey karti par daudzfunkcionālu ID, kas kalpo kā iedzīvotāja karte vai skolas ID. Šī sistēma nodrošina objektīvu uzraudzību un aktīvu iedzīvotāju līdzdalību pabalstu pārvaldībā, ar pabalstiem, kas tiek pārskaitīti tieši uz bankas kontiem. Nepilngadīgajiem tēriņi tiek kontrolēti, aizstājot skaidru naudu ar karšu maksājumiem, kas ierobežoti līdz apstiprinātiem tirgotājiem."
+              "Mastercard sistēma pārveido Mastercard City Key™ karti par daudzfunkcionālu ID, kas kalpo kā iedzīvotāja karte vai skolas ID. Šī sistēma nodrošina objektīvu uzraudzību un aktīvu iedzīvotāju līdzdalību pabalstu pārvaldībā, ar pabalstiem, kas tiek pārskaitīti tieši uz bankas kontiem. Nepilngadīgajiem tēriņi tiek kontrolēti, aizstājot skaidru naudu ar karšu maksājumiem, kas ierobežoti līdz apstiprinātiem tirgotājiem."
             ]
           }
         ]
@@ -277,7 +277,7 @@
   "graph": {
     "theme": "light",
     "bgImage": "/assets/patterns/light/pattern_01.svg",
-    "bgImageAlt": "Fona attēls CityKey grafika sadaļai",
+    "bgImageAlt": "Fona attēls Mastercard City Key™ grafika sadaļai",
     "showAsRows": true,
     "columns": [
       {
@@ -287,7 +287,7 @@
           {
             "img": {
               "src": "/assets/graphs/city-key-graph.svg",
-              "alt": "CityKey grafiks",
+              "alt": "Mastercard City Key™ grafiks",
               "width": 1604,
               "height": 694
             },

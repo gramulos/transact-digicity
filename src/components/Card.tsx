@@ -43,7 +43,7 @@ const Card: React.FC<CardProps> = (props) => {
           <Paragraph text={props.description} className="pl-0 mt-0 md:mt-0" />
           <Image
             src={props.image}
-            alt="CityKey Logo"
+            alt="Mastercard City Key™ Logo"
             width={151}
             height={240}
             className="z-10 max-w-full"

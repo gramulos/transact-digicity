@@ -9,7 +9,7 @@
     "backgroundImage": "/assets/patterns/light/pattern_05.svg",
     "image": {
       "src": "/assets/images/transit-hero-img.png",
-      "alt": "CityKey kartes attēls",
+      "alt": "Mastercard City Key™ kartes attēls",
       "width": 448,
       "height": 439
     }
@@ -67,7 +67,7 @@
           {
             "h2": "Mobilā lietotne",
             "p": [
-              "Papildu ērtībām reāllaika transporta atjauninājumus var sinhronizēt tieši ar CityKey lietotni, nodrošinot lietotājiem efektīvu maršrutu plānošanu. Šī modernizētā sistēma rada savienotāku, efektīvāku un uz klientu orientētu pilsētas pieredzi."
+              "Papildu ērtībām reāllaika transporta atjauninājumus var sinhronizēt tieši ar Mastercard City Key™ lietotni, nodrošinot lietotājiem efektīvu maršrutu plānošanu. Šī modernizētā sistēma rada savienotāku, efektīvāku un uz klientu orientētu pilsētas pieredzi."
             ],
             "img": {
               "src": "/assets/images/mobile-app.png",
@@ -89,7 +89,7 @@
           {
             "h2": "Pilsētas atslēga",
             "p": [
-              "DigiCity transporta sistēma piedāvā vienkāršu pieredzi pasažieriem, izmantojot inovatīvo \"CityKey\". Šī daudzpusīgā karte kalpo gan kā maksāšanas līdzeklis, gan identifikācija, ļaujot lietotājiem iegādāties biļetes un ceļot pa pilsētu bez piepūles."
+              "DigiCity transporta sistēma piedāvā vienkāršu pieredzi pasažieriem, izmantojot inovatīvo \"Mastercard City Key™\". Šī daudzpusīgā karte kalpo gan kā maksāšanas līdzeklis, gan identifikācija, ļaujot lietotājiem iegādāties biļetes un ceļot pa pilsētu bez piepūles."
             ],
             "img": {
               "src": "/assets/images/card-city-key.png",

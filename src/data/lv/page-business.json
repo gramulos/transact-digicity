@@ -10,14 +10,14 @@
   "citykey": {
     "theme": "dark",
     "bgImage": "/assets/patterns/dark/pattern_01.svg",
-    "bgImageAlt": "Fona attēls CityKey sadaļai",
+    "bgImageAlt": "Fona attēls Mastercard City Key™ sadaļai",
     "columns": [
       {
         "horizontalAlign": "start",
         "verticalAlign": "center",
         "data": [
           {
-            "h2": "CityKey",
+            "h2": "Mastercard City Key™",
             "p": [
               "Sadarbībā ar Mastercard mēs piedāvājam unikālu produktu, kas nodrošina iedzīvotājiem piekļuvi priekšrocībām pie jebkura tirgotāja, kas pieņem Mastercard maksājumu kartes.",
               "Karte kalpo kā maksājumu karte, bankas konts un ID, lai apstiprinātu tiesības uz priekšrocībām. Tā uzglabā elektroniskās transporta biļetes kā vietējā slēgtā cikla karte un darbojas globāli kā Mastercard debetkarte.",
@@ -38,7 +38,7 @@
           {
             "img": {
               "src": "/assets/images/card-city-key.png",
-              "alt": "CityKey kartes attēls",
+              "alt": "Mastercard City Key™ kartes attēls",
               "width": 448,
               "height": 439
             },
@@ -63,8 +63,8 @@
           {
             "h2": "Transports",
             "p": [
-              "TransactFleet biļešu sistēma tiek izmantota simtiem autobusu Baltijas valstīs. Jūs varat ērti piekļūt biļetēm saviem braucieniem, izmantojot CityKey karti vai Transact Mobile lietotni, neatkarīgi no tā, vai jums nepieciešama QR biļete vai vienkārši izmantojat CityKey karti, lai identificētu sevi un nekavējoties saņemtu e-biļeti.",
-              "CityKey vai mobilā lietotne nodrošina piekļuvi:"
+              "TransactFleet biļešu sistēma tiek izmantota simtiem autobusu Baltijas valstīs. Jūs varat ērti piekļūt biļetēm saviem braucieniem, izmantojot Mastercard City Key™ karti vai Transact Mobile lietotni, neatkarīgi no tā, vai jums nepieciešama QR biļete vai vienkārši izmantojat Mastercard City Key™ karti, lai identificētu sevi un nekavējoties saņemtu e-biļeti.",
+              "Mastercard City Key™ vai mobilā lietotne nodrošina piekļuvi:"
             ],
             "ul": [
               { "text": "Kartes un konta biļetes" },

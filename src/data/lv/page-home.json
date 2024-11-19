@@ -42,7 +42,7 @@
               "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
               "title": "Pilsētas Atslēga",
               "description": [
-                "CityKey Mastercard nodrošina tūlītēju piekļuvi visiem labumiem, ko piešķīrusi jūsu pašvaldība, universitāte vai iesaistītais tirgotājs."
+                "Mastercard City Key™ Mastercard nodrošina tūlītēju piekļuvi visiem labumiem, ko piešķīrusi jūsu pašvaldība, universitāte vai iesaistītais tirgotājs."
               ],
               "image": "/assets/images/card-city-key.png",
               "moreText": "More",
@@ -108,7 +108,7 @@
   "digicity": {
     "theme": "light",
     "bgImage": "/assets/patterns/light/pattern_01.svg",
-    "bgImageAlt": "Fona attēls CityKey sadaļai",
+    "bgImageAlt": "Fona attēls Mastercard City Key™ sadaļai",
     "columns": [
       {
         "horizontalAlign": "start",
