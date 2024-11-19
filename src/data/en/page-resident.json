@@ -2,7 +2,7 @@
   "callout": {
     "title": "Resident",
     "description": [
-      "A modern and convenient way for residents to manage and access daily activities such as  benefits, utility payments, transportation, medical services, and public facilities— all integrated into one tool accepted everywhere that accepts MasterCard."
+      "A modern and convenient way for residents to manage and access daily activities such as  benefits, utility payments, transportation, medical services, and public facilities— all integrated into one tool accepted everywhere that accepts Mastercard."
     ],
     "theme": "dark",
     "bgImage": "/assets/images/bg-hero-resident.png"
@@ -19,14 +19,14 @@
           {
             "h2": "CityKey",
             "p": [
-              "In cooperation with MasterCard, we offer a unique product that provides residents with access to benefits at any merchant that accepts MasterCard payment cards.",
-              "The card serves as a payment card, bank account, and ID to confirm eligibility for benefits. It stores electronic transit tickets, like a local closed-loop card, and functions globally as a MasterCard debit card.",
+              "In cooperation with Mastercard, we offer a unique product that provides residents with access to benefits at any merchant that accepts Mastercard payment cards.",
+              "The card serves as a payment card, bank account, and ID to confirm eligibility for benefits. It stores electronic transit tickets, like a local closed-loop card, and functions globally as a Mastercard debit card.",
               "With this card, residents are able to:"
             ],
             "ul": [
               { "text": "Receive social benefits & discounts" },
               { "text": "Use it as a public transportation e-ticket" },
-              { "text": "Make regular MasterCard payments" }
+              { "text": "Make regular Mastercard payments" }
             ]
           }
         ]
@@ -106,7 +106,7 @@
           {
             "h2": "Gift Cards",
             "p": [
-              "We provide MasterCard Gift Cards in  cooperation with 15 shopping malls in Latvia.  These cards can be used at those shopping  malls or at any merchant that accepts  MasterCard payment cards. We invite you to  enjoy the freedom and flexibility of the gift that  can be used wherever MasterCard is accepted.",
+              "We provide Mastercard Gift Cards in  cooperation with 15 shopping malls in Latvia.  These cards can be used at those shopping  malls or at any merchant that accepts  Mastercard payment cards. We invite you to  enjoy the freedom and flexibility of the gift that  can be used wherever Mastercard is accepted.",
               "Gift cards can be purchased at information  desks, online (at www.ISTA.lv), or through our  self-service kiosks."
             ]
           }

@@ -2,8 +2,8 @@
   "callout": {
     "title": "CityKey",
     "description": [
-      "Šī risinājuma unikālā priekšrocība ir tā, ka tas nodrošina iedzīvotājiem tūlītēju piekļuvi sociālajiem pabalstiem pie jebkura tirgotāja, kas pieņem MasterCard maksājumu kartes.",
-      "Sadarbībā ar MasterCard mēs aicinām jūs ieviest CityKey risinājumu. Ieviešanas ietvaros Transact Pro izsniedz MasterCard CityKey maksājumu kartes un nodrošina vairākas funkcijas, tostarp, bet ne tikai:"
+      "Šī risinājuma unikālā priekšrocība ir tā, ka tas nodrošina iedzīvotājiem tūlītēju piekļuvi sociālajiem pabalstiem pie jebkura tirgotāja, kas pieņem Mastercard maksājumu kartes.",
+      "Sadarbībā ar Mastercard mēs aicinām jūs ieviest CityKey risinājumu. Ieviešanas ietvaros Transact Pro izsniedz Mastercard CityKey maksājumu kartes un nodrošina vairākas funkcijas, tostarp, bet ne tikai:"
     ],
     "theme": "light",
     "image": {
@@ -37,7 +37,7 @@
                 "text": "Atvērtās cilpas maksājumu pārvaldība (ieskaitot lojalitātes programmas)"
               }
             ],
-            "h3": "Daudzfunkcionālā MasterCard CityKey karte ir maksājumu instruments, kas apvieno maksājumu funkcijas, abonementu biļetes un identifikācijas rīkus. Tā kalpo arī kā līdzeklis piekļuvei pašvaldību un valsts pabalstiem un privilēģijām."
+            "h3": "Daudzfunkcionālā Mastercard CityKey karte ir maksājumu instruments, kas apvieno maksājumu funkcijas, abonementu biļetes un identifikācijas rīkus. Tā kalpo arī kā līdzeklis piekļuvei pašvaldību un valsts pabalstiem un privilēģijām."
           }
         ]
       }
@@ -57,7 +57,7 @@
           {
             "ul": [
               {
-                "text": "MasterCard Debeta maksājumu karte"
+                "text": "Mastercard Debeta maksājumu karte"
               },
               {
                 "text": "3 gadu derīguma termiņš"
@@ -116,7 +116,7 @@
     "bgImageAlt": "Fona attēls Dāvanu karšu sadaļai",
     "title": [
       {
-        "h2": "MasterCard infrastruktūras priekšrocības"
+        "h2": "Mastercard infrastruktūras priekšrocības"
       }
     ],
     "showAsRows": true,
@@ -128,7 +128,7 @@
           {
             "h4": "Sociālās infrastruktūras attīstība",
             "p": [
-              "MasterCard sistēma pārveido CityKey karti par daudzfunkcionālu ID, kas kalpo kā iedzīvotāja karte vai skolas ID. Šī sistēma nodrošina objektīvu uzraudzību un aktīvu iedzīvotāju līdzdalību pabalstu pārvaldībā, ar pabalstiem, kas tiek pārskaitīti tieši uz bankas kontiem. Nepilngadīgajiem tēriņi tiek kontrolēti, aizstājot skaidru naudu ar karšu maksājumiem, kas ierobežoti līdz apstiprinātiem tirgotājiem."
+              "Mastercard sistēma pārveido CityKey karti par daudzfunkcionālu ID, kas kalpo kā iedzīvotāja karte vai skolas ID. Šī sistēma nodrošina objektīvu uzraudzību un aktīvu iedzīvotāju līdzdalību pabalstu pārvaldībā, ar pabalstiem, kas tiek pārskaitīti tieši uz bankas kontiem. Nepilngadīgajiem tēriņi tiek kontrolēti, aizstājot skaidru naudu ar karšu maksājumiem, kas ierobežoti līdz apstiprinātiem tirgotājiem."
             ]
           }
         ]
@@ -178,7 +178,7 @@
           {
             "h4": "Pabalstu administrēšanas kompetences attīstība",
             "p": [
-              "Izmantojot MasterCard finanšu infrastruktūru, sistēma nodrošina darījumus ar institūciju, budžeta iestāžu un tirgotāju uzraudzību. Maksājumi ir droši, aizsargā personas datus un nodrošina, ka tirgotāji savlaicīgi saņem pilnu summu."
+              "Izmantojot Mastercard finanšu infrastruktūru, sistēma nodrošina darījumus ar institūciju, budžeta iestāžu un tirgotāju uzraudzību. Maksājumi ir droši, aizsargā personas datus un nodrošina, ka tirgotāji savlaicīgi saņem pilnu summu."
             ],
             "br": ""
           }
@@ -197,10 +197,10 @@
           "ul": [
             {
               "noPadding": true,
-              "text": "MasterCard",
+              "text": "Mastercard",
               "icon": {
                 "src": "/assets/partners/icon-mastercard.svg",
-                "alt": "MasterCard",
+                "alt": "Mastercard",
                 "width": 114,
                 "height": 58
               }

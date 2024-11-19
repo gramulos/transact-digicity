@@ -2,7 +2,7 @@
   "callout": {
     "title": "Iedzīvotājs",
     "description": [
-      "Mūsdienīgs un ērts veids, kā iedzīvotājiem pārvaldīt un piekļūt ikdienas aktivitātēm, piemēram, pabalstiem, komunālo pakalpojumu maksājumiem, transportam, medicīnas pakalpojumiem un sabiedriskajām iestādēm — viss integrēts vienā rīkā, kas tiek pieņemts visur, kur pieņem MasterCard."
+      "Mūsdienīgs un ērts veids, kā iedzīvotājiem pārvaldīt un piekļūt ikdienas aktivitātēm, piemēram, pabalstiem, komunālo pakalpojumu maksājumiem, transportam, medicīnas pakalpojumiem un sabiedriskajām iestādēm — viss integrēts vienā rīkā, kas tiek pieņemts visur, kur pieņem Mastercard."
     ],
     "theme": "dark",
     "bgImage": "/assets/images/bg-hero-resident.png"
@@ -19,14 +19,14 @@
           {
             "h2": "CityKey",
             "p": [
-              "Sadarbībā ar MasterCard mēs piedāvājam unikālu produktu, kas nodrošina iedzīvotājiem piekļuvi pabalstiem jebkurā tirdzniecības vietā, kas pieņem MasterCard maksājumu kartes.",
-              "Karte kalpo kā maksājumu karte, bankas konts un ID, lai apstiprinātu tiesības uz pabalstiem. Tajā tiek glabātas elektroniskās transporta biļetes, līdzīgi kā vietējā slēgtā cikla kartē, un tā darbojas globāli kā MasterCard debetkarte.",
+              "Sadarbībā ar Mastercard mēs piedāvājam unikālu produktu, kas nodrošina iedzīvotājiem piekļuvi pabalstiem jebkurā tirdzniecības vietā, kas pieņem Mastercard maksājumu kartes.",
+              "Karte kalpo kā maksājumu karte, bankas konts un ID, lai apstiprinātu tiesības uz pabalstiem. Tajā tiek glabātas elektroniskās transporta biļetes, līdzīgi kā vietējā slēgtā cikla kartē, un tā darbojas globāli kā Mastercard debetkarte.",
               "Ar šo karti iedzīvotāji var:"
             ],
             "ul": [
               { "text": "Saņemt sociālos pabalstus un atlaides" },
               { "text": "Izmantot to kā sabiedriskā transporta e-biļeti" },
-              { "text": "Veikt parastos MasterCard maksājumus" }
+              { "text": "Veikt parastos Mastercard maksājumus" }
             ]
           }
         ]
@@ -106,7 +106,7 @@
           {
             "h2": "Dāvanu kartes",
             "p": [
-              "Mēs piedāvājam MasterCard dāvanu kartes sadarbībā ar 15 tirdzniecības centriem Latvijā. Šīs kartes var izmantot šajos tirdzniecības centros vai jebkurā tirdzniecības vietā, kas pieņem MasterCard maksājumu kartes. Mēs aicinām jūs izbaudīt brīvību un elastību, ko sniedz dāvana, kuru var izmantot visur, kur pieņem MasterCard.",
+              "Mēs piedāvājam Mastercard dāvanu kartes sadarbībā ar 15 tirdzniecības centriem Latvijā. Šīs kartes var izmantot šajos tirdzniecības centros vai jebkurā tirdzniecības vietā, kas pieņem Mastercard maksājumu kartes. Mēs aicinām jūs izbaudīt brīvību un elastību, ko sniedz dāvana, kuru var izmantot visur, kur pieņem Mastercard.",
               "Dāvanu kartes var iegādāties informācijas centros, tiešsaistē (www.ISTA.lv) vai mūsu pašapkalpošanās kioskos."
             ]
           }

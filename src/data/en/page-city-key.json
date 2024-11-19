@@ -2,8 +2,8 @@
   "callout": {
     "title": "CityKey",
     "description": [
-      "The unique advantage of this solution is that it provides residents with immediate access to their social benefits at any merchant that accepts MasterCard payment cards.",
-      "In cooperation with MasterCard, we  invite you to implement the CityKey  solution. As part of the implementation,  Transact Pro issues MasterCard CityKey  payment cards and secures several  functions, including, but not limited to:"
+      "The unique advantage of this solution is that it provides residents with immediate access to their social benefits at any merchant that accepts Mastercard payment cards.",
+      "In cooperation with Mastercard, we  invite you to implement the CityKey  solution. As part of the implementation,  Transact Pro issues Mastercard CityKey  payment cards and secures several  functions, including, but not limited to:"
     ],
     "theme": "light",
     "image": {
@@ -37,7 +37,7 @@
                 "text": "Open-Loop Payment Management (including loyalty programs)"
               }
             ],
-            "h3": "The multi-functional MasterCard CityKey card is a payment instrument that combines payment functions, subscription tickets, and identification tools. It also serves as a means to access municipal and state benefits and privileges."
+            "h3": "The multi-functional Mastercard CityKey card is a payment instrument that combines payment functions, subscription tickets, and identification tools. It also serves as a means to access municipal and state benefits and privileges."
           }
         ]
       }
@@ -57,7 +57,7 @@
           {
             "ul": [
               {
-                "text": "MasterCard Debit Payment Card"
+                "text": "Mastercard Debit Payment Card"
               },
               {
                 "text": "3-Year Expiry Term"
@@ -116,7 +116,7 @@
     "bgImageAlt": "Background image for Gift Cards section",
     "title": [
       {
-        "h2": "Advantages of MasterCard Infrastructure"
+        "h2": "Advantages of Mastercard Infrastructure"
       }
     ],
     "showAsRows": true,
@@ -128,7 +128,7 @@
           {
             "h4": "Social Infrastructure Development",
             "p": [
-              "MasterCard's system transforms the CityKey card into a multifunctional ID, serving as a resident card or school ID. This setup enables objective monitoring and active resident participation in benefit management, with benefits transferred directly to bank accounts. For minors, spending is controlled by replacing cash with card payments limited to approved merchants."
+              "Mastercard's system transforms the CityKey card into a multifunctional ID, serving as a resident card or school ID. This setup enables objective monitoring and active resident participation in benefit management, with benefits transferred directly to bank accounts. For minors, spending is controlled by replacing cash with card payments limited to approved merchants."
             ]
           }
         ]
@@ -178,7 +178,7 @@
           {
             "h4": "Evolution of Benefit Administration Competence",
             "p": [
-              "Using MasterCard's financial infrastructure, the system secures transactions with oversight from institutions, budget authorities, and merchants. Payments are secure, protect personal data, and ensure that merchants receive the full amount promptly."
+              "Using Mastercard's financial infrastructure, the system secures transactions with oversight from institutions, budget authorities, and merchants. Payments are secure, protect personal data, and ensure that merchants receive the full amount promptly."
             ],
             "br": ""
           }
@@ -196,10 +196,10 @@
           "ul": [
             {
               "noPadding": true,
-              "text": "MasterCard",
+              "text": "Mastercard",
               "icon": {
                 "src": "/assets/partners/icon-mastercard.svg",
-                "alt": "MasterCard",
+                "alt": "Mastercard",
                 "width": 114,
                 "height": 58
               }

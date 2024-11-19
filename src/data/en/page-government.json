@@ -16,14 +16,14 @@
           {
             "h2": "CityKey",
             "p": [
-              "In cooperation with MasterCard, we offer a unique product that provides residents with access to benefits at any merchant that accepts MasterCard payment cards.",
-              "The card serves as a payment card, bank account, and ID to confirm eligibility for benefits. It stores electronic transit tickets, like a local closed-loop card, and functions globally as a MasterCard debit card.",
+              "In cooperation with Mastercard, we offer a unique product that provides residents with access to benefits at any merchant that accepts Mastercard payment cards.",
+              "The card serves as a payment card, bank account, and ID to confirm eligibility for benefits. It stores electronic transit tickets, like a local closed-loop card, and functions globally as a Mastercard debit card.",
               "With this card, residents are able to:"
             ],
             "ul": [
               { "text": "Receive social benefits & discounts" },
               { "text": "Use it as a public transportation e-ticket" },
-              { "text": "Make regular MasterCard payments" }
+              { "text": "Make regular Mastercard payments" }
             ]
           }
         ]
