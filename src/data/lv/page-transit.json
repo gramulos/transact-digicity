@@ -2,7 +2,7 @@
   "callout": {
     "title": "Transits",
     "description": [
-      "Transact Fleet risinājums ir moderna, gatava patentēta sistēma, kas ļauj sabiedriskā transporta nozares uzņēmumiem uzglabāt, izsniegt un pārbaudīt biļetes, pieņemt maksājumus un ģenerēt atskaites. Risinājums ir pieejams gan kā pakalpojums, izmantojot RESTful API, gan kā white-label risinājums, gan ar pilnīgu uzstādīšanu uz vietas.",
+      "DigiCity risinājums ir moderna, gatava patentēta sistēma, kas ļauj sabiedriskā transporta nozares uzņēmumiem uzglabāt, izsniegt un pārbaudīt biļetes, pieņemt maksājumus un ģenerēt atskaites. Risinājums ir pieejams gan kā pakalpojums, izmantojot RESTful API, gan kā white-label risinājums, gan ar pilnīgu uzstādīšanu uz vietas.",
       "Šis risinājums ir sertificēts un atbilst Latvijas un Lietuvas valsts ieņēmumu dienestu prasībām."
     ],
     "theme": "light",
@@ -76,9 +76,44 @@
               "width": 200
             },
             "a": {
-              "href": "https://www.transactpro.eu/lv/#merchants",
+              "href": "",
               "text": "Apply Now"
-            }
+            },
+            "form": {
+                "companyName": {
+                  "label": "Uzņēmuma nosaukums",
+                  "placeholder": "Ievadiet uzņēmuma nosaukumu",
+                  "error": "Uzņēmuma nosaukums ir obligāts"
+                },
+                "companyWebsite": {
+                  "label": "Uzņēmuma mājaslapa",
+                  "placeholder": "Ievadiet uzņēmuma mājaslapu",
+                  "error": "Ievadiet derīgu URL"
+                },
+                "companyEmail": {
+                  "label": "E-pasts",
+                  "placeholder": "Ievadiet e-pasta adresi",
+                  "error": "Ievadiet derīgu e-pasta adresi"
+                },
+                "companyPhone": {
+                  "label": "Tālrunis",
+                  "placeholder": "Ievadiet tālruņa numuru",
+                  "error": "Tālruņa numuram jābūt vismaz 8 cipariem un tas var sākties ar +"
+                },
+                "companyContact": {
+                  "label": "Kontakta personas vārds",
+                  "placeholder": "Ievadiet kontaktpersonas vārdu",
+                  "error": "Kontakta personas vārds ir obligāts"
+                },
+                "companyComment": {
+                  "label": "Komentārs",
+                  "placeholder": "Ievadiet savu komentāru",
+                  "error": "Komentārs ir obligāts"
+                },
+                "recaptcha": {
+                  "error": "reCAPTCHA ir obligāts"
+                }
+              }
           }
         ]
       },
@@ -98,9 +133,44 @@
               "width": 300
             },
             "a": {
-              "href": "https://www.transactpro.eu/lv/#merchants",
+              "href": "",
               "text": "Apply Now"
-            }
+            },
+            "form": {
+                "companyName": {
+                  "label": "Uzņēmuma nosaukums",
+                  "placeholder": "Ievadiet uzņēmuma nosaukumu",
+                  "error": "Uzņēmuma nosaukums ir obligāts"
+                },
+                "companyWebsite": {
+                  "label": "Uzņēmuma mājaslapa",
+                  "placeholder": "Ievadiet uzņēmuma mājaslapu",
+                  "error": "Ievadiet derīgu URL"
+                },
+                "companyEmail": {
+                  "label": "E-pasts",
+                  "placeholder": "Ievadiet e-pasta adresi",
+                  "error": "Ievadiet derīgu e-pasta adresi"
+                },
+                "companyPhone": {
+                  "label": "Tālrunis",
+                  "placeholder": "Ievadiet tālruņa numuru",
+                  "error": "Tālruņa numuram jābūt vismaz 8 cipariem un tas var sākties ar +"
+                },
+                "companyContact": {
+                  "label": "Kontakta personas vārds",
+                  "placeholder": "Ievadiet kontaktpersonas vārdu",
+                  "error": "Kontakta personas vārds ir obligāts"
+                },
+                "companyComment": {
+                  "label": "Komentārs",
+                  "placeholder": "Ievadiet savu komentāru",
+                  "error": "Komentārs ir obligāts"
+                },
+                "recaptcha": {
+                  "error": "reCAPTCHA ir obligāts"
+                }
+              }
           }
         ]
       }

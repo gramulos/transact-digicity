@@ -19,6 +19,21 @@ type ImageProps = {
   width: number;
   height: number;
 };
+interface FieldConfig {
+  label?: string;
+  placeholder?: string;
+  error?: string;
+}
+
+interface FormConfig {
+  companyName?: FieldConfig;
+  companyWebsite?: FieldConfig;
+  companyEmail?: FieldConfig;
+  companyPhone?: FieldConfig;
+  companyContact?: FieldConfig;
+  companyComment?: FieldConfig;
+  recaptcha?: FieldConfig;
+}
 
 export type RichTextElement = Headings & {
   theme: string;
@@ -39,6 +54,7 @@ export type RichTextElement = Headings & {
     target?: string;
     text: string;
   };
+  form?: FormConfig;
   card?: CardProps;
   descriptiveImage?: DescriptiveImageProps;
 };
@@ -93,6 +109,7 @@ const Rte = (item: RichTextElement) => {
               target={item.a.target}
               theme={item.theme}
               text={item.a.text}
+              form={item.form}
             />
           )}
           {k === "descriptiveImage" && item.descriptiveImage && (

@@ -74,7 +74,7 @@
           {
             "card": {
               "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
-              "title": "Transact Smart",
+              "title": "Smart POS Cash Register",
               "description": [
                 "All-in-one device  designed for Retail  industry: Cashier system  with Fiscal module and  integrated Payment  acceptance; full  merchant backend."
               ],
@@ -117,7 +117,7 @@
           {
             "h2": "DigiCity",
             "p": [
-              "Transact DigiCity is an ecosystem that unites people, businesses and government institutions  to get most of Digital Era Transformation. We have created 4 products, where we serve as a  financial services provider through our modern technical platform that revolutionized since  our official opening in 2004."
+              "DigiCity is an ecosystem that unites people, businesses and government institutions  to get most of Digital Era Transformation. We have created 4 products, where we serve as a  financial services provider through our modern technical platform."
             ]
           },
           {
@@ -130,7 +130,7 @@
           },
           {
             "p": [
-              "Click on Residents, Business or Government buttons at the top of  the page to find our more about what Transact DigiCity has for you."
+              "Click on Residents, Business or Government buttons at the top of the page to find our more about what DigiCity has for you."
             ]
           }
         ]

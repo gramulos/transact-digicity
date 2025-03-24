@@ -203,9 +203,44 @@
               }
             ],
             "a": {
-              "href": "https://www.transactpro.eu/lv/#merchants",
+              "href": "",
               "text": "Pieteikties tagad"
-            }
+            },
+            "form": {
+                "companyName": {
+                  "label": "Uzņēmuma nosaukums",
+                  "placeholder": "Ievadiet uzņēmuma nosaukumu",
+                  "error": "Uzņēmuma nosaukums ir obligāts"
+                },
+                "companyWebsite": {
+                  "label": "Uzņēmuma mājaslapa",
+                  "placeholder": "Ievadiet uzņēmuma mājaslapu",
+                  "error": "Ievadiet derīgu URL"
+                },
+                "companyEmail": {
+                  "label": "E-pasts",
+                  "placeholder": "Ievadiet e-pasta adresi",
+                  "error": "Ievadiet derīgu e-pasta adresi"
+                },
+                "companyPhone": {
+                  "label": "Tālrunis",
+                  "placeholder": "Ievadiet tālruņa numuru",
+                  "error": "Tālruņa numuram jābūt vismaz 8 cipariem un tas var sākties ar +"
+                },
+                "companyContact": {
+                  "label": "Kontakta personas vārds",
+                  "placeholder": "Ievadiet kontaktpersonas vārdu",
+                  "error": "Kontakta personas vārds ir obligāts"
+                },
+                "companyComment": {
+                  "label": "Komentārs",
+                  "placeholder": "Ievadiet savu komentāru",
+                  "error": "Komentārs ir obligāts"
+                },
+                "recaptcha": {
+                  "error": "reCAPTCHA ir obligāts"
+                }
+              }
           }
         ]
       }

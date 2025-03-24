@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = (props) => {
   };
 
   return (
-    <header className="absolute top-0 z-10 flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full">
+    <header className="absolute top-0 z-[80] flex flex-wrap gap-16 justify-between items-end w-full text-base max-md:max-w-full">
       <Container className="flex w-full justify-between">
         <div className="flex gap-10 items-end">
           <Link href="/" className="flex gap-4 items-center">

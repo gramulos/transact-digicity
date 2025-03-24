@@ -18,6 +18,7 @@ export type DataProps = {
 };
 
 type SectionProps = {
+  zIndex?: string;
   bgImage: string;
   bgImageAlt: string;
   theme: string;
@@ -27,6 +28,7 @@ type SectionProps = {
 };
 
 const Section: React.FC<SectionProps> = ({
+  zIndex,
   columns,
   bgImage,
   bgImageAlt,
@@ -52,7 +54,8 @@ const Section: React.FC<SectionProps> = ({
         loading="lazy"
         sizes="100vw"
       />
-      <Container className="grid gap-10 md:gap-20">
+      <Container className={cn("grid gap-10 md:gap-20",
+            zIndex)}>
         {title && <RichText data={title} />}
         <div
           className={cn(`gap-14`, {
@@ -62,7 +65,7 @@ const Section: React.FC<SectionProps> = ({
             "sm:grid-cols-2 lg:grid-cols-3 gap-14":
               columns.length === 3 && !showAsRows,
             "sm:grid-cols-2 gap-16": columns.length === 2 && !showAsRows,
-            "flex flex-col gap-8 md:gap-14": showAsRows,
+            "flex flex-col gap-8 md:gap-14": showAsRows
           })}
         >
           {columns.map((col, index) => (

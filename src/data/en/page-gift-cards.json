@@ -203,8 +203,43 @@
               }
             ],
             "a": {
-              "href": "https://www.transactpro.eu/en/#merchants",
+              "href": "",
               "text": "Apply Now"
+            },
+            "form":{
+                "companyName": {
+                  "label": "Company Name",
+                  "placeholder": "Enter company name",
+                  "error": "Company Name is required"
+                },
+                "companyWebsite": {
+                  "label": "Company Website",
+                  "placeholder": "Enter company website",
+                  "error": "Enter a valid URL"
+                },
+                "companyEmail": {
+                  "label": "E-mail",
+                  "placeholder": "Enter email address",
+                  "error": "Enter a valid email address"
+                },
+                "companyPhone": {
+                  "label": "Phone",
+                  "placeholder": "Enter phone number",
+                  "error": "Phone number must be at least 8 digits and can start with +"
+                },
+                "companyContact": {
+                  "label": "Contact Person Name",
+                  "placeholder": "Enter contact name",
+                  "error": "Contact name is required"
+                },
+                "companyComment": {
+                  "label": "Comment",
+                  "placeholder": "Enter your comment",
+                  "error": "Comment is required"
+                },
+                "recaptcha": {
+                  "error": "reCAPTCHA is required"
+                }
             }
           }
         ]
