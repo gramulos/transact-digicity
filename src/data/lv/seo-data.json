@@ -1,15 +1,15 @@
 {
-  "title": "Pilnībā Integrēts Maksājumu Pakalpojumu Sniedzējs Jūsu Biznesam",
-  "description": "DigiCity Pro ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
+  "title": "DigiCity. Vienkārša piekļuve finanšu pakalpojumiem un priekšrocībām",
+  "description": "DigiCity ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
   "twitter": {
-    "title": "Pilnībā Integrēts Maksājumu Pakalpojumu Sniedzējs Jūsu Biznesam",
-    "description": "Transact Pro ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
-    "images": "https://www.transactpro.lv/assets/manifest/graph-preview.jpg"
+    "title": "DigiCity. Vienkārša piekļuve finanšu pakalpojumiem un priekšrocībām",
+    "description": "DigiCity ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
+    "images": "https://digicity.lv/assets/logo-dark.svg"
   },
   "openGraph": {
-    "url": "https://www.transactpro.lv/",
-    "title": "Pilnībā Integrēts Maksājumu Pakalpojumu Sniedzējs Jūsu Biznesam",
-    "description": "Transact Pro ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
-    "images": "https://www.transactpro.lv/assets/manifest/graph-preview.jpg"
+    "url": "https://digicity.lv/",
+    "title": "DigiCity. Vienkārša piekļuve finanšu pakalpojumiem un priekšrocībām",
+    "description": "DigiCity ir Latvijā bāzēts licencēts maksājumu karšu izsniegšanas, pieņemšanas un tiešsaistes maksājumu pakalpojumu sniedzējs",
+    "images": "https://digicity.lv/assets/logo-dark.svg"
   }
 }

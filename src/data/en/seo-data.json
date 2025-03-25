@@ -2,14 +2,14 @@
   "title": "DigiCity. Seamless Access To Financial Services & Benefits",
   "description": "DigiCity is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
   "twitter": {
-    "title": "Fully In-House Payment Service Provider for Your Business",
-    "description": "Transact Pro is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
-    "images": "https://www.transactpro.lv/assets/manifest/graph-preview.jpg"
+    "title": "DigiCity. Seamless Access To Financial Services & Benefits",
+    "description": "DigiCity is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
+    "images": "https://digicity.lv/assets/logo-dark.svg"
   },
   "openGraph": {
-    "url": "https://www.transactpro.lv/",
-    "title": "Fully In-House Payment Service Provider for Your Business",
-    "description": "Transact Pro is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
-    "images": "https://www.transactpro.lv/assets/manifest/graph-preview.jpg"
+    "url": "https://digicity.lv/",
+    "title": "DigiCity. Seamless Access To Financial Services & Benefits",
+    "description": "DigiCity is Latvia-based licensed provider of payment card issuing, acquiring and online payment acceptance tailored services",
+    "images": "https://digicity.lv/assets/logo-dark.svg"
   }
 }

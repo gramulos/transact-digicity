@@ -151,7 +151,7 @@ export default function ApplyForm({ formConfig, buttonText, className }: ApplyFo
                   {/* ReCAPTCHA */}
                   <div className="g-recaptcha">
                     <ReCAPTCHA
-                      sitekey="6Le6BfsqAAAAAHF5W3Ob6Qvdknpie2nu5bWtA-yC" // Replace with your reCAPTCHA site key
+                      sitekey="6Lctpv8qAAAAAFq8rfXV9DyWF6WowX4p6AbFTZfa"
                       onChange={handleRecaptchaChange}
                     />
                     {errors.recaptcha && (
