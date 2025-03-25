@@ -57,7 +57,7 @@ export default function ApplyForm({ formConfig, buttonText, className }: ApplyFo
         },
         body: JSON.stringify(data),
       });
-  
+
       if (response.ok) {
         console.log("Email sent successfully!");
         setIsSubmitted(true);
@@ -117,12 +117,23 @@ export default function ApplyForm({ formConfig, buttonText, className }: ApplyFo
                           type="text"
                           {...register(fieldName as keyof FormData, {
                             required: field?.error,
-                            pattern: fieldName === "companyWebsite"
-                              ? {
-                                  value: /^([\w-]+(\.[\w-]+)+)(\/[\w-]*)*$/,
-                                  message: field?.error || ""
+                            pattern:
+                              fieldName === "companyEmail"
+                                ? {
+                                  value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+                                  message: field.error || '',
                                 }
-                              : undefined
+                                : fieldName === "companyPhone"
+                                  ? {
+                                    value: /^[0-9+\-() ]{8,15}$/,
+                                    message: field.error || '',
+                                  }
+                                  : fieldName === "companyWebsite"
+                                    ? {
+                                      value: /^([\w-]+(\.[\w-]+)+)(\/[\w-]*)*$/,
+                                      message: field?.error || ""
+                                    }
+                                    : undefined
                           })}
                           className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                           placeholder=" "
