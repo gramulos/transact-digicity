@@ -38,6 +38,7 @@ export default async function Home({
         }))}
       />
       <Section
+        zIndex="z-[60]"
         theme={dict.pageTransit.appAndKey.theme}
         bgImage={dict.pageTransit.appAndKey.bgImage}
         bgImageAlt={dict.pageTransit.appAndKey.bgImageAlt}

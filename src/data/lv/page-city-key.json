@@ -3,7 +3,7 @@
     "title": "Mastercard City Key™",
     "description": [
       "Šī risinājuma unikālā priekšrocība ir tā, ka tas nodrošina iedzīvotājiem tūlītēju piekļuvi sociālajiem pabalstiem pie jebkura tirgotāja, kas pieņem Mastercard maksājumu kartes.",
-      "Sadarbībā ar Mastercard mēs aicinām jūs ieviest Mastercard City Key™ risinājumu. Ieviešanas ietvaros Transact Pro izsniedz Mastercard City Key™ maksājumu kartes un nodrošina vairākas funkcijas, tostarp, bet ne tikai:"
+      "Sadarbībā ar Mastercard mēs aicinām jūs ieviest Mastercard City Key™ risinājumu. Ieviešanas ietvaros DigiCity izsniedz Mastercard City Key™ maksājumu kartes un nodrošina vairākas funkcijas, tostarp, bet ne tikai:"
     ],
     "theme": "light",
     "image": {
@@ -292,10 +292,46 @@
               "height": 694
             },
             "a": {
-              "href": "https://www.transactpro.eu/lv/#merchants",
+              "href": "",
               "text": "Pieteikties"
             },
-            "br": ""
+            "br": "",
+            "form": {
+                "companyName": {
+                  "label": "Uzņēmuma nosaukums",
+                  "placeholder": "Ievadiet uzņēmuma nosaukumu",
+                  "error": "Uzņēmuma nosaukums ir obligāts"
+                },
+                "companyWebsite": {
+                  "label": "Uzņēmuma mājaslapa",
+                  "placeholder": "Ievadiet uzņēmuma mājaslapu",
+                  "error": "Ievadiet derīgu URL"
+                },
+                "companyEmail": {
+                  "label": "E-pasts",
+                  "placeholder": "Ievadiet e-pasta adresi",
+                  "error": "Ievadiet derīgu e-pasta adresi"
+                },
+                "companyPhone": {
+                  "label": "Tālrunis",
+                  "placeholder": "Ievadiet tālruņa numuru",
+                  "error": "Tālruņa numuram jābūt vismaz 8 cipariem un tas var sākties ar +"
+                },
+                "companyContact": {
+                  "label": "Kontakta personas vārds",
+                  "placeholder": "Ievadiet kontaktpersonas vārdu",
+                  "error": "Kontakta personas vārds ir obligāts"
+                },
+                "companyComment": {
+                  "label": "Komentārs",
+                  "placeholder": "Ievadiet savu komentāru",
+                  "error": "Komentārs ir obligāts"
+                },
+                "recaptcha": {
+                  "error": "reCAPTCHA ir obligāts"
+                }
+              }
+            
           }
         ]
       }

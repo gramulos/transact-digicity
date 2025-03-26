@@ -63,7 +63,7 @@
           {
             "h2": "Transit",
             "p": [
-              "The TransactFleet ticketing solution is used in hundreds of buses across the Baltic states. You can conveniently access tickets for your rides using your Mastercard City Key™ card or the Transact Mobile application, whether you need a QR ticket or simply use your Mastercard City Key™ card to identify yourself and receive an e-ticket right away.",
+              "DigiCity ticketing solution is used in hundreds of buses across the Baltic states. You can conveniently access tickets for your rides using your Mastercard City Key™ card or the DigiCity Mobile application, whether you need a QR ticket or simply use your Mastercard City Key™ card to identify yourself and receive an e-ticket right away.",
               "Mastercard City Key™ or the mobile app provide access to:"
             ],
             "ul": [
@@ -142,9 +142,9 @@
         "verticalAlign": "center",
         "data": [
           {
-            "h2": "TransactSmart",
+            "h2": "Smart POS Cash Register",
             "p": [
-              "TransactSmart streamline your business  transactions with efficiency and security while  offering real-time insights into sales and  customer behavior.",
+              "Smart POS Cash Register streamlines your business  transactions with efficiency and security while  offering real-time insights into sales and  customer behavior.",
               "These systems integrate seamlessly with your  operations, providing features like inventory  management and customizable payment  options. With enhanced security and intuitive  interfaces, they empower your business to  deliver a superior customer experience."
             ]
           }

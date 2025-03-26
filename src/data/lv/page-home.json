@@ -74,7 +74,7 @@
           {
             "card": {
               "backgroundImage": "/assets/patterns/dark/pattern_03.svg",
-              "title": "Transact Smart",
+              "title": "Smart POS Cash Register",
               "description": [
                 "Viss vienā ierīcē, kas paredzēta mazumtirdzniecības nozarei: kases sistēma ar fiskālo moduli un integrētu maksājumu pieņemšanu; pilna tirgotāja administrēšanas sistēma."
               ],
@@ -117,7 +117,7 @@
           {
             "h2": "DigiCity",
             "p": [
-              "Transact DigiCity ir ekosistēma, kas apvieno cilvēkus, uzņēmumus un valsts iestādes, lai maksimāli izmantotu digitālās ēras pārveidošanos. Mēs esam izveidojuši 4 produktus, kuros mēs darbojamies kā finanšu pakalpojumu sniedzējs, izmantojot mūsu moderno tehnisko platformu, kas revolucionāri attīstījusies kopš mūsu oficiālās atvēršanas 2004. gadā."
+              "DigiCity ir ekosistēma, kas apvieno cilvēkus, uzņēmumus un valsts iestādes, lai maksimāli izmantotu digitālās ēras pārveidošanos. Mēs esam izveidojuši 4 produktus, kuros mēs darbojamies kā finanšu pakalpojumu sniedzējs, izmantojot mūsu moderno tehnisko platformu."
             ]
           },
           {
@@ -130,7 +130,7 @@
           },
           {
             "p": [
-              "Noklikšķiniet uz pogām Iedzīvotāji, Uzņēmumi vai Valdība lapas augšdaļā, lai uzzinātu vairāk par to, ko Transact DigiCity piedāvā tieši jums."
+              "Noklikšķiniet uz pogām Iedzīvotāji, Uzņēmumi vai Valdība lapas augšdaļā, lai uzzinātu vairāk par to, ko DigiCity piedāvā tieši jums."
             ]
           }
         ]
