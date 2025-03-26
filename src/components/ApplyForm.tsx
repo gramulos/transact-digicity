@@ -54,6 +54,7 @@ export default function ApplyForm({ formConfig, buttonText, className }: ApplyFo
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "grc": data.recaptcha,
         },
         body: JSON.stringify(data),
       });

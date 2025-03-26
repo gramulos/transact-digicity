@@ -4,6 +4,21 @@ import nodemailer from "nodemailer";
 export async function POST(req: NextRequest) {
   try {
     const formData = await req.json();
+    const recaptchaToken = req.headers.get("grc");
+    if (!recaptchaToken) {
+      return NextResponse.json({ error: "Missing reCAPTCHA token" }, { status: 400 });
+    }
+
+    const recaptchaSecret = process.env.RECAPTCHA_SECRET_KEY;
+    const verificationUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${recaptchaSecret}&response=${recaptchaToken}`;
+
+    const recaptchaResponse = await fetch(verificationUrl, { method: "POST" });
+    const recaptchaData = await recaptchaResponse.json();
+
+    if (!recaptchaData.success) {
+      return NextResponse.json({ error: "Invalid reCAPTCHA token" }, { status: 403 });
+    }
+
     const smtpHost = process.env.SMTP_HOST;
     const smtpPort = Number(process.env.SMTP_PORT);
     const recipientEmail = process.env.MAIL_TO;

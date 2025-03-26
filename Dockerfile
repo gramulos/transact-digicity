@@ -45,6 +45,7 @@ ENV NODE_ENV=production
 ARG SMTP_HOST
 ARG SMTP_PORT
 ARG MAIL_TO
+ARG RECAPTCHA_SECRET_KEY
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
@@ -65,6 +66,7 @@ ENV PORT=3000
 ENV SMTP_HOST=${SMTP_HOST}
 ENV SMTP_PORT=${SMTP_PORT}
 ENV MAIL_TO=${MAIL_TO}
+ENV RECAPTCHA_SECRET_KEY=${RECAPTCHA_SECRET_KEY}
 
 # server.js is created by next build from the standalone output
 # https://nextjs.org/docs/pages/api-reference/next-config-js/output
